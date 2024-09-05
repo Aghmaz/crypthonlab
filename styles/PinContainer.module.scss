@@ -1,0 +1,170 @@
+.pinContainer {
+    position: relative;
+    z-index: 50;
+    cursor: pointer;
+
+    &.group {
+        &:hover {
+            .pinPerspective {
+                opacity: 1;
+            }
+
+            .linkContainer {
+                opacity: 1;
+            }
+
+            .motionCircle {
+                opacity: 1;
+            }
+
+            .motionEffects {
+                opacity: 1;
+            }
+        }
+    }
+
+    .perspective {
+        perspective: 1000px;
+        transform: rotateX(70deg) translateZ(0deg);
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin-left: 0.09375rem;
+        margin-top: 4rem;
+        transform: translate(-50%, -50%);
+    }
+
+    .transformContainer {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        padding: 4rem;
+        transform: translate(-50%, -50%);
+        border-radius: 2rem;
+        // box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+        box-shadow: 0 8px 16px rgba(255, 255, 255, 0.4);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        transition: border 0.7s, transform 0.7s, opacity 0.7s;
+        overflow: hidden;
+
+        &:hover {
+            border-color: rgba(255, 255, 255, 0.2);
+        }
+
+        &.bgBlack {
+            background-color: transparent;
+        }
+    }
+
+    .pinPerspective {
+        pointer-events: none;
+        width: 100%;
+        height: 120%;
+        // display: flex;
+        // flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        opacity: 1;
+        z-index: 60;
+        transition: opacity 0.5s;
+
+        &Wrapper {
+            width: 100%;
+            height: 100%;
+            position: relative;
+            margin-top: -1.75rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+
+        .linkContainer {
+            position: absolute;
+            top: -10rem;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            justify-content: center;
+            opacity: 0;
+
+            a {
+                display: flex;
+                align-items: center;
+                z-index: 10;
+                border-radius: 9999px;
+                background-color: #18181b;
+                padding: 0.125rem 1rem;
+                border: 1px solid rgba(255, 255, 255, 0.1);
+                text-decoration: none;
+
+                span {
+                    z-index: 20;
+                    color: #ffffff;
+                    font-size: 0.75rem;
+                    font-weight: bold;
+                    padding: 0.125rem 0;
+                }
+
+                &::after {
+                    content: '';
+                    position: absolute;
+                    bottom: 0;
+                    left: 1.125rem;
+                    height: 1px;
+                    width: calc(100% - 2.25rem);
+                    background: linear-gradient(to right,
+                            rgba(16, 185, 129, 0),
+                            rgba(16, 185, 129, 0.9),
+                            rgba(16, 185, 129, 0));
+                    opacity: 0.4;
+                    transition: opacity 0.5s;
+                }
+            }
+        }
+
+        .motionCircle {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            height: 11.25rem;
+            width: 11.25rem;
+            border-radius: 50%;
+            background-color: rgba(14, 165, 233, 0.08);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+            opacity: 0;
+        }
+
+        .motionEffects {
+            position: absolute;
+            right: 50%;
+            bottom: 50%;
+            background: linear-gradient(to bottom, transparent, #22d3ee);
+            transform: translateY(14px);
+            width: 1px;
+            height: 20rem;
+            filter: blur(2px);
+            transition: height 0.5s ease;
+            opacity: 0;
+
+            &.blurred {
+                filter: blur(3px);
+            }
+
+            &.rounded {
+                width: 4px;
+                height: 4px;
+                border-radius: 50%;
+                background-color: #0891b2;
+            }
+
+            &.smallRounded {
+                width: 2px;
+                height: 2px;
+                border-radius: 50%;
+                background-color: #67e8f9;
+            }
+        }
+    }
+}

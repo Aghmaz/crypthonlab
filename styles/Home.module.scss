@@ -1,0 +1,71 @@
+.container {
+    background-color: #202025;
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.exampleContainer {
+    text-align: center;
+    margin-bottom: 40px;
+
+    h1 {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+    }
+
+    p {
+        font-size: 1.25rem;
+        margin-bottom: 2rem;
+    }
+}
+
+.featuresGrid {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+
+    .featureItem {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .featureIcon {
+            height: 2rem;
+            margin-bottom: 0.5rem;
+            color: #6366f1;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        p {
+            font-size: 1rem;
+            text-align: center;
+        }
+    }
+}
+
+.canvasContainer {
+    width: 100%;
+    height: 500px;
+}
+
+.content {
+    width: 334px;
+    height: 216px;
+    background: #f0f0f0;
+    border-radius: 3px;
+    overflow-y: auto;
+}
+
+.wrapper {
+    padding: 1rem;
+    color: #202025;
+    text-align: center;
+}

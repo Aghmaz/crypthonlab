@@ -1,0 +1,305 @@
+.stage-cube-cont {
+    width: 50%;
+    height: 100%;
+    top: 0;
+    padding-top: 18%;
+    margin-left: 0;
+    position: absolute;
+    right: 0;
+    overflow: hidden;
+}
+
+.cubespinner {
+    animation-name: spincube;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 12s;
+    transform-style: preserve-3d;
+    transform-origin: 100px 100px 0;
+    margin-left: calc(50% - 100px);
+
+    div {
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        border: 1px solid #ccc;
+        background: rgba(255, 255, 255, 0.4);
+        text-align: center;
+        font-size: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 0 20px 0px lightyellow;
+    }
+
+    .face1 {
+        transform: translateZ(100px);
+        color: #dd0031;
+    }
+
+    .face2 {
+        transform: rotateY(90deg) translateZ(100px);
+        color: #f06529;
+    }
+
+    .face3 {
+        transform: rotateY(90deg) rotateX(90deg) translateZ(100px);
+        color: #28a4d9;
+    }
+
+    .face4 {
+        transform: rotateY(180deg) rotateZ(90deg) translateZ(100px);
+        color: #5ed4f4;
+    }
+
+    .face5 {
+        transform: rotateY(-90deg) rotateZ(90deg) translateZ(100px);
+        color: #efd81d;
+        // color: #191602;
+    }
+
+    .face6 {
+        transform: rotateX(-90deg) translateZ(100px);
+        color: #ec4d28;
+    }
+}
+
+@keyframes spincube {
+
+    from,
+    to {
+        transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+    }
+
+    16% {
+        transform: rotateY(-90deg) rotateZ(90deg);
+    }
+
+    33% {
+        transform: rotateY(-90deg) rotateX(90deg);
+    }
+
+    50% {
+        transform: rotateY(-180deg) rotateZ(90deg);
+    }
+
+    66% {
+        transform: rotateY(-270deg) rotateX(90deg);
+    }
+
+    83% {
+        transform: rotateX(90deg);
+    }
+}
+
+.text-shpere {
+    // position: relative;
+    // float: right;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1e1e1e;
+}
+
+.main {
+    width: 45%;
+    float: right;
+    padding-top: 3rem;
+}
+
+.tagcloud {
+    display: inline-block;
+    top: 0;
+    left: 3rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.0625em;
+    font-size: 1.3em;
+}
+
+/* Change color of each text in sphere on hover   */
+.tagcloud--item {
+    font-size: $xl-5;
+    font-weight: 500;
+    background: $gradient2;
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 0.5px #ed45f6;
+    -moz-text-fill-color: transparent;
+    color: transparent;
+    text-transform: uppercase;
+}
+
+.tagcloud--item:hover {
+    // font-size: $xl-6;
+    -webkit-text-stroke: 1px $white;
+    color: transparent;
+    // color: #0079dc;
+    // color: #ff6347;
+}
+
+
+.lightHeading {
+    color: #8d8d8d;
+    // margin-top: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    animation: fadeIn 1s 1s backwards;
+}
+
+
+
+.crypthonanimation {
+    letter-spacing: 5px;
+    background: $gradient2;
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 0.5px #5145f6;
+    -moz-text-fill-color: transparent;
+    color: transparent;
+    text-transform: uppercase;
+    font-size: 65px;
+    line-height: 53px;
+    padding-top: 25%;
+}
+
+.crypthonanimationlaptop {
+    letter-spacing: 5px;
+    background: $gradient2;
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 0.5px #5145f6;
+    -moz-text-fill-color: transparent;
+    color: transparent;
+    text-transform: uppercase;
+    font-size: 32px;
+    line-height: 53px;
+    padding-top: 5%;
+}
+
+.crypthonanimation2laptop {
+    letter-spacing: 3px;
+    background: $gradient2;
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 0.5px #5145f6;
+    -moz-text-fill-color: transparent;
+    color: transparent;
+    text-transform: uppercase;
+    font-size: 15px;
+    line-height: 28px;
+    // padding-top: 2%;
+}
+
+.crypthonanimation2 {
+    letter-spacing: 3px;
+    background: $gradient2;
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 0.5px #5145f6;
+    -moz-text-fill-color: transparent;
+    color: transparent;
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 53px;
+    // padding-top: 2%;
+}
+
+.hero2 {
+    width: 55%;
+}
+
+.hero3 {
+    width: 100%;
+}
+
+.mainHeading {
+    // margin-top: -1rem;
+    font-size: 3.7rem;
+    -webkit-text-stroke: 1px $white;
+    color: transparent;
+}
+
+.mainHeadingLaptop {
+    font-size: 1.9rem;
+    -webkit-text-stroke: 1px $white;
+    color: transparent;
+}
+
+.sub-heading {
+    display: flex;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+}
+
+@media(max-width:440px) {
+
+    .main {
+        width: 40%;
+        margin-left: 1rem;
+        display: none;
+    }
+
+    .hero2 {
+        width: 100%;
+        // border: 2px solid red;
+    }
+
+    .crypthonanimation {
+        background: $gradient2;
+        background-size: 100%;
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke: 0.5px #5145f6;
+        -moz-text-fill-color: transparent;
+        color: transparent;
+        text-transform: uppercase;
+        font-size: 39px;
+        line-height: 53px;
+        padding-top: 40%;
+    }
+
+    .crypthonanimation2 {
+        background: $gradient2;
+        background-size: 100%;
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke: 0.5px #5145f6;
+        -moz-text-fill-color: transparent;
+        color: transparent;
+        text-transform: uppercase;
+        font-size: 11px;
+        line-height: 53px;
+        // padding-top: 2%;
+        margin-top: -1.5rem;
+    }
+
+    .mainHeading {
+        // margin-top: -1rem;
+        font-size: 2.3rem;
+        margin-bottom: 0.5rem;
+        -webkit-text-stroke: 1px $white;
+        color: transparent;
+    }
+
+}

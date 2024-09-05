@@ -1,0 +1,261 @@
+.processSection {
+    background-image: url('/work-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 4rem 2rem;
+    text-align: center;
+    position: relative;
+
+    .processSectiontitle {
+        margin-bottom: 2rem;
+
+        h2 {
+            font-size: 1.5rem;
+            color: #ff75b8;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+
+        p {
+            font-size: 1rem;
+            margin-top: 1rem;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+    .whoWeAre {
+        display: flex;
+        align-items: center;
+        color: #ffffff;
+        position: absolute;
+        right: 0;
+        right: -50px;
+        // bottom: 115px;
+        top: 170px;
+        rotate: -90deg;
+        letter-spacing: 3.72px;
+        text-transform: uppercase;
+        gap: 1rem
+    }
+
+    hr {
+        opacity: 1.25;
+        height: 1px;
+        color: #b520a3;
+        width: 60px;
+        border: 1px solid;
+    }
+
+    .steps {
+
+        .step1 {
+            position: absolute;
+            border-radius: 50%;
+            background: linear-gradient(11deg, #7436bb 0.01%, #b520a3 100%);
+            color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-top: -2rem;
+            width: 13%;
+            height: 20%;
+
+            h3 {
+                font-size: 34px;
+                font-weight: 800;
+                line-height: 48px;
+            }
+
+            span {
+                font-size: 0.8rem;
+            }
+        }
+
+        .step2 {
+            position: absolute;
+            border-radius: 50%;
+            background: linear-gradient(11deg, #7436bb 0.01%, #b520a3 100%);
+            color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-top: 10rem;
+            left: 25%;
+            width: 13%;
+            height: 20%;
+
+            h3 {
+                font-size: 34px;
+                font-weight: 800;
+                line-height: 48px;
+            }
+
+            span {
+                font-size: 0.8rem;
+            }
+        }
+
+        .step3 {
+            position: absolute;
+            border-radius: 50%;
+            background: linear-gradient(11deg, #7436bb 0.01%, #b520a3 100%);
+            color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-top: -4rem;
+            left: 59%;
+            width: 13%;
+            height: 20%;
+
+            h3 {
+                font-size: 34px;
+                font-weight: 800;
+                line-height: 48px;
+            }
+
+            span {
+                font-size: 0.8rem;
+            }
+        }
+
+        .step4 {
+            position: absolute;
+            border-radius: 50%;
+            background: linear-gradient(11deg, #7436bb 0.01%, #b520a3 100%);
+            color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-top: 7rem;
+            right: 35px;
+            width: 13%;
+            height: 20%;
+
+            h3 {
+                font-size: 34px;
+                font-weight: 800;
+                line-height: 48px;
+            }
+
+            span {
+                font-size: 0.8rem;
+            }
+        }
+
+        .connector {
+            background-image: url('/work-line.png');
+            background-size: 100% 100%;
+            background-position: center;
+            min-height: 242px;
+            background-repeat: no-repeat;
+            margin: 146px 25px 146px 25px;
+        }
+    }
+
+    .contactButton {
+        margin-top: 4rem;
+
+        button {
+            background: transparent;
+            border: 2px solid #ff75b8;
+            padding: 0.8rem 2rem;
+            color: #fff;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 1rem;
+
+            &:hover {
+                background: #ff75b8;
+                opacity: 0.8;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .processSection {
+        padding: 2rem 1rem;
+
+        .processSectiontitle {
+            h1 {
+                font-size: 2rem;
+            }
+
+            h2 {
+                font-size: 1.25rem;
+            }
+
+            p {
+                font-size: 0.9rem;
+            }
+        }
+
+        .whoWeAre {
+            top: 100px;
+            right: -100px;
+            gap: 0.5rem;
+            font-size: 0.8rem;
+        }
+
+        .steps {
+
+            .step1,
+            .step2,
+            .step3,
+            .step4 {
+                width: 25%;
+                height: 15%;
+
+                h3 {
+                    font-size: 1rem;
+                    line-height: 1rem;
+                }
+
+                span {
+                    font-size: 0.7rem;
+                }
+            }
+
+            .step1 {
+                top: 15rem;
+                left: 2%;
+            }
+
+            .step2 {
+                top: 10.5rem;
+                left: 16%;
+            }
+
+            .step3 {
+                top: 17rem;
+                left: 55%;
+            }
+
+            .step4 {
+                top: 13rem;
+                right: 1%;
+            }
+
+            .connector {
+                margin: 80px 5px 80px 5px;
+                min-height: 150px;
+            }
+        }
+
+        .contactButton {
+            margin-top: 2rem;
+
+            button {
+                padding: 0.6rem 1.5rem;
+                font-size: 0.9rem;
+            }
+        }
+    }
+}
