@@ -9,7 +9,7 @@ import {
   OrbitControls,
 } from "@react-three/drei";
 import styles from "../styles/Home.module.scss";
-import Example from "./example";
+import Example from "./Example";
 
 function Model() {
   const group = useRef();
