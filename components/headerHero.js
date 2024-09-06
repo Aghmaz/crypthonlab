@@ -90,30 +90,8 @@ const HeaderHero = () => {
                 <div className={styles.topic2}>{slide.topic2}</div>
                 <div className={styles.author2}>{slide.topic3}</div>
                 <div className="hero3">
-                  <h1 className={styles.title}>
-                    {/* <Typewriter
-                    words={["CrypthonLab", "CrypthonLab"]}
-                    loop={0}
-                    cursor
-                    cursorStyle="|"
-                    typeSpeed={160}
-                    deleteSpeed={50}
-                    delaySpeed={1000}
-                  /> */}
-                  </h1>
-                  {/* <h1 className=" crypthonanimation2forHeader">
-                  Empowering Buisnesses in it Solutions
-                </h1>
-                <h1 className={`${styles.title}`}>Best Solutions For </h1>
-                <h2 className="lightHeadingForHeader">
-                  {" "}
-                  Big Data & Technology Solution
-                </h2> */}
+                  <h1 className={styles.title}></h1>
                 </div>
-                {/* <div className={styles.buttons}>
-                <button>SEE MORE</button>
-                <button>SUBSCRIBE</button>
-              </div> */}
               </div>
             </div>
           </div>
