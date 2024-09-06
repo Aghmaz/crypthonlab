@@ -18,6 +18,7 @@ import WhyChooseUsSection from "./whyChooseUS";
 import Languages from "./languages";
 import RunningText from "./RunningText";
 import LanguageSection from "./LanguageSection";
+import HeaderHero from "@/components/headerHero";
 // import Home from "@/pages/threeD";
 
 const Hero = () => {
@@ -60,11 +61,12 @@ const Hero = () => {
   //   }, []);
   return (
     <>
-      <div className={styles.container}>
+      <HeaderHero />
+      {/* <div className={styles.container}>
         <div className={styles.canvasContainer}>
           <ThreeD />
         </div>
-      </div>
+      </div> */}
       <RunningText />
       <Languages />
       <WhyChooseUsSection />

@@ -8,11 +8,11 @@ const Brand = () => {
   return (
     <>
       <section className="brand">
-        <div className="container">
+        <div className="container py">
           <div className="heading-title">
             <Title title="WE ARE PROUD TO WORK WITH THESE COMPANIES" />
           </div>
-          <div className="">
+          <div className="card">
             <Marquee velocity={12} minScale={0.9}>
               {brand.map((item) => (
                 <div className="images" key={item.id}>

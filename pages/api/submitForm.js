@@ -6,6 +6,7 @@ export default async function handler(req, res) {
   if (req.method === "POST") {
     try {
       const { name, email, budget, timeframe, projectDetails } = req.body;
+      console.log(name, email, budget, timeframe, projectDetails);
       // Initialize Brevo API client
       const transporter = nodemailer.createTransport({
         host: "smtp-relay.brevo.com",
@@ -132,7 +133,11 @@ export default async function handler(req, res) {
         transporter.sendMail(sendSubmitterEmail),
         transporter.sendMail(sendOwnerEmail),
       ]);
-
+      console.log(
+        ownerResponse.messageId,
+        submitterResponse.messageId,
+        "======"
+      );
       await connectToDatabase();
 
       // Save data to MongoDB

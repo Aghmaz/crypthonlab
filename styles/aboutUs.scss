@@ -1,5 +1,3 @@
-// styles/AboutUs.module.scss
-
 .aboutUsSection {
     color: #fff;
     padding: 3rem;
@@ -12,20 +10,20 @@
         max-width: 50%;
 
         h2 {
-            color: #ff75b8;
-            font-size: 2rem;
+            color: rgba(52, 108, 255, 1);
+            font-size: 6rem;
         }
 
         h1 {
             // font-family: Raleway;
-            font-size: 2.4rem;
+            font-size: 3.4rem;
             font-weight: bold;
         }
 
         p {
             margin: 1.5rem 0;
-            font-size: 1.1rem;
-            line-height: 1.8rem;
+            font-size: 1.6rem;
+            line-height: 2rem;
         }
 
         .highlights {
@@ -33,13 +31,14 @@
             flex-direction: column;
 
             .highlightItem {
+                font-size: 1.6rem;
                 display: flex;
                 align-items: center;
                 margin-bottom: 1rem;
 
                 &::before {
                     content: '✔';
-                    color: #ff8800;
+                    color: rgba(52, 108, 255, 1);
                     margin-right: 0.5rem;
                 }
             }
@@ -71,17 +70,17 @@
     }
 
     .imageContent {
-        margin-top: -16rem;
+        margin-top: -4rem;
         position: relative;
         max-width: 50%;
-
+        right: 8rem;
 
         .imgDiv {
-            background: linear-gradient(42deg, #7436bb 0.01%, #b520a3 100%);
+            background: linear-gradient(42deg, rgb(97, 74, 174) 0.01%, rgba(52, 108, 255, 1) 100%);
             padding: 0.4rem;
             display: inline-block;
             border-radius: 50%;
-            width: 85%;
+            width: 100%;
         }
 
         .frontImag {
@@ -110,7 +109,7 @@
             color: #ffffff;
             position: absolute;
             right: 0;
-            right: -50px;
+            right: -150px;
             bottom: 115px;
             rotate: -90deg;
             letter-spacing: 3.72px;
@@ -123,9 +122,63 @@
             // right: 2px;
             height: 1px;
             // rotate: -90deg;
-            color: #b520a3;
+            color: rgba(52, 108, 255, 1);
             width: 60px;
             border: 1px solid;
+        }
+    }
+}
+
+@media screen and (max-width:1586px) {
+    .aboutUsSection {
+
+        .textContent {
+
+            h2 {
+                font-size: 3rem !important;
+            }
+
+            h1 {
+                font-size: 2.4rem;
+                font-weight: bold;
+            }
+
+            p {
+                font-size: 1.3rem;
+                line-height: 1.8rem;
+            }
+
+            .highlights {
+
+                .highlightItem {
+                    font-size: 1.2rem;
+
+
+                }
+            }
+
+        }
+
+        .imageContent {
+            margin-top: -16rem;
+
+            right: 0;
+
+            .imgDiv {
+
+                width: 80%;
+            }
+
+
+
+
+            .whoWeAre {
+
+                right: -50px;
+
+            }
+
+
         }
     }
 }
@@ -136,28 +189,33 @@
         flex-direction: column;
         // align-items: flex-start;
         height: 100%;
-        bottom: 12rem;
+        bottom: 20rem;
 
         .textContent {
             max-width: 100%;
             text-align: center;
             position: relative;
+            margin-top: 18rem;
         }
 
         .imageContent {
+            // margin-bottom: 5rem;
             max-width: 100%;
             text-align: center;
-            // display: none;
             position: absolute;
             margin-top: 18rem;
             bottom: -18rem;
         }
 
         .experienceBadge {
-            position: relative;
-            right: auto;
-            margin-top: 13rem;
+
             display: none;
+        }
+
+        .whoWeAre {
+
+            right: -90px !important;
+
         }
     }
 }

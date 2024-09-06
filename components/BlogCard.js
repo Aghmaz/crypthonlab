@@ -24,8 +24,9 @@ const BlogCard = () => {
                   <Card
                     style={{
                       width: 350,
-                      background: "indigo",
-                      border: "indigo",
+                      background:
+                        "linear-gradient(250deg, rgb(97, 74, 174) 14%, rgba(52, 108, 255, 1) 100%)",
+                      border: "#0079dc",
                     }}
                     cover={
                       <div

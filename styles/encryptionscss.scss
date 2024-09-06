@@ -144,9 +144,9 @@
 }
 
 .video {
-    object-fit: fill;
+    object-fit: cover;
     width: 100%;
-    height: auto;
+    height: 100vh;
 }
 
 .booking-form {

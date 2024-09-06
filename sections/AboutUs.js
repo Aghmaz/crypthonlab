@@ -34,12 +34,12 @@ const AboutUs = () => {
         className="aboutUsSection"
         initial="hidden"
         whileInView="visible"
-        viewport={{ once: false, amount: 0.3 }}
+        viewport={{ once: true, amount: 0.3 }}
         variants={containerVariants}
       >
         <motion.div className="textContent" variants={containerVariants}>
           <h2>About Us</h2>
-          <h1>We Offer Professional-Grade Solutions</h1>
+          <h1>We Offer Expert Solutions</h1>
           <p>
             <strong>Crypthon Lab</strong>, established in <strong>2016</strong>,
             is a leading software house based in the{" "}

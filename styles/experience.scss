@@ -148,7 +148,7 @@
     }
 
     .container {
-        max-width: 1200px;
+        max-width: auto;
         margin: 0 auto;
         padding: 0 15px;
     }
@@ -187,14 +187,14 @@
 
         .getStarted {
             padding: 15px 40px;
-            background: linear-gradient(11deg, #7436bb 0.01%, #b520a3 100%);
+            background: linear-gradient(250deg, rgb(97, 74, 174) 24%, rgba(52, 108, 255, 1) 100%);
             color: #fff;
             border-radius: 5px;
             text-decoration: none;
             transition: background 0.4s ease;
 
             &:hover {
-                background: linear-gradient(11deg, #b520a3 0.01%, #7436bb 100%);
+                background: linear-gradient(250deg, rgb(97, 74, 174) 34%, rgba(52, 108, 255, 1) 100%);
             }
         }
     }
@@ -210,7 +210,7 @@
 
             .experienceMask {
                 padding: 6px;
-                background: linear-gradient(11deg, #7436bb 0.01%, #b520a3 100%);
+                background: linear-gradient(11deg, #7436bb 0.01%, rgba(52, 108, 255, 1) 100%);
                 clip-path: circle(47%);
                 overflow: hidden;
                 transition: transform 0.8s ease;
@@ -263,7 +263,7 @@
                 transition: transform 0.4s ease, background 0.4s ease;
 
                 &:hover {
-                    background: linear-gradient(11deg, #7436bb 0.01%, #b520a3 100%);
+                    background: linear-gradient(11deg, #7436bb 0.01%, rgba(52, 108, 255, 1) 100%);
                     transform: scale(1.05);
 
                     h4,
@@ -285,7 +285,7 @@
                     justify-content: center;
                     width: 115px;
                     height: 90px;
-                    background: linear-gradient(11deg, #7436bb 0.01%, #b520a3 100%);
+                    background: linear-gradient(11deg, #7436bb 0.01%, rgba(52, 108, 255, 1) 100%);
                     border-radius: 50%;
                     color: #ffffff;
 

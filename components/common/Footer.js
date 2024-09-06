@@ -17,7 +17,7 @@ const Footer = () => {
               <TitleLogo title="Lab" caption="Crypthon" className="logobg" />
               <br />
               <span>
-                Questions? Reach us <br /> Monday – Friday from 6 pm to 2 am
+                Questions? Reach us <br /> Monday – Friday from 9 am to 5 pm
               </span>
               <br />
               <br />

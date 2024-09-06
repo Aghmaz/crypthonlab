@@ -8,7 +8,7 @@ const Languages = () => {
     <div className={styles.container}>
       <h1 className={styles.heading}>
         A small selection of{" "}
-        <span style={{ color: "purple" }}>recent projects</span>
+        <span style={{ color: "#0079dc" }}>recent projects</span>
       </h1>
       <div className={styles.projectsGrid}>
         {projects.map((item) => (

@@ -82,12 +82,12 @@ const Contact = () => {
               <div className="box">
                 <FiHeadphones size={30} className="icons" />
                 <h3>+44 7938 434588</h3>
-                <span>Call us: Mon - Fri 6pm - 2am</span>
+                <span>Call us: Mon - Fri 9 am - 5 pm</span>
               </div>
               <div className="box">
                 <IoLocationOutline size={30} className="icons" />
                 <h3>London</h3>
-                <span>F 61 The Ridgeway London Post code E46QW</span>
+                <span>F 61 The Ridgeway United Kingdom Post code E46QW</span>
               </div>
               <div className="box">
                 <FiHelpCircle size={30} className="icons" />

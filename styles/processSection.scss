@@ -47,7 +47,7 @@
     hr {
         opacity: 1.25;
         height: 1px;
-        color: #b520a3;
+        color: #0079dc;
         width: 60px;
         border: 1px solid;
     }
@@ -57,7 +57,7 @@
         .step1 {
             position: absolute;
             border-radius: 50%;
-            background: linear-gradient(11deg, #7436bb 0.01%, #b520a3 100%);
+            background: linear-gradient(11deg, rgb(97, 74, 174) 0.01%, #0079dc 100%);
             color: #ffffff;
             display: flex;
             flex-direction: column;
@@ -80,7 +80,8 @@
         .step2 {
             position: absolute;
             border-radius: 50%;
-            background: linear-gradient(11deg, #7436bb 0.01%, #b520a3 100%);
+            background: linear-gradient(11deg, rgb(97, 74, 174) 0.01%, #0079dc 100%);
+            // background: linear-gradient(11deg, #7436bb 0.01%, #b520a3 100%);
             color: #ffffff;
             display: flex;
             flex-direction: column;
@@ -104,7 +105,8 @@
         .step3 {
             position: absolute;
             border-radius: 50%;
-            background: linear-gradient(11deg, #7436bb 0.01%, #b520a3 100%);
+            background: linear-gradient(11deg, rgb(97, 74, 174) 0.01%, #0079dc 100%);
+            // background: linear-gradient(11deg, #7436bb 0.01%, #b520a3 100%);
             color: #ffffff;
             display: flex;
             flex-direction: column;
@@ -128,7 +130,8 @@
         .step4 {
             position: absolute;
             border-radius: 50%;
-            background: linear-gradient(11deg, #7436bb 0.01%, #b520a3 100%);
+            background: linear-gradient(11deg, rgb(97, 74, 174) 0.01%, #0079dc 100%);
+            // background: linear-gradient(11deg, #7436bb 0.01%, #b520a3 100%);
             color: #ffffff;
             display: flex;
             flex-direction: column;
@@ -164,7 +167,7 @@
 
         button {
             background: transparent;
-            border: 2px solid #ff75b8;
+            border: 2px solid rgba(52, 108, 255, 1);
             padding: 0.8rem 2rem;
             color: #fff;
             border-radius: 25px;
@@ -172,7 +175,7 @@
             font-size: 1rem;
 
             &:hover {
-                background: #ff75b8;
+                background: rgba(52, 108, 255, 1);
                 opacity: 0.8;
             }
         }

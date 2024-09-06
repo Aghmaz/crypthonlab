@@ -56,7 +56,7 @@ const Testimonial = () => {
   };
   return (
     <>
-      <section className="container testimonial">
+      <section className="container testimonial py">
         <div className="container">
           <div className="heading-title">
             <Title title="WHAT CLIENTS SAY ABOUT OUR WORK" />
