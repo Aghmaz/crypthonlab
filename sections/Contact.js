@@ -43,7 +43,7 @@ const Contact = () => {
     },
     validationSchema: validationSchema,
     onSubmit: async (values) => {
-      setLoading(true); // Start loading
+      setLoading(true);
       try {
         const res = await fetch("/api/submitForm", {
           method: "POST",
@@ -121,9 +121,6 @@ const Contact = () => {
               Got questions? Ideas? Fill out the form below to get our proposal.
             </p>
 
-            {loading && (
-              <Loader /> // Show loader if loading
-            )}
             <form onSubmit={formik.handleSubmit}>
               <div className="grid-2">
                 <div className="inputs">
@@ -196,8 +193,19 @@ const Contact = () => {
                   <div className="error">{formik.errors.projectDetails}</div>
                 ) : null}
               </div>
-              <button className="button-primary" type="submit">
-                Submit
+              {loading && <Loader />}
+
+              <button
+                className="button-primary"
+                type="submit"
+                disabled={loading}
+                style={{
+                  background: loading ? "transparent" : "",
+                  cursor: loading ? "not-allowed" : "pointer",
+                  color: loading ? "white" : "",
+                }}
+              >
+                {loading ? "Loading..." : "Submit"}
               </button>
             </form>
           </div>

@@ -39,6 +39,7 @@ export default function BookingForm() {
     validationSchema: validationSchema,
     onSubmit: async (values) => {
       try {
+        setLoading(true);
         const res = await fetch("/api/sendEmail", {
           method: "POST",
           headers: {
@@ -211,12 +212,18 @@ export default function BookingForm() {
                   <Button
                     type="primary"
                     onClick={() => next()}
-                    style={{ width: "5rem" }}
+                    disabled={loading}
+                    style={{
+                      width: "5rem",
+                      background: loading ? "transparent" : "",
+                      cursor: loading ? "not-allowed" : "pointer",
+                      color: loading ? "white" : "",
+                    }}
                   >
-                    Done
+                    {loading ? "loading" : "submit"}
                   </Button>
                 )}
-                {current > 0 && (
+                {current > 0 && !loading && (
                   <Button
                     style={{ margin: "0 0px", width: "5rem" }}
                     onClick={() => prev()}
