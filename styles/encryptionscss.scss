@@ -1,3 +1,11 @@
+.brand {
+
+    @media (max-width: 786px) {
+        min-height: 50vh;
+
+    }
+}
+
 .encryptionContainer {
     display: flex;
     flex-direction: row;

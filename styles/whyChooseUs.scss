@@ -193,72 +193,77 @@
             display: none;
         }
 
-        .whyChooseHeader {
-            flex-direction: column;
-            align-items: flex-start;
+        .whyChooseContainer {
+            padding: 1.4rem;
 
-            .whyChoosetextGroup {
-                max-width: 100%;
-                margin-bottom: 20px;
+            .whyChooseHeader {
+                flex-direction: column;
+                align-items: flex-start;
 
-                .whyChooseHr1 {
-                    margin-bottom: 5px;
-                }
-            }
+                .whyChoosetextGroup {
+                    max-width: 100%;
+                    margin-bottom: 20px;
 
-            .whyChoosegetStarted {
-                align-self: stretch;
-                text-align: center;
-            }
-        }
-
-        .whyChooseContent {
-            flex-direction: column;
-
-            .whyimageWrapper {
-                width: 100%;
-                margin-bottom: 30px;
-
-                .whyMask {
-                    img {
-                        clip-path: circle(50%);
+                    .whyChooseHr1 {
+                        margin-bottom: 5px;
                     }
                 }
 
-                .whyLabel {
-                    right: 0;
-                    bottom: 10px;
-                    transform: rotate(0);
+                .whyChoosegetStarted {
+                    align-self: stretch;
                     text-align: center;
+                }
+            }
+
+            .whyChooseContent {
+                flex-direction: column;
+
+                .whyimageWrapper {
+                    margin-top: 1rem;
+                    width: 100%;
+                    margin-bottom: 30px;
+
+                    .whyMask {
+                        img {
+                            clip-path: circle(50%);
+                        }
+                    }
+
+                    .whyLabel {
+                        right: -10rem;
+                        bottom: 10px;
+                        transform: rotate(-90deg);
+                        text-align: center;
+                        width: 100%;
+
+                        h6 {
+                            letter-spacing: 2px;
+                        }
+
+                        hr {
+                            margin: 10px auto 0;
+                        }
+                    }
+                }
+
+                .Whycards {
                     width: 100%;
 
-                    h6 {
-                        letter-spacing: 2px;
-                    }
+                    .whycard {
+                        flex-direction: column;
+                        align-items: center;
 
-                    hr {
-                        margin: 10px auto 0;
-                    }
-                }
-            }
+                        .whyChoosepercentage {
+                            margin-bottom: 10px;
+                        }
 
-            .Whycards {
-                width: 100%;
+                        h4 {
+                            text-align: center;
+                        }
 
-                .whycard {
-                    flex-direction: column;
-                    align-items: center;
-
-                    .whyChoosepercentage {
-                        margin-bottom: 10px;
-                    }
-
-                    h4 {
-                        text-align: center;
-                    }
-
-                    p {
-                        text-align: center;
+                        p {
+                            text-align: center;
+                        }
                     }
                 }
             }
