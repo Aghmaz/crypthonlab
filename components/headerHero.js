@@ -23,32 +23,21 @@ const HeaderHero = () => {
   };
 
   const slides = [
-    // {
-    //   type: "image",
-    //   src: "https://res.cloudinary.com/jobifycloud/image/upload/v1725131907/1720_pu3a30.jpg",
-    //   author: "CrypthonLab",
-    //   title: "CrypthonLab",
-    //   //   topic: "Software Solution",s
-    // },
-    // {
-    //   type: "video",
-    //   src: "https://res.cloudinary.com/jobifycloud/video/upload/v1724615828/ai_jnz6jg.mp4",
-    // },
     {
       type: "video",
-      src: "https://res.cloudinary.com/jobifycloud/video/upload/v1725642244/18069232-uhd_3840_2160_24fps_uhkfgb.mp4",
+      src: "https://res.cloudinary.com/jobifycloud/video/upload/v1725558438/3129576-uhd_3840_2160_30fps_nzham4.mp4",
       author: "CrypthonLab",
       title: "AI-Driven:",
       topic: " Personalization",
-      topic2: " at the 💞 of Your Vision",
+      topic2: " at the 🤍 of Your Vision",
       topic3: "Precision that aligns seamlessly with your vision",
     },
     {
       type: "video",
-      src: "https://res.cloudinary.com/jobifycloud/video/upload/v1725568192/18069235-uhd_3840_2160_24fps_m3v8do.mp4",
+      src: "https://res.cloudinary.com/jobifycloud/video/upload/v1725558438/3129576-uhd_3840_2160_30fps_nzham4.mp4",
       author: "CrypthonLab",
       title: "Software:",
-      topic: "💪🏻💥 Tools",
+      topic: "Strong Tools",
       topic2: "for the ✨ of Your Work",
       topic3: "Efficient software crafted for productivity 💼",
     },
@@ -63,10 +52,10 @@ const HeaderHero = () => {
     },
     {
       type: "video",
-      src: "https://res.cloudinary.com/jobifycloud/video/upload/v1725558510/6128683-uhd_3840_2160_25fps_fqvsoj.mp4",
+      src: "https://res.cloudinary.com/jobifycloud/video/upload/v1725558438/3129576-uhd_3840_2160_30fps_nzham4.mp4",
       author: "CrypthonLab",
       title: "Design¹ˢᵗ:",
-      topic: "visual🎨Art",
+      topic: "visual Art",
       topic2: "to enhance 🫵🏻 brand",
       topic3: "Creative visuals that tell your brand's story",
     },

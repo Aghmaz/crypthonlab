@@ -19,11 +19,23 @@ const Languages = () => {
             >
               <div className={styles.projectContent}>
                 <div style={{ backgroundColor: "#13162D" }}></div>
-                <img
-                  src={item.img}
-                  alt="cover"
-                  className={styles.projectImage}
-                />
+                {item.img ? (
+                  <img
+                    src={item.img}
+                    alt="cover"
+                    className={styles.projectImage}
+                  />
+                ) : (
+                  <video
+                    loop
+                    muted
+                    autoPlay
+                    playsInline
+                    preload="false"
+                    className={styles.projectImage}
+                    src={item.video}
+                  />
+                )}
               </div>
 
               <h1 className={styles.projectTitle}>{item.title}</h1>

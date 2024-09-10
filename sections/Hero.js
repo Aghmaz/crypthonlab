@@ -62,12 +62,12 @@ const Hero = () => {
   return (
     <>
       <HeaderHero />
-      {/* <div className={styles.container}>
+      <RunningText />
+      <div className={styles.container}>
         <div className={styles.canvasContainer}>
           <ThreeD />
         </div>
-      </div> */}
-      <RunningText />
+      </div>
       <Languages />
       <WhyChooseUsSection />
       {/* <LanguageSection /> */}
