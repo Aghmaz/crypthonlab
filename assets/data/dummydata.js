@@ -877,6 +877,7 @@ export const teamdata = [
     cover:
       "https://res.cloudinary.com/jobifycloud/image/upload/c_fill,w_768,h_1024/v1724954714/founder_n5b33c.jpg",
     post: "FOUNDER, CEO",
+    url: "www.linkedin.com",
   },
   {
     id: 2,
@@ -884,6 +885,7 @@ export const teamdata = [
     cover:
       "https://res.cloudinary.com/jobifycloud/image/upload/c_fill,w_786,h_1024/v1724954716/cofounder_xutzbq.jpg",
     post: "Co-Founder",
+    url: "www.linkedin.com",
   },
 
   {
@@ -892,6 +894,7 @@ export const teamdata = [
     cover:
       "https://res.cloudinary.com/jobifycloud/image/upload/v1724955098/t8_tjcb4l.webp",
     post: "",
+    url: "/hiring",
   },
 ];
 
@@ -903,6 +906,7 @@ export const projects = [
     img: "/p1.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
     link: "/ui.earth.com",
+    href: "https://www.utilityoptimiser.com",
   },
   {
     id: 2,
@@ -912,6 +916,8 @@ export const projects = [
       "https://res.cloudinary.com/jobifycloud/video/upload/v1725994401/SR2_ucu78v.mp4",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     link: "/ui.yoom.com",
+
+    href: "https://www.foxton.com",
   },
   {
     id: 3,
@@ -921,6 +927,8 @@ export const projects = [
       "https://res.cloudinary.com/jobifycloud/video/upload/v1725993387/sR_vkgqi2.mp4",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
     link: "/ui.aiimg.com",
+
+    href: "https://www.hoteltajpalace.com",
   },
   {
     id: 4,
@@ -929,6 +937,8 @@ export const projects = [
     img: "https://media.contra.com/image/upload/f_auto,c_limit,w_1600,q_auto/q2nidoc4wzqzbn0jgl1p",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "/ui.apple.com",
+
+    href: "https://www.crypthonlab.com",
   },
 ];
 

@@ -34,7 +34,7 @@ const HeaderHero = () => {
     },
     {
       type: "video",
-      src: "https://res.cloudinary.com/jobifycloud/video/upload/v1725558438/3129576-uhd_3840_2160_30fps_nzham4.mp4",
+      src: "https://res.cloudinary.com/jobifycloud/video/upload/v1725568162/6963744-hd_1920_1080_25fps_vwgddc.mp4",
       author: "CrypthonLab",
       title: "Software:",
       topic: "Strong Tools",

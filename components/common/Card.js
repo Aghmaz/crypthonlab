@@ -11,10 +11,21 @@ export const Card = ({ data, caption, show, path }) => {
           <img src={data.cover} alt={data.title} />
         </div>
         <div className="card-details">
-          <Link href={`${path}/${data.id}`} className="title-link">
-            <TitleSm title={data.title} />
-          </Link>
-          {caption && (
+          {data.url ? (
+            <Link href={`${path}/${data.url}`} className="title-link">
+              <TitleSm title={data.title} />
+            </Link>
+          ) : (
+            <Link href={`${path}/${data.id}`} className="title-link">
+              <TitleSm title={data.title} />
+            </Link>
+          )}
+
+          {caption && data.url ? (
+            <Link href={`${path}/${data.url}`}>
+              {caption} <HiOutlineArrowRight className="link-icon" />
+            </Link>
+          ) : (
             <Link href={`${path}/${data.id}`}>
               {caption} <HiOutlineArrowRight className="link-icon" />
             </Link>

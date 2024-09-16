@@ -13,39 +13,34 @@ const Languages = () => {
       <div className={styles.projectsGrid}>
         {projects.map((item) => (
           <div className={styles.projectContainer} key={item.id}>
-            <PinContainer
-              title="www.crypthonlab.com"
-              href="https://www.crypthonlab.com/"
-            >
-              <div className={styles.projectContent}>
-                <div style={{ backgroundColor: "#13162D" }}></div>
-                {item.img ? (
-                  <img
-                    src={item.img}
-                    alt="cover"
-                    className={styles.projectImage}
-                  />
-                ) : (
-                  <video
-                    loop
-                    muted
-                    autoPlay
-                    playsInline
-                    preload="false"
-                    className={styles.projectImage}
-                    src={item.video}
-                  />
-                )}
-              </div>
+            <a href={item.href} target="_blank" rel="noopener noreferrer">
+              <PinContainer title={item?.href} href={item?.href}>
+                <div className={styles.projectContent}>
+                  <div style={{ backgroundColor: "#13162D" }}></div>
+                  {item.img ? (
+                    <img
+                      src={item.img}
+                      alt="cover"
+                      className={styles.projectImage}
+                    />
+                  ) : (
+                    <video
+                      loop
+                      muted
+                      autoPlay
+                      playsInline
+                      preload="false"
+                      className={styles.projectImage}
+                      src={item.video}
+                    />
+                  )}
+                </div>
 
-              <h1 className={styles.projectTitle}>{item.title}</h1>
+                <h1 className={styles.projectTitle}>{item.title}</h1>
 
-              <p className={styles.projectDescription}>{item.des}</p>
-
-              {/* <div className={styles.liveSite}>
-                <p>Check Live Site</p>
-              </div>  */}
-            </PinContainer>
+                <p className={styles.projectDescription}>{item.des}</p>
+              </PinContainer>
+            </a>
           </div>
         ))}
       </div>

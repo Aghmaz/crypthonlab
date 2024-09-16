@@ -37,6 +37,12 @@ const Header = () => {
               Home
             </Link>
             <Link
+              href="/threedmodel"
+              className={activeLink == "/threedmodel" ? "activeLink" : "none"}
+            >
+              3D Models
+            </Link>
+            <Link
               href="/aboutus"
               className={activeLink == "/aboutus" ? "activeLink" : "none"}
             >

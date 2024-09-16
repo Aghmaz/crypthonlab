@@ -11,9 +11,9 @@ const ProcessSection = () => {
       opacity: 1,
       y: 0,
       transition: {
-        duration: 0.5,
+        duration: 0.1,
         when: "beforeChildren",
-        staggerChildren: 0.3,
+        staggerChildren: 0.1,
       },
     },
   };
@@ -23,7 +23,7 @@ const ProcessSection = () => {
     visible: {
       opacity: 1,
       y: 0,
-      transition: { duration: 0.5, ease: "easeInOut" },
+      transition: { duration: 0.1, ease: "easeInOut" },
     },
   };
 
@@ -33,7 +33,7 @@ const ProcessSection = () => {
       variants={containerVariants}
       initial="hidden"
       whileInView="visible"
-      viewport={{ once: false, amount: 0.3 }}
+      viewport={{ once: false, amount: 0.1 }}
     >
       <motion.div variants={itemVariants} className="whoWeAre">
         <hr />

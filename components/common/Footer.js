@@ -15,7 +15,10 @@ const Footer = () => {
           <div className="grid-4">
             <div className="logo">
               <TitleLogo title="Lab" caption="Crypthon" className="logobg" />
+              <span>F 61 The Ridgeway United Kingdom Post code E46QW</span>
               <br />
+              <br />
+
               <span>
                 Questions? Reach us <br /> Monday – Friday from 9 am to 5 pm
               </span>
