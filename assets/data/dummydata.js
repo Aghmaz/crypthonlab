@@ -893,7 +893,7 @@ export const teamdata = [
     title: "Join our team!",
     cover:
       "https://res.cloudinary.com/jobifycloud/image/upload/v1724955098/t8_tjcb4l.webp",
-    post: "",
+    post: "Career",
     url: "/hiring",
   },
 ];
