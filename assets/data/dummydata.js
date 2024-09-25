@@ -901,44 +901,43 @@ export const teamdata = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
+    title: "Digiboard - Versatile Admin Dashboard",
+    des: "Discover the versatility of our multipurpose admin dashboard solution, built using React.js for seamless functionality.",
+    video:
+      "https://res.cloudinary.com/jobifycloud/video/upload/v1727299061/digiboardCRM_ouzks1.mp4",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
-    href: "https://www.utilityoptimiser.com",
+    link: "https://digiboard-html.codebasket.xyz/",
+    href: "https://digiboard-html.codebasket.xyz/",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+    title: "iTechie - IT Solutions & Services",
+    des: "Developed a robust website for the iTechie startup, utilizing Next.js to power their IT services and solutions.",
     video:
-      "https://res.cloudinary.com/jobifycloud/video/upload/v1725994401/SR2_ucu78v.mp4",
+      "https://res.cloudinary.com/jobifycloud/video/upload/v1727299051/ITCompany_mctk7d.mp4",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
-
-    href: "https://www.foxton.com",
+    link: "https://itechie-nextjs.vercel.app/",
+    href: "https://itechie-nextjs.vercel.app/",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+    title: "Eduman - Online Learning & Courses",
+    des: "A comprehensive SaaS application with AI-powered features, designed for online education with integrated payments and credits system.",
     video:
-      "https://res.cloudinary.com/jobifycloud/video/upload/v1725993387/sR_vkgqi2.mp4",
+      "https://res.cloudinary.com/jobifycloud/video/upload/v1727299037/education_cyu5np.mp4",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
-
-    href: "https://www.hoteltajpalace.com",
+    link: "https://eduman-react.vercel.app/",
+    href: "https://eduman-react.vercel.app/",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "https://media.contra.com/image/upload/f_auto,c_limit,w_1600,q_auto/q2nidoc4wzqzbn0jgl1p",
+    title: "Shofy - Grocery E-Commerce Platform",
+    des: "Revamped the Shofy grocery app with the latest tech stack, delivering an optimized and dynamic e-commerce experience.",
+    video:
+      "https://res.cloudinary.com/jobifycloud/video/upload/v1727299036/ecommerce_uzv9mk.mp4",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
-
-    href: "https://www.crypthonlab.com",
+    link: "/shofy-grocery.com",
+    href: "https://shofy-grocery-next-js.vercel.app/",
   },
 ];
 
