@@ -30,7 +30,7 @@ const Hero = () => {
       <Encryption />
       {/* <Expertise /> */}
       {/* <Banner /> */}
-      <Testimonial />
+      {/* <Testimonial /> */}
       {/* <ShowCase /> */}
       <BlogCard />
       <Experience />

@@ -50,7 +50,7 @@ const Team = () => {
               className="title-bg"
             />
           </div>
-          <motion.div className="grid-3 py" variants={containerVariants}>
+          <motion.div className="grid-2 py" variants={containerVariants}>
             {teamdata.map((item) => (
               <motion.div key={item.id} variants={cardVariants}>
                 <Card data={item} caption={item.post} path="team" />

@@ -396,7 +396,7 @@ Discover how to turn a great idea for a product or service into an intuitive int
     id: 5,
     title: "Graphic Designing",
     cover:
-      "https://res.cloudinary.com/jobifycloud/image/upload/v1724617520/Graphic_xzckou.jpg",
+      "https://res.cloudinary.com/jobifycloud/image/upload/v1730824614/imgforgraphicdesign_gnbges.png",
     desc: [
       { text: "Visual identity" },
       { text: "Branding for social media" },
@@ -873,23 +873,15 @@ A visual identity that will allow you to stand out, attract attention and shine 
 export const teamdata = [
   {
     id: 1,
-    title: "Zaurez Lodhi",
+    title: "Syed Waqas Faheem",
     cover:
       "https://res.cloudinary.com/jobifycloud/image/upload/c_fill,w_768,h_1024/v1724954714/founder_n5b33c.jpg",
     post: "FOUNDER, CEO",
-    url: "www.linkedin.com",
-  },
-  {
-    id: 2,
-    title: "Waqar Shah",
-    cover:
-      "https://res.cloudinary.com/jobifycloud/image/upload/c_fill,w_786,h_1024/v1724954716/cofounder_xutzbq.jpg",
-    post: "Co-Founder",
-    url: "www.linkedin.com",
+    linkedin_url: "https://www.linkedin.com/in/syed-waqas-faheem-89551963/",
   },
 
   {
-    id: 3,
+    id: 2,
     title: "Join our team!",
     cover:
       "https://res.cloudinary.com/jobifycloud/image/upload/v1724955098/t8_tjcb4l.webp",
@@ -901,6 +893,26 @@ export const teamdata = [
 export const projects = [
   {
     id: 1,
+    title: "Innowi POS",
+    des: "Innowi offers a unified solution to streamline your ordering process and amplify your marketing efforts. Reach out to us today to discover the difference! Innowi Inc. is a registered ISO of Elavon, Inc. Georgia.",
+    video:
+      "https://res.cloudinary.com/jobifycloud/video/upload/v1730828172/innowi_dkwqrm.mp4",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    link: "https://innowi.com/",
+    href: "https://innowi.com/",
+  },
+  {
+    id: 2,
+    title: "YAP",
+    des: "UAE fintech based project with a seed level funding achievement.",
+    video:
+      "https://res.cloudinary.com/jobifycloud/video/upload/v1730828151/yup_xs0yxw.mp4",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    link: "https://www.yap.com/en/uae",
+    href: "https://www.yap.com/en/uae",
+  },
+  {
+    id: 3,
     title: "Digiboard - Versatile Admin Dashboard",
     des: "Discover the versatility of our multipurpose admin dashboard solution, built using React.js for seamless functionality.",
     video:
@@ -910,7 +922,7 @@ export const projects = [
     href: "https://digiboard-html.codebasket.xyz/",
   },
   {
-    id: 2,
+    id: 4,
     title: "iTechie - IT Solutions & Services",
     des: "Developed a robust website for the iTechie startup, utilizing Next.js to power their IT services and solutions.",
     video:
@@ -918,6 +930,49 @@ export const projects = [
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     link: "https://itechie-nextjs.vercel.app/",
     href: "https://itechie-nextjs.vercel.app/",
+  },
+  {
+    id: 5,
+    title: "Beyon Money",
+    des: "Introducing Beyon Money – the all-in-one financial app designed to simplify your financial journey. From Visa prepaid cards to categorized expenses, flexible investments, and international transfers, we’ve got you covered. Intelligent Innovation, Global Connectivity Powered by Batelco Financial Services, Beyon Money is your intelligent financial partner. Our adaptive intelligence ensures fast, secure international transfers to cash, banks, or digital wallets. We transcend borders, linking regional and international financial institutions, setting a new fintech standard in the MENA region.",
+    video:
+      "https://res.cloudinary.com/jobifycloud/video/upload/v1730828572/beyonMoney_p1wbiz.mp4",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+    link: "https://www.beyonmoney.com/",
+    href: "https://www.beyonmoney.com/",
+  },
+  {
+    id: 6,
+    title: "IBM Weather Company",
+    des: "● Building and maintaining data pipelines from weather apps (Android & IOS) ● Taking part in Data Collection, Schema validation, Versioning, Data Warehouse, Analytics, Automation ● Developed Lakehouse architecture for large scale queries for upstream daily ML/AI use cases ● Data Mesh architecture for all removing silos in our organization ● Worked with Redshift clusters for real time queries and dashboards",
+    video:
+      "https://res.cloudinary.com/jobifycloud/video/upload/v1730828580/weatherCompany_biibxg.mp4",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    link: "https://www.weathercompany.com/",
+    href: "https://www.weathercompany.com/",
+  },
+];
+
+export const portfolioData = [
+  {
+    id: 1,
+    title: "BlaBlaCar",
+    des: "BlaBlaCar operates as a social transportation service, allowing individuals to share long-distance rides. It is designed to offer a cost-effective and eco-friendly alternative to traditional travel options. The platform facilitates the connection between drivers who have spare seats in their vehicles and passengers seeking affordable transportation",
+    video:
+      "https://res.cloudinary.com/jobifycloud/video/upload/v1730828161/blabla_pdidch.mp4",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    link: "https://www.blablacar.co.uk/",
+    href: "https://www.blablacar.co.uk/",
+  },
+  {
+    id: 2,
+    title: "Options Decipher",
+    des: "Decipher is an advanced analytics and business intelligence platform designed to enhance data-driven decision-making through robust data analysis and machine learning capabilities.",
+    video:
+      "https://res.cloudinary.com/jobifycloud/video/upload/v1730828171/decipher_cu9igi.mp4",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    link: "https://optionsdecipher.com/",
+    href: "https://optionsdecipher.com/",
   },
   {
     id: 3,
@@ -939,8 +994,57 @@ export const projects = [
     link: "/shofy-grocery.com",
     href: "https://shofy-grocery-next-js.vercel.app/",
   },
+  {
+    id: 5,
+    title: "Innowi POS",
+    des: "Innowi offers a unified solution to streamline your ordering process and amplify your marketing efforts. Reach out to us today to discover the difference! Innowi Inc. is a registered ISO of Elavon, Inc. Georgia.",
+    video:
+      "https://res.cloudinary.com/jobifycloud/video/upload/v1730828172/innowi_dkwqrm.mp4",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    link: "https://innowi.com/",
+    href: "https://innowi.com/",
+  },
+  {
+    id: 6,
+    title: "YAP",
+    des: "UAE fintech based project with a seed level funding achievement.",
+    video:
+      "https://res.cloudinary.com/jobifycloud/video/upload/v1730828151/yup_xs0yxw.mp4",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    link: "https://www.yap.com/en/uae",
+    href: "https://www.yap.com/en/uae",
+  },
+  {
+    id: 7,
+    title: "Backcountry",
+    des: "An American Giant Ecommerce System",
+    video:
+      "https://res.cloudinary.com/jobifycloud/video/upload/v1730828156/backcountry_pd3vy6.mp4",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    link: "https://www.backcountry.com/",
+    href: "https://www.backcountry.com/",
+  },
+  {
+    id: 8,
+    title: "Beyon Money",
+    des: "Introducing Beyon Money – the all-in-one financial app designed to simplify your financial journey. From Visa prepaid cards to categorized expenses, flexible investments, and international transfers, we’ve got you covered. Intelligent Innovation, Global Connectivity Powered by Batelco Financial Services, Beyon Money is your intelligent financial partner. Our adaptive intelligence ensures fast, secure international transfers to cash, banks, or digital wallets. We transcend borders, linking regional and international financial institutions, setting a new fintech standard in the MENA region.",
+    video:
+      "https://res.cloudinary.com/jobifycloud/video/upload/v1730828572/beyonMoney_p1wbiz.mp4",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+    link: "https://www.beyonmoney.com/",
+    href: "https://www.beyonmoney.com/",
+  },
+  {
+    id: 9,
+    title: "IBM Weather Company",
+    des: "● Building and maintaining data pipelines from weather apps (Android & IOS) ● Taking part in Data Collection, Schema validation, Versioning, Data Warehouse, Analytics, Automation ● Developed Lakehouse architecture for large scale queries for upstream daily ML/AI use cases ● Data Mesh architecture for all removing silos in our organization ● Worked with Redshift clusters for real time queries and dashboards",
+    video:
+      "https://res.cloudinary.com/jobifycloud/video/upload/v1730828580/weatherCompany_biibxg.mp4",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    link: "https://www.weathercompany.com/",
+    href: "https://www.weathercompany.com/",
+  },
 ];
-
 export const languageLogos = [
   "/next.svg",
   "/tail.svg",

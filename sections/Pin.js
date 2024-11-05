@@ -1,6 +1,7 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import styles from "@/styles/PinContainer.module.scss";
+import Link from "next/link";
 
 export const PinContainer = ({
   children,
@@ -9,16 +10,23 @@ export const PinContainer = ({
   className,
   containerClassName,
 }) => {
-  const [transform, setTransform] = useState(
-    "translate(-50%,-50%) rotateX(0deg)"
-  );
+  const [isClient, setIsClient] = useState(false);
+  const [transform, setTransform] = useState(null);
+
+  useEffect(() => {
+    setIsClient(true);
+    setTransform("translate(-50%,-50%) rotateX(0deg)");
+  }, []);
 
   const onMouseEnter = () => {
     setTransform("translate(-50%,-50%) rotateX(40deg) scale(0.8)");
   };
+
   const onMouseLeave = () => {
     setTransform("translate(-50%,-50%) rotateX(0deg) scale(1)");
   };
+
+  if (!isClient) return <div />;
 
   return (
     <div
@@ -53,9 +61,11 @@ export const PinPerspective = ({ title, href }) => {
     <motion.div className={styles.pinPerspective}>
       <div className={styles.pinPerspectiveWrapper}>
         <div className={styles.linkContainer}>
-          <a href={href} target={"_blank"}>
-            <span>{title}</span>
-          </a>
+          <Link href={href} legacyBehavior>
+            <a target="_blank">
+              <span>{title}</span>
+            </a>
+          </Link>
         </div>
 
         <div className={styles.perspectiveEffects}>

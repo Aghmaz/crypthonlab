@@ -11,7 +11,11 @@ export const Card = ({ data, caption, show, path }) => {
           <img src={data.cover} alt={data.title} />
         </div>
         <div className="card-details">
-          {data.url ? (
+          {data?.linkedin_url ? (
+            <Link href={`${data.linkedin_url}`} className="title-link">
+              <TitleSm title={data.title} />
+            </Link>
+          ) : data?.url ? (
             <Link href={`${path}/${data.url}`} className="title-link">
               <TitleSm title={data.title} />
             </Link>
@@ -21,7 +25,11 @@ export const Card = ({ data, caption, show, path }) => {
             </Link>
           )}
 
-          {caption && data.url ? (
+          {data?.linkedin_url ? (
+            <Link href={`${data.linkedin_url}`}>
+              {caption} <HiOutlineArrowRight className="link-icon" />
+            </Link>
+          ) : caption && data.url ? (
             <Link href={`${path}/${data.url}`}>
               {caption} <HiOutlineArrowRight className="link-icon" />
             </Link>
@@ -30,6 +38,15 @@ export const Card = ({ data, caption, show, path }) => {
               {caption} <HiOutlineArrowRight className="link-icon" />
             </Link>
           )}
+          {/* {caption && data.url ? (
+            <Link href={`${path}/${data.url}`}>
+              {caption} <HiOutlineArrowRight className="link-icon" />
+            </Link>
+          ) : (
+            <Link href={`${path}/${data.id}`}>
+              {caption} <HiOutlineArrowRight className="link-icon" />
+            </Link>
+          )} */}
           <div className="flex">
             <span> {data.catgeory} </span>{" "}
             {data.date && <span> / {data.date}</span>}
