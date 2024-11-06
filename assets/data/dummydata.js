@@ -1029,7 +1029,7 @@ export const portfolioData = [
   {
     id: 8,
     title: "Beyon Money",
-    des: "Introducing Beyon Money – the all-in-one financial app designed to simplify your financial journey. From Visa prepaid cards to categorized expenses, flexible investments, and international transfers, we’ve got you covered. Intelligent Innovation, Global Connectivity Powered by Batelco Financial Services, Beyon Money is your intelligent financial partner. Our adaptive intelligence ensures fast, secure international transfers to cash, banks, or digital wallets. We transcend borders, linking regional and international financial institutions, setting a new fintech standard in the MENA region.",
+    des: "Beyon Money: your smart financial app for prepaid cards, categorized spending, flexible investments, and fast international transfers. Powered by Batelco Financial Services, setting a new fintech standard in MENA.",
     video:
       "https://res.cloudinary.com/jobifycloud/video/upload/v1730828572/beyonMoney_p1wbiz.mp4",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
