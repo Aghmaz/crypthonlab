@@ -62,6 +62,10 @@ const AboutUs = () => {
             <div className="highlightItem">
               Digital & Social Media Marketing (SMM)
             </div>
+            <div className="highlightItem">Enterprise applications</div>
+            <div className="highlightItem">Cyber security</div>
+            <div className="highlightItem">Big Data & Data engineering</div>
+            <div className="highlightItem">Al/ML</div>
           </div>
         </motion.div>
 

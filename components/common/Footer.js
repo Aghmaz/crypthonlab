@@ -22,7 +22,7 @@ const Footer = () => {
               <br />
 
               <span>
-                Questions? Reach us <br /> Monday – Friday from 9 am to 5 pm
+                Questions? Reach us <br /> Monday – Friday
               </span>
               <br />
               <br />

@@ -789,31 +789,30 @@ export const showcase = [
 export const brand = [
   {
     id: 1,
-    cover: "../images/brand-color.svg",
+    cover: "../images/logo6.png",
     name: "IBM Weather Company",
   },
   {
     id: 2,
-    cover: "../images/Full-color.svg",
+    cover: "../images/logo5.png",
     name: "Beyon Money",
   },
   {
     id: 3,
-    cover: "../images/logo.png",
+    cover: "../images/logo3.png",
     name: "ITechie-IT Solutions & services",
   },
   {
     id: 4,
-    cover: "../images/logo-black.png",
+    cover: "../images/logo1.png",
     name: "DigiBoard",
   },
 
-  // {
-  //   id: 5,
-  //   cover:
-  //     "https://cdn.blablacar.com/kairos/assets/images/blablacar_social-2d6e3368079483133513.png",
-  //   name: "Innowi Pos",
-  // },
+  {
+    id: 5,
+    cover: "../images/logo2.png",
+    name: "Innowi Pos",
+  },
 ];
 export const blogdata = [
   {
@@ -937,7 +936,7 @@ export const projects = [
   {
     id: 5,
     title: "Beyon Money",
-    des: "Introducing Beyon Money – the all-in-one financial app designed to simplify your financial journey. From Visa prepaid cards to categorized expenses, flexible investments, and international transfers, we’ve got you covered. Intelligent Innovation, Global Connectivity Powered by Batelco Financial Services, Beyon Money is your intelligent financial partner. Our adaptive intelligence ensures fast, secure international transfers to cash, banks, or digital wallets. We transcend borders, linking regional and international financial institutions, setting a new fintech standard in the MENA region.",
+    des: "Beyon Money: your smart financial app for prepaid cards, categorized spending, flexible investments, and fast international transfers. Powered by Batelco Financial Services, setting a new fintech standard in MENA.",
     video:
       "https://res.cloudinary.com/jobifycloud/video/upload/v1730828572/beyonMoney_p1wbiz.mp4",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],

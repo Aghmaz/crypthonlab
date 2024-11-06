@@ -141,7 +141,7 @@ export default function BookingForm() {
                 {/* <FiHeadphones size={30} className="icons" /> */}
                 <h3>+92322 4281032</h3>
                 <h3>+92324 4133319</h3>
-                <span>Call us: Mon - Fri 9 am - 5 pm</span>
+                <span>Call us: Mon - Fri</span>
               </div>
               <div className="box">
                 {/* <IoLocationOutline size={30} className="icons" /> */}
