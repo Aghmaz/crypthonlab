@@ -29,7 +29,7 @@
     // &>*:nth-child(n+2) {
     //   display: none;
     // }
-    &>*:not(:nth-child(2)) {
+    &>*:not(:nth-child(3)) {
       display: none;
     }
   }

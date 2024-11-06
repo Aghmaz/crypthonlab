@@ -15,7 +15,9 @@ const Footer = () => {
           <div className="grid-4">
             <div className="logo">
               <TitleLogo title="Lab" caption="Crypthon" className="logobg" />
-              <span>F 61 The Ridgeway United Kingdom Post code E46QW</span>
+              <span>
+                Building #21 K-block commercial,1st floor Model Town Lahore
+              </span>
               <br />
               <br />
 
@@ -27,7 +29,8 @@ const Footer = () => {
               <span style={{ color: "white" }}>info@crypthonlab.com</span>
               <br />
               <br />
-              <h3>+44 7938 4345888</h3>
+              <h3>+92322 4281032</h3>
+              <h3>+92324 4133319</h3>
               <br />
               <Link href="/bookAppointment">
                 <button className="button-primary">Book An Appointement</button>
@@ -73,22 +76,18 @@ const Footer = () => {
               <h3>CONNECT</h3>
               <div className="connect">
                 <li>
-                  <Link href="/">
+                  <Link href="https://www.instagram.com/crypthonlab/">
                     <BsFacebook size={25} />
                   </Link>
                 </li>
+
                 <li>
-                  <Link href="/">
-                    <AiFillBehanceCircle size={25} />
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/">
+                  <Link href="https://www.facebook.com/profile.php?id=61562734246544">
                     <AiFillInstagram size={25} />
                   </Link>
                 </li>
                 <li>
-                  <Link href="https://www.linkedin.com/authwall?trk=gf&trkInfo=AQG1qaEkEXSwgAAAAZGuvdCocLM-o4Ub0aDzDcYBjO0sI0SzdAyUq6XFZyvB0wOsq8SgOGbZE12GhXaIOJgkC4vyplcjvjLTk_k-fznVk0VBMYqCXSg4odkUyCC9_yduyNiD61Q=&original_referer=https://crypthonlab.com/&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fcrypthon-lab-235468319%2F">
+                  <Link href="https://www.linkedin.com/company/crypthonlab/posts/?feedView=all">
                     <AiFillLinkedin size={25} />
                   </Link>
                 </li>

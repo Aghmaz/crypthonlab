@@ -2,6 +2,8 @@ import { Title, TitleSm } from "@/components/common/Title";
 import React, { useState } from "react";
 import { useFormik } from "formik";
 import * as Yup from "yup";
+import Link from "next/link";
+
 import {
   AiFillBehanceCircle,
   AiFillInstagram,
@@ -81,13 +83,16 @@ const Contact = () => {
             <div className="contact-details">
               <div className="box">
                 <FiHeadphones size={30} className="icons" />
-                <h3>+44 7938 434588</h3>
+                <h3>+92322 4281032</h3>
+                <h3>+92324 4133319</h3>
                 <span>Call us: Mon - Fri 9 am - 5 pm</span>
               </div>
               <div className="box">
                 <IoLocationOutline size={30} className="icons" />
-                <h3>London</h3>
-                <span>F 61 The Ridgeway United Kingdom Post code E46QW</span>
+                <h3>Pakistan</h3>
+                <span>
+                  Building #21 K-block, commercial,1st floor Model Town Lahore
+                </span>
               </div>
               <div className="box">
                 <FiHelpCircle size={30} className="icons" />
@@ -101,17 +106,21 @@ const Contact = () => {
               </div>
             </div>
             <ul>
-              <li className="icon">
-                <BsFacebook size={25} />
+              <li>
+                <Link href="https://www.instagram.com/crypthonlab/">
+                  <BsFacebook size={25} />
+                </Link>
               </li>
-              <li className="icon">
-                <AiFillBehanceCircle size={25} />
+
+              <li>
+                <Link href="https://www.facebook.com/profile.php?id=61562734246544">
+                  <AiFillInstagram size={25} />
+                </Link>
               </li>
-              <li className="icon">
-                <AiFillInstagram size={25} />
-              </li>
-              <li className="icon">
-                <AiFillLinkedin size={25} />
+              <li>
+                <Link href="https://www.linkedin.com/company/crypthonlab/posts/?feedView=all">
+                  <AiFillLinkedin size={25} />
+                </Link>
               </li>
             </ul>
           </div>

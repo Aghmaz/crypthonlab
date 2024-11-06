@@ -18,7 +18,7 @@ const ExperienceSection = () => {
             </p>
           </div>
           <motion.a
-            href="services.html"
+            href="/contact"
             className="getStarted"
             whileHover={{ scale: 1.1 }}
           >

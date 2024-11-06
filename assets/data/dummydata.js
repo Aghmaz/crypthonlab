@@ -789,28 +789,31 @@ export const showcase = [
 export const brand = [
   {
     id: 1,
-    cover: "../images/l1.svg",
+    cover: "../images/brand-color.svg",
+    name: "IBM Weather Company",
   },
   {
     id: 2,
-    cover: "../images/l2.svg",
+    cover: "../images/Full-color.svg",
+    name: "Beyon Money",
   },
   {
     id: 3,
-    cover: "../images/l3.svg",
+    cover: "../images/logo.png",
+    name: "ITechie-IT Solutions & services",
   },
   {
     id: 4,
-    cover: "../images/l4.svg",
+    cover: "../images/logo-black.png",
+    name: "DigiBoard",
   },
-  {
-    id: 5,
-    cover: "../images/l5.svg",
-  },
-  {
-    id: 6,
-    cover: "../images/l6.svg",
-  },
+
+  // {
+  //   id: 5,
+  //   cover:
+  //     "https://cdn.blablacar.com/kairos/assets/images/blablacar_social-2d6e3368079483133513.png",
+  //   name: "Innowi Pos",
+  // },
 ];
 export const blogdata = [
   {

@@ -19,9 +19,10 @@ const Brand = () => {
                   <img
                     src={item.cover}
                     alt={item.id}
-                    width="60%"
-                    height="60%"
+                    width="80%"
+                    height="80%"
                   />
+                  {/* <h1 className="flex gap-4">{item.name}</h1> */}
                 </div>
               ))}
             </Marquee>
