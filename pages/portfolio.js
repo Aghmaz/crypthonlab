@@ -2,10 +2,7 @@ import Head from "next/head";
 import React from "react";
 import styles from "@/styles/language.module.scss";
 import { portfolioData } from "@/assets/data/dummydata";
-import dynamic from "next/dynamic";
-
-const PinContainer = dynamic(() => import("../sections/Pin"), { ssr: false });
-
+import { PinContainer } from "../sections/Pin";
 const portfolio = () => {
   return (
     <>
