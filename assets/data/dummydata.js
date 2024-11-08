@@ -1559,6 +1559,27 @@ export const projects = [
 export const portfolioData = [
   {
     id: 1,
+    title: "IBM Weather Company",
+    des: "● Building and maintaining data pipelines from weather apps (Android & IOS) ● Taking part in Data Collection, Schema validation, Versioning, Data Warehouse, Analytics, Automation ● Developed Lakehouse architecture for large scale queries for upstream daily ML/AI use cases ● Data Mesh architecture for all removing silos in our organization ● Worked with Redshift clusters for real time queries and dashboards",
+    video:
+      "https://res.cloudinary.com/jobifycloud/video/upload/v1730828580/weatherCompany_biibxg.mp4",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    link: "https://www.weathercompany.com/",
+    href: "https://www.weathercompany.com/",
+  },
+  {
+    id: 2,
+    title: "Beyon Money",
+    des: "Beyon Money: your smart financial app for prepaid cards, categorized spending, flexible investments, and fast international transfers. Powered by Batelco Financial Services, setting a new fintech standard in MENA.",
+    video:
+      "https://res.cloudinary.com/jobifycloud/video/upload/v1730828572/beyonMoney_p1wbiz.mp4",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+    link: "https://www.beyonmoney.com/",
+    href: "https://www.beyonmoney.com/",
+  },
+
+  {
+    id: 3,
     title: "BlaBlaCar",
     des: "BlaBlaCar operates as a social transportation service, allowing individuals to share long-distance rides. It is designed to offer a cost-effective and eco-friendly alternative to traditional travel options. The platform facilitates the connection between drivers who have spare seats in their vehicles and passengers seeking affordable transportation",
     video:
@@ -1568,7 +1589,7 @@ export const portfolioData = [
     href: "https://www.blablacar.co.uk/",
   },
   {
-    id: 2,
+    id: 4,
     title: "Options Decipher",
     des: "Decipher is an advanced analytics and business intelligence platform designed to enhance data-driven decision-making through robust data analysis and machine learning capabilities.",
     video:
@@ -1578,7 +1599,7 @@ export const portfolioData = [
     href: "https://optionsdecipher.com/",
   },
   {
-    id: 3,
+    id: 5,
     title: "Eduman - Online Learning & Courses",
     des: "A comprehensive SaaS application with AI-powered features, designed for online education with integrated payments and credits system.",
     video:
@@ -1588,7 +1609,7 @@ export const portfolioData = [
     href: "https://eduman-react.vercel.app/",
   },
   {
-    id: 4,
+    id: 6,
     title: "Shofy - Grocery E-Commerce Platform",
     des: "Revamped the Shofy grocery app with the latest tech stack, delivering an optimized and dynamic e-commerce experience.",
     video:
@@ -1598,7 +1619,7 @@ export const portfolioData = [
     href: "https://shofy-grocery-next-js.vercel.app/",
   },
   {
-    id: 5,
+    id: 7,
     title: "Innowi POS",
     des: "Innowi offers a unified solution to streamline your ordering process and amplify your marketing efforts. Reach out to us today to discover the difference! Innowi Inc. is a registered ISO of Elavon, Inc. Georgia.",
     video:
@@ -1608,7 +1629,7 @@ export const portfolioData = [
     href: "https://innowi.com/",
   },
   {
-    id: 6,
+    id: 8,
     title: "YAP",
     des: "UAE fintech based project with a seed level funding achievement.",
     video:
@@ -1618,7 +1639,7 @@ export const portfolioData = [
     href: "https://www.yap.com/en/uae",
   },
   {
-    id: 7,
+    id: 9,
     title: "Backcountry",
     des: "An American Giant Ecommerce System",
     video:
@@ -1626,26 +1647,6 @@ export const portfolioData = [
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "https://www.backcountry.com/",
     href: "https://www.backcountry.com/",
-  },
-  {
-    id: 8,
-    title: "Beyon Money",
-    des: "Beyon Money: your smart financial app for prepaid cards, categorized spending, flexible investments, and fast international transfers. Powered by Batelco Financial Services, setting a new fintech standard in MENA.",
-    video:
-      "https://res.cloudinary.com/jobifycloud/video/upload/v1730828572/beyonMoney_p1wbiz.mp4",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "https://www.beyonmoney.com/",
-    href: "https://www.beyonmoney.com/",
-  },
-  {
-    id: 9,
-    title: "IBM Weather Company",
-    des: "● Building and maintaining data pipelines from weather apps (Android & IOS) ● Taking part in Data Collection, Schema validation, Versioning, Data Warehouse, Analytics, Automation ● Developed Lakehouse architecture for large scale queries for upstream daily ML/AI use cases ● Data Mesh architecture for all removing silos in our organization ● Worked with Redshift clusters for real time queries and dashboards",
-    video:
-      "https://res.cloudinary.com/jobifycloud/video/upload/v1730828580/weatherCompany_biibxg.mp4",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://www.weathercompany.com/",
-    href: "https://www.weathercompany.com/",
   },
 ];
 export const languageLogos = [
