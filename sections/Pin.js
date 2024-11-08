@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { motion } from "framer-motion";
 import styles from "@/styles/PinContainer.module.scss";
 import Link from "next/link";
@@ -10,13 +10,9 @@ export const PinContainer = ({
   className,
   containerClassName,
 }) => {
-  const [isClient, setIsClient] = useState(false);
-  const [transform, setTransform] = useState(null);
-
-  useEffect(() => {
-    setIsClient(true);
-    setTransform("translate(-50%,-50%) rotateX(0deg)");
-  }, []);
+  const [transform, setTransform] = useState(
+    "translate(-50%,-50%) rotateX(0deg)"
+  );
 
   const onMouseEnter = () => {
     setTransform("translate(-50%,-50%) rotateX(40deg) scale(0.8)");
@@ -25,8 +21,6 @@ export const PinContainer = ({
   const onMouseLeave = () => {
     setTransform("translate(-50%,-50%) rotateX(0deg) scale(1)");
   };
-
-  if (!isClient) return <div />;
 
   return (
     <div

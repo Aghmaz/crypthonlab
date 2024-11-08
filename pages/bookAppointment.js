@@ -158,7 +158,7 @@ export default function BookingForm() {
                 <br />
 
                 <span>
-                  <b>UK Address:</b> F 61 The Ridgeway London E4 6QW
+                  <b>UK Address:</b> 4 Hunger Down Chingford E46QJ
                 </span>
                 <br />
                 <br />

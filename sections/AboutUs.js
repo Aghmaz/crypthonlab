@@ -54,6 +54,10 @@ const AboutUs = () => {
           <h2 className="highlightItem">Specialized in:</h2>
           <br />
           <div className="highlights">
+            <div className="highlightItem">Enterprise applications</div>
+            <div className="highlightItem">Cyber security</div>
+            <div className="highlightItem">Big Data & Data engineering</div>
+            <div className="highlightItem">Al/ML</div>
             <div className="highlightItem">Website Development & Design</div>
             <div className="highlightItem">Mobile App Development</div>
             <div className="highlightItem">
@@ -62,10 +66,6 @@ const AboutUs = () => {
             <div className="highlightItem">
               Digital & Social Media Marketing (SMM)
             </div>
-            <div className="highlightItem">Enterprise applications</div>
-            <div className="highlightItem">Cyber security</div>
-            <div className="highlightItem">Big Data & Data engineering</div>
-            <div className="highlightItem">Al/ML</div>
           </div>
         </motion.div>
 

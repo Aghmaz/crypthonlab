@@ -17,7 +17,7 @@ const Footer = () => {
               <TitleLogo title="Lab" caption="Crypthon" className="logobg" />
 
               <span>
-                <b>UK Address:</b> F 61 The Ridgeway London E4 6QW
+                <b>UK Address:</b> 4 Hunger Down Chingford E46QJ
               </span>
               <h3>+447938434588</h3>
               <span>

@@ -46,7 +46,8 @@ export const expertise = [
   {
     id: 1,
     title: "Enterprise Applications",
-    cover: "../images/EnterpriseApplication.png",
+    cover:
+      "https://res.cloudinary.com/jobifycloud/image/upload/v1731099654/Enterprise_Application_iounb2.png",
     desc: [
       {
         text: "Tailored solutions to streamline and optimize complex business processes.",
@@ -137,7 +138,7 @@ export const expertise = [
     id: 2,
     title: "Custom Software Development",
     cover:
-      "https://media.contra.com/image/upload/f_auto,c_limit,w_1600,q_auto/q2nidoc4wzqzbn0jgl1p",
+      "https://res.cloudinary.com/jobifycloud/image/upload/v1731099594/custom_software_development_gmyqez.png",
     desc: [
       {
         text: "End-to-end software development designed specifically for unique business needs.",
@@ -227,7 +228,8 @@ export const expertise = [
   {
     id: 3,
     title: "Big Data & Data Engineering",
-    cover: "../images/Bigdata.png",
+    cover:
+      "https://res.cloudinary.com/jobifycloud/image/upload/v1731099654/Big_data_fa7sx2.png",
     desc: [
       {
         text: "Advanced data collection, storage, and processing solutions for high-volume data.",
@@ -317,7 +319,8 @@ export const expertise = [
   {
     id: 4,
     title: "Cyber Security",
-    cover: "../images/cybersecurity.png",
+    cover:
+      "https://res.cloudinary.com/jobifycloud/image/upload/v1731099654/cyber2_pq76mp.png",
     desc: [
       {
         text: "Comprehensive security assessments to identify vulnerabilities and protect assets.",
@@ -407,7 +410,8 @@ export const expertise = [
   {
     id: 4,
     title: "AI & Machine Learning",
-    cover: "../images/AIML.png",
+    cover:
+      "https://res.cloudinary.com/jobifycloud/image/upload/v1731099652/AI_ML_krzurd.png",
     desc: [
       {
         text: "Innovative AI models to automate repetitive tasks and enhance productivity.",
@@ -499,7 +503,7 @@ export const expertise = [
     id: 5,
     title: "Website Design & Development",
     cover:
-      "https://media.contra.com/image/upload/f_auto,c_limit,w_1600,q_auto/q2nidoc4wzqzbn0jgl1p",
+      "https://res.cloudinary.com/jobifycloud/image/upload/v1731099595/software_development_and_design_mbsdu2.png",
     desc: [
       {
         text: "Professional, responsive websites tailored to your brand and target audience.",
@@ -683,7 +687,7 @@ If you can relate to us, you have come to the right place. Hire us to reach your
     id: 7,
     title: "UI/UX Design",
     cover:
-      "	https://res.cloudinary.com/jobifycloud/image/upload/v1725131907/1720_pu3a30.jpg",
+      "	https://res.cloudinary.com/jobifycloud/image/upload/v1731099596/uiux_ychqgl.png",
     desc: [
       {
         text: "User-centered design principles to create intuitive, engaging interfaces.",
@@ -867,7 +871,7 @@ Trends and Innovations in Graphic Design`,
     id: 9,
     title: "SEO & Digital Marketing",
     cover:
-      "https://res.cloudinary.com/jobifycloud/image/upload/v1724617541/seo_tjdbfm.png",
+      "https://res.cloudinary.com/jobifycloud/image/upload/v1731099594/seo_and_digital_marketing_cs5n9u.png",
     desc: [
       {
         text: "Comprehensive SEO strategies to improve website ranking and traffic.",
@@ -1042,7 +1046,8 @@ In all cases, there must be regular and constructive communication between the S
   {
     id: 10,
     title: "Social Media Marketing",
-    cover: "../images/b2.jpg",
+    cover:
+      "https://res.cloudinary.com/jobifycloud/image/upload/v1731100036/WhatsApp_Image_2024-11-09_at_02.06.11_7e46ab99_is0cav.jpg",
     desc: [
       {
         text: "Tailored social media strategies for each platform to increase engagement.",
@@ -1137,7 +1142,8 @@ Discover how to turn a great idea for a product or service into an intuitive int
   {
     id: 11,
     title: "Virtual Assistance",
-    cover: "../images/b2.jpg",
+    cover:
+      "https://res.cloudinary.com/jobifycloud/image/upload/v1731099596/virtual_assistance_nphmbe.png",
     desc: [
       {
         text: "Skilled virtual assistants for administrative and operational support.",
@@ -1236,7 +1242,7 @@ Discover how to turn a great idea for a product or service into an intuitive int
     id: 12,
     title: "Staff Augmentation",
     cover:
-      "https://res.cloudinary.com/jobifycloud/image/upload/v1724617518/digital_kpwonm.jpg",
+      "https://res.cloudinary.com/jobifycloud/image/upload/v1731099595/staff_augmented_epuzli.png",
     desc: [
       {
         text: "Access to skilled professionals to meet project-specific needs.",
