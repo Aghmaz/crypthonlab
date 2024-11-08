@@ -1600,6 +1600,16 @@ export const portfolioData = [
   },
   {
     id: 5,
+    title: "Digiboard - Versatile Admin Dashboard",
+    des: "Discover the versatility of our multipurpose admin dashboard solution, built using React.js for seamless functionality.",
+    video:
+      "https://res.cloudinary.com/jobifycloud/video/upload/v1727299061/digiboardCRM_ouzks1.mp4",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    link: "https://digiboard-html.codebasket.xyz/",
+    href: "https://digiboard-html.codebasket.xyz/",
+  },
+  {
+    id: 6,
     title: "Eduman - Online Learning & Courses",
     des: "A comprehensive SaaS application with AI-powered features, designed for online education with integrated payments and credits system.",
     video:
@@ -1609,7 +1619,7 @@ export const portfolioData = [
     href: "https://eduman-react.vercel.app/",
   },
   {
-    id: 6,
+    id: 7,
     title: "Shofy - Grocery E-Commerce Platform",
     des: "Revamped the Shofy grocery app with the latest tech stack, delivering an optimized and dynamic e-commerce experience.",
     video:
@@ -1619,7 +1629,7 @@ export const portfolioData = [
     href: "https://shofy-grocery-next-js.vercel.app/",
   },
   {
-    id: 7,
+    id: 8,
     title: "Innowi POS",
     des: "Innowi offers a unified solution to streamline your ordering process and amplify your marketing efforts. Reach out to us today to discover the difference! Innowi Inc. is a registered ISO of Elavon, Inc. Georgia.",
     video:
@@ -1629,7 +1639,7 @@ export const portfolioData = [
     href: "https://innowi.com/",
   },
   {
-    id: 8,
+    id: 9,
     title: "YAP",
     des: "UAE fintech based project with a seed level funding achievement.",
     video:
@@ -1639,7 +1649,7 @@ export const portfolioData = [
     href: "https://www.yap.com/en/uae",
   },
   {
-    id: 9,
+    id: 10,
     title: "Backcountry",
     des: "An American Giant Ecommerce System",
     video:
