@@ -15,12 +15,20 @@ const Footer = () => {
           <div className="grid-4">
             <div className="logo">
               <TitleLogo title="Lab" caption="Crypthon" className="logobg" />
-              <span>
-                Building #21 K-block commercial,1st floor Model Town Lahore
-              </span>
-              <br />
-              <br />
 
+              <span>
+                <b>UK Address:</b> F 61 The Ridgeway London E4 6QW
+              </span>
+              <h3>+447938434588</h3>
+              <span>
+                <b>US Address:</b> 7901 4th ST N STE 23933 ST Petersburg FL
+                33702
+              </span>
+              <h3>+17869274364</h3>
+              <span>
+                <b>Paksitan Address: </b> 213-E L-block, Model Town Lahore
+              </span>
+              <h3>++92322 4281032 , +92324 4133319 </h3>
               <span>
                 Questions? Reach us <br /> Monday – Friday
               </span>
@@ -28,9 +36,7 @@ const Footer = () => {
               <br />
               <span style={{ color: "white" }}>info@crypthonlab.com</span>
               <br />
-              <br />
-              <h3>+92322 4281032</h3>
-              <h3>+92324 4133319</h3>
+
               <br />
               <Link href="/bookAppointment">
                 <button className="button-primary">Book An Appointement</button>
@@ -76,13 +82,13 @@ const Footer = () => {
               <h3>CONNECT</h3>
               <div className="connect">
                 <li>
-                  <Link href="https://www.instagram.com/crypthonlab/">
+                  <Link href="https://www.facebook.com/profile.php?id=61562734246544">
                     <BsFacebook size={25} />
                   </Link>
                 </li>
 
                 <li>
-                  <Link href="https://www.facebook.com/profile.php?id=61562734246544">
+                  <Link href="https://www.instagram.com/crypthonlab/">
                     <AiFillInstagram size={25} />
                   </Link>
                 </li>

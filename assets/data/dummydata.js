@@ -45,15 +45,21 @@ export const home = [
 export const expertise = [
   {
     id: 1,
-    title: "Web Design & Development",
-    cover:
-      "https://media.contra.com/image/upload/f_auto,c_limit,w_1600,q_auto/q2nidoc4wzqzbn0jgl1p",
+    title: "Enterprise Applications",
+    cover: "../images/EnterpriseApplication.png",
     desc: [
-      { text: "Web design" },
-      { text: "Web development" },
-      { text: "Custom icons & illustrations" },
-      { text: "Hosting" },
-      { text: "Website audit" },
+      {
+        text: "Tailored solutions to streamline and optimize complex business processes.",
+      },
+      {
+        text: "Robust, scalable applications for managing large-scale operations",
+      },
+      {
+        text: "Seamless integration with existing systems to enhance workflow efficiency",
+      },
+      {
+        text: "Focus on reducing operational costs and improving data accessibility",
+      },
     ],
     subtitle:
       "Responsive, user-friendly design with SEO optimization for enhanced online presence.",
@@ -129,104 +135,473 @@ export const expertise = [
   },
   {
     id: 2,
-    title: "Digital Marketing",
+    title: "Custom Software Development",
     cover:
-      "https://res.cloudinary.com/jobifycloud/image/upload/v1724617526/market_wd5vfu.jpg",
+      "https://media.contra.com/image/upload/f_auto,c_limit,w_1600,q_auto/q2nidoc4wzqzbn0jgl1p",
     desc: [
-      { text: "Social media marketing" },
-      { text: "Marketing campaigns" },
-      { text: "Markting management" },
-      { text: "SEO" },
+      {
+        text: "End-to-end software development designed specifically for unique business needs.",
+      },
+      {
+        text: "Scalable solutions that grow with your business, from small apps to complex platforms.",
+      },
+      {
+        text: "Agile development process to ensure timely delivery and flexibility.",
+      },
+      {
+        text: "In-depth analysis and planning to create software that aligns with your objectives.",
+      },
     ],
     subtitle:
-      "Engage your audience with compelling content and effective digital strategies.",
-    tagline: "How Crypthon Lab Grow Business Online",
-    description: `We develop digital marketing strategies that build relationships and draw audience and attract users. after that, convert them into customer Assign Manager For each Task on-staff expert in marketing in design automation Development.`,
-    practiceTitle: "Digital Marketing",
+      "Responsive, user-friendly design with SEO optimization for enhanced online presence.",
+    tagline: "Get The Perfect Custom Design Website.",
+    description: `Crypthon is the best web development company in USA, UK, and Pakistan with 8 years of experience in the web development field. We prepare the best services with our expert Web designers and Developers. We grow your online business presence with creative and quality design.`,
+    practiceTitle: "Practice Areas",
     practiceAreas: [
-      "Lots of social media platforms that companies are taking advantages Popular three are",
+      "A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradise",
     ],
     benefits: [
       {
         title: "Save Money And Time",
-        img: "",
+        img: <FaMoneyBillWave size={50} />,
         description:
-          "Facebook is Free and popular Social Website. About 73% user’s daily base active online and also 47% people active in every time. That Allow people to registered create, upload photos and videos, send messages and stay connected to with.",
+          "Provide corporate governance, helping clients manage responsibilities of running a corporate financial field.",
       },
       {
         title: "More Creativity",
-        img: "",
+        img: <LiaCreativeCommonsShare size={50} />,
         description:
-          "Instagram It Is Free App And Enable Users To Photo- Sharing And Apply Different Kind Of Filter. We Are Really Sign Up Our Business Easily And Market It As Like Other Social Engine Its Usability Is Grow Up Day By Day.That is allow People.",
+          "Redefining boundaries: merging art and tech, creating groundbreaking experiences and limitless possibilities for tomorrow.",
       },
       {
         title: "Stunning Design",
-        img: "",
+        img: <CgDesignmodo size={50} />,
         description:
-          "X is a social networking service on which user send post and interacts with people through messages. It’s a better tool for a company marketing .That is allow to reach people from around the world and it about to safe to use.",
+          "Cutting-edge innovations blend seamlessly with sleek aesthetics to redefine modern technological design.",
       },
     ],
-    additionalInfoTitle: "Digital Marketing Services",
+    additionalInfoTitle:
+      "Build A Stunning Website To Convert Visitors Into Customers",
     additionalInfo: [
-      ` Get The Best Digital Marketing Services from Our Digital Marketing Experts at Brand Locus. We are Providing SEO, Social Media, Content Writing, Graphic Designing Services at Cheap. Top Results. 100% Client Satisfaction. SEO Experts. Affordable Rates
-
-      A strong presence on Social Media platforms is very important to communicate directly with product consumers. The success of Social Media Marketing is a long-term process and it helps to remind customers about all the latest updates. Are you ready to work with the Social Media Marketing (SMM) Company in USA, UK & Pakistan? contact us`,
+      "The best web development company in USA, UK & Pakistan creates professional websites all over the world.",
+      "We specialize in PHP, Html5, Bootstrap, CSS3, jQuery, JavaScript, Graphic Logo Design, CMS Development, Web Ecommerce Development, WordPress, OpenCart, and Payment Gateway Integration (PayPal, Credit Card, Authorized. Skrill, Western).",
+      "We don’t develop websites; we develop websites that create SALES.",
+      "Development of mobile applications in an online shopping store, Web portal Web applications.",
+      "Professional SEO / SEM consulting services (on-page / off-page).",
+      "Hire a web designer and developer in USA, UK & Pakistan.",
     ],
-    partnerInfo: `Effective Social Marketing Strategies`,
-    partnerInfoDescription: `We are inspired by exciting and challenging projects, but we also appreciate the dynamic exchange of experiences and interests. If you are searching for a stunning company that you want to develop with us, we are the right partner.
-
-“CRYPTHON LAB convert your visitor into a customer.”
-Developing well-designed and attractive websites is the basis of our business. We care about planning, designing, developing, and marketing, so you don’t have to worry about workings with different web companies.`,
-    seoTitle:
-      "Boost Your Online Presence with Expert Digital Marketing Services",
-    seoDescription: `In today's digital world, having a strong online presence is crucial for business success. Our expert digital marketing services are designed to help you reach your target audience, increase brand awareness, and drive more traffic to your website. From SEO and content marketing to social media and PPC advertising, we offer comprehensive solutions tailored to your unique needs and goals. Let us help you grow your business and achieve your marketing objectives.`,
-    digitalMarketingTitle: `In today's digital world, having a strong online presence is crucial for business success. Our expert digital marketing services are designed to help you reach your target audience, increase brand awareness, and drive more traffic to your website. From SEO and content marketing to social media and PPC advertising, we offer comprehensive solutions tailored to your unique needs and goals. Let us help you grow your business and achieve your marketing objectives.`,
-    digitalMarketingDescr: `Stay ahead of the competition with our innovative digital marketing strategies. We combine the latest tools and techniques with data-driven insights to create customized campaigns that deliver results. Whether you're looking to improve your search engine rankings, engage your audience on social media, or boost your conversion rates, our team of experienced professionals is here to help. Partner with us to enhance your digital marketing efforts and achieve long-term success.`,
-    digitalMarketingTitle2: `Unique From Compititors`,
-    digitalMarketingDescr2: `Our Focus
-The team at Focus Digital Marketing knows digital design, business strategy, analytics and search optimization. Ready to turn your browsers into buyers?
-
-Ideas Convert Into Design
-Discover how to turn a great idea for a product or service into an intuitive interface … That way you’ll be much better positioned to turn your ideas into actual design`,
+    partnerInfo: `We Work With Clients As A Partner. `,
+    partnerInfoDescription:
+      "We are inspired by exciting and challenging projects, but we also appreciate the dynamic exchange of experiences and interests. If you are searching for a stunning company that you want to develop with us, we are the right partner.Crypthon Lab converts your visitor into a customer.Developing well-designed and attractive websites is the basis of our business. We care about planning, designing, developing, and marketing, so you don’t have to worry about working with different web companies.",
+    seoTitle: "SEO (Search Engine Optimization)",
+    seoDescription: `Here, with our creative leaders and an expert SEO team, you will get all the services you need online. Crypthon Lab is a trusted company that can provide you with the best SEO services. Whatever the topic of your site, our team of expert analysts and SEO consultants can create compelling and innovative strategies to help improve your search rankings.`,
     FAQ: [
       {
-        question: "What is digital Marketing?",
+        question: "How long will it take to build my website?",
         answer:
-          "Digital marketing involves promoting products or services through digital channels such as search engines, websites, social media, email, and mobile apps.",
+          "The timeline varies depending on the complexity and requirements but typically ranges from a few weeks to a few months.",
       },
       {
-        question: "Why digital Marketing important for my business?",
+        question: "How much will it cost to develop my website?",
         answer:
-          "Digital marketing is crucial because it allows businesses to reach a larger audience, engage with customers directly, measure campaign effectiveness, and achieve better targeting and personalization.",
+          "Costs can vary widely based on the features and design complexity. A basic website might cost a few hundred dollars, while a more complex site could be several thousand dollars.",
       },
       {
-        question: "What are the key components of digital Marketing ?",
+        question: "Will my website be mobile friendly?",
         answer:
-          "The main components include Search Engine Optimization (SEO), Content Marketing, Social Media Marketing, Pay-Per-Click (PPC) Advertising, Email Marketing, and Analytics.",
+          "Yes, all modern websites are designed to be responsive and work well on mobile devices.",
       },
       {
-        question: "How can Socail Media benefit my business?",
+        question: "Can i update the website myself after its built?",
         answer:
-          "Social media can increase brand awareness, drive website traffic, improve customer engagement, and generate leads. It also provides valuable insights through customer feedback and analytics.",
+          "Yes, if we use a CMS like WordPress, you’ll be able to easily update content without needing technical skills.",
       },
       {
-        question: "what is SEO and why it is important?",
+        question: "Will my website be optimized  for Search Engine (SEO)?",
         answer:
-          "SEO, or Search Engine Optimization, is the practice of optimizing your website to rank higher in search engine results. It’s important because higher rankings lead to increased visibility, more traffic, and potential customers. Feel free to ask more detailed questions if you have specific aspects of digital marketing you want to explore!",
+          "Yes, we will follow SEO best practices to ensure your website is optimized for search engines to improve visibility and ranking.",
       },
     ],
     FAQImg: "",
   },
   {
     id: 3,
-    title: "Mobile Apps",
+    title: "Big Data & Data Engineering",
+    cover: "../images/Bigdata.png",
+    desc: [
+      {
+        text: "Advanced data collection, storage, and processing solutions for high-volume data.",
+      },
+      {
+        text: "Transform raw data into actionable insights to drive decision-making.",
+      },
+      {
+        text: "Expertise in building data pipelines and architectures for real-time analytics.",
+      },
+      {
+        text: "Emphasis on data security, governance, and compliance across all data operations.",
+      },
+    ],
+    subtitle:
+      "Responsive, user-friendly design with SEO optimization for enhanced online presence.",
+    tagline: "Get The Perfect Custom Design Website.",
+    description: `Crypthon is the best web development company in USA, UK, and Pakistan with 8 years of experience in the web development field. We prepare the best services with our expert Web designers and Developers. We grow your online business presence with creative and quality design.`,
+    practiceTitle: "Practice Areas",
+    practiceAreas: [
+      "A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradise",
+    ],
+    benefits: [
+      {
+        title: "Save Money And Time",
+        img: <FaMoneyBillWave size={50} />,
+        description:
+          "Provide corporate governance, helping clients manage responsibilities of running a corporate financial field.",
+      },
+      {
+        title: "More Creativity",
+        img: <LiaCreativeCommonsShare size={50} />,
+        description:
+          "Redefining boundaries: merging art and tech, creating groundbreaking experiences and limitless possibilities for tomorrow.",
+      },
+      {
+        title: "Stunning Design",
+        img: <CgDesignmodo size={50} />,
+        description:
+          "Cutting-edge innovations blend seamlessly with sleek aesthetics to redefine modern technological design.",
+      },
+    ],
+    additionalInfoTitle:
+      "Build A Stunning Website To Convert Visitors Into Customers",
+    additionalInfo: [
+      "The best web development company in USA, UK & Pakistan creates professional websites all over the world.",
+      "We specialize in PHP, Html5, Bootstrap, CSS3, jQuery, JavaScript, Graphic Logo Design, CMS Development, Web Ecommerce Development, WordPress, OpenCart, and Payment Gateway Integration (PayPal, Credit Card, Authorized. Skrill, Western).",
+      "We don’t develop websites; we develop websites that create SALES.",
+      "Development of mobile applications in an online shopping store, Web portal Web applications.",
+      "Professional SEO / SEM consulting services (on-page / off-page).",
+      "Hire a web designer and developer in USA, UK & Pakistan.",
+    ],
+    partnerInfo: `We Work With Clients As A Partner. `,
+    partnerInfoDescription:
+      "We are inspired by exciting and challenging projects, but we also appreciate the dynamic exchange of experiences and interests. If you are searching for a stunning company that you want to develop with us, we are the right partner.Crypthon Lab converts your visitor into a customer.Developing well-designed and attractive websites is the basis of our business. We care about planning, designing, developing, and marketing, so you don’t have to worry about working with different web companies.",
+    seoTitle: "SEO (Search Engine Optimization)",
+    seoDescription: `Here, with our creative leaders and an expert SEO team, you will get all the services you need online. Crypthon Lab is a trusted company that can provide you with the best SEO services. Whatever the topic of your site, our team of expert analysts and SEO consultants can create compelling and innovative strategies to help improve your search rankings.`,
+    FAQ: [
+      {
+        question: "How long will it take to build my website?",
+        answer:
+          "The timeline varies depending on the complexity and requirements but typically ranges from a few weeks to a few months.",
+      },
+      {
+        question: "How much will it cost to develop my website?",
+        answer:
+          "Costs can vary widely based on the features and design complexity. A basic website might cost a few hundred dollars, while a more complex site could be several thousand dollars.",
+      },
+      {
+        question: "Will my website be mobile friendly?",
+        answer:
+          "Yes, all modern websites are designed to be responsive and work well on mobile devices.",
+      },
+      {
+        question: "Can i update the website myself after its built?",
+        answer:
+          "Yes, if we use a CMS like WordPress, you’ll be able to easily update content without needing technical skills.",
+      },
+      {
+        question: "Will my website be optimized  for Search Engine (SEO)?",
+        answer:
+          "Yes, we will follow SEO best practices to ensure your website is optimized for search engines to improve visibility and ranking.",
+      },
+    ],
+    FAQImg: "",
+  },
+  {
+    id: 4,
+    title: "Cyber Security",
+    cover: "../images/cybersecurity.png",
+    desc: [
+      {
+        text: "Comprehensive security assessments to identify vulnerabilities and protect assets.",
+      },
+      {
+        text: "Implementation of robust defense strategies to mitigate cyber threats.",
+      },
+      {
+        text: "Regular monitoring and updates to stay ahead of evolving security risks.",
+      },
+      {
+        text: "Customized training and support to strengthen in-house cybersecurity practices",
+      },
+    ],
+    subtitle:
+      "Responsive, user-friendly design with SEO optimization for enhanced online presence.",
+    tagline: "Get The Perfect Custom Design Website.",
+    description: `Crypthon is the best web development company in USA, UK, and Pakistan with 8 years of experience in the web development field. We prepare the best services with our expert Web designers and Developers. We grow your online business presence with creative and quality design.`,
+    practiceTitle: "Practice Areas",
+    practiceAreas: [
+      "A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradise",
+    ],
+    benefits: [
+      {
+        title: "Save Money And Time",
+        img: <FaMoneyBillWave size={50} />,
+        description:
+          "Provide corporate governance, helping clients manage responsibilities of running a corporate financial field.",
+      },
+      {
+        title: "More Creativity",
+        img: <LiaCreativeCommonsShare size={50} />,
+        description:
+          "Redefining boundaries: merging art and tech, creating groundbreaking experiences and limitless possibilities for tomorrow.",
+      },
+      {
+        title: "Stunning Design",
+        img: <CgDesignmodo size={50} />,
+        description:
+          "Cutting-edge innovations blend seamlessly with sleek aesthetics to redefine modern technological design.",
+      },
+    ],
+    additionalInfoTitle:
+      "Build A Stunning Website To Convert Visitors Into Customers",
+    additionalInfo: [
+      "The best web development company in USA, UK & Pakistan creates professional websites all over the world.",
+      "We specialize in PHP, Html5, Bootstrap, CSS3, jQuery, JavaScript, Graphic Logo Design, CMS Development, Web Ecommerce Development, WordPress, OpenCart, and Payment Gateway Integration (PayPal, Credit Card, Authorized. Skrill, Western).",
+      "We don’t develop websites; we develop websites that create SALES.",
+      "Development of mobile applications in an online shopping store, Web portal Web applications.",
+      "Professional SEO / SEM consulting services (on-page / off-page).",
+      "Hire a web designer and developer in USA, UK & Pakistan.",
+    ],
+    partnerInfo: `We Work With Clients As A Partner. `,
+    partnerInfoDescription:
+      "We are inspired by exciting and challenging projects, but we also appreciate the dynamic exchange of experiences and interests. If you are searching for a stunning company that you want to develop with us, we are the right partner.Crypthon Lab converts your visitor into a customer.Developing well-designed and attractive websites is the basis of our business. We care about planning, designing, developing, and marketing, so you don’t have to worry about working with different web companies.",
+    seoTitle: "SEO (Search Engine Optimization)",
+    seoDescription: `Here, with our creative leaders and an expert SEO team, you will get all the services you need online. Crypthon Lab is a trusted company that can provide you with the best SEO services. Whatever the topic of your site, our team of expert analysts and SEO consultants can create compelling and innovative strategies to help improve your search rankings.`,
+    FAQ: [
+      {
+        question: "How long will it take to build my website?",
+        answer:
+          "The timeline varies depending on the complexity and requirements but typically ranges from a few weeks to a few months.",
+      },
+      {
+        question: "How much will it cost to develop my website?",
+        answer:
+          "Costs can vary widely based on the features and design complexity. A basic website might cost a few hundred dollars, while a more complex site could be several thousand dollars.",
+      },
+      {
+        question: "Will my website be mobile friendly?",
+        answer:
+          "Yes, all modern websites are designed to be responsive and work well on mobile devices.",
+      },
+      {
+        question: "Can i update the website myself after its built?",
+        answer:
+          "Yes, if we use a CMS like WordPress, you’ll be able to easily update content without needing technical skills.",
+      },
+      {
+        question: "Will my website be optimized  for Search Engine (SEO)?",
+        answer:
+          "Yes, we will follow SEO best practices to ensure your website is optimized for search engines to improve visibility and ranking.",
+      },
+    ],
+    FAQImg: "",
+  },
+  {
+    id: 4,
+    title: "AI & Machine Learning",
+    cover: "../images/AIML.png",
+    desc: [
+      {
+        text: "Innovative AI models to automate repetitive tasks and enhance productivity.",
+      },
+      {
+        text: "Machine learning solutions that learn and adapt over time for smarter decision-making.",
+      },
+      {
+        text: "Data-driven insights through predictive analytics to drive business growth.",
+      },
+      {
+        text: "Customized algorithms and tools designed to fit specific business requirements.",
+      },
+    ],
+    subtitle:
+      "Responsive, user-friendly design with SEO optimization for enhanced online presence.",
+    tagline: "Get The Perfect Custom Design Website.",
+    description: `Crypthon is the best web development company in USA, UK, and Pakistan with 8 years of experience in the web development field. We prepare the best services with our expert Web designers and Developers. We grow your online business presence with creative and quality design.`,
+    practiceTitle: "Practice Areas",
+    practiceAreas: [
+      "A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradise",
+    ],
+    benefits: [
+      {
+        title: "Save Money And Time",
+        img: <FaMoneyBillWave size={50} />,
+        description:
+          "Provide corporate governance, helping clients manage responsibilities of running a corporate financial field.",
+      },
+      {
+        title: "More Creativity",
+        img: <LiaCreativeCommonsShare size={50} />,
+        description:
+          "Redefining boundaries: merging art and tech, creating groundbreaking experiences and limitless possibilities for tomorrow.",
+      },
+      {
+        title: "Stunning Design",
+        img: <CgDesignmodo size={50} />,
+        description:
+          "Cutting-edge innovations blend seamlessly with sleek aesthetics to redefine modern technological design.",
+      },
+    ],
+    additionalInfoTitle:
+      "Build A Stunning Website To Convert Visitors Into Customers",
+    additionalInfo: [
+      "The best web development company in USA, UK & Pakistan creates professional websites all over the world.",
+      "We specialize in PHP, Html5, Bootstrap, CSS3, jQuery, JavaScript, Graphic Logo Design, CMS Development, Web Ecommerce Development, WordPress, OpenCart, and Payment Gateway Integration (PayPal, Credit Card, Authorized. Skrill, Western).",
+      "We don’t develop websites; we develop websites that create SALES.",
+      "Development of mobile applications in an online shopping store, Web portal Web applications.",
+      "Professional SEO / SEM consulting services (on-page / off-page).",
+      "Hire a web designer and developer in USA, UK & Pakistan.",
+    ],
+    partnerInfo: `We Work With Clients As A Partner. `,
+    partnerInfoDescription:
+      "We are inspired by exciting and challenging projects, but we also appreciate the dynamic exchange of experiences and interests. If you are searching for a stunning company that you want to develop with us, we are the right partner.Crypthon Lab converts your visitor into a customer.Developing well-designed and attractive websites is the basis of our business. We care about planning, designing, developing, and marketing, so you don’t have to worry about working with different web companies.",
+    seoTitle: "SEO (Search Engine Optimization)",
+    seoDescription: `Here, with our creative leaders and an expert SEO team, you will get all the services you need online. Crypthon Lab is a trusted company that can provide you with the best SEO services. Whatever the topic of your site, our team of expert analysts and SEO consultants can create compelling and innovative strategies to help improve your search rankings.`,
+    FAQ: [
+      {
+        question: "How long will it take to build my website?",
+        answer:
+          "The timeline varies depending on the complexity and requirements but typically ranges from a few weeks to a few months.",
+      },
+      {
+        question: "How much will it cost to develop my website?",
+        answer:
+          "Costs can vary widely based on the features and design complexity. A basic website might cost a few hundred dollars, while a more complex site could be several thousand dollars.",
+      },
+      {
+        question: "Will my website be mobile friendly?",
+        answer:
+          "Yes, all modern websites are designed to be responsive and work well on mobile devices.",
+      },
+      {
+        question: "Can i update the website myself after its built?",
+        answer:
+          "Yes, if we use a CMS like WordPress, you’ll be able to easily update content without needing technical skills.",
+      },
+      {
+        question: "Will my website be optimized  for Search Engine (SEO)?",
+        answer:
+          "Yes, we will follow SEO best practices to ensure your website is optimized for search engines to improve visibility and ranking.",
+      },
+    ],
+    FAQImg: "",
+  },
+
+  {
+    id: 5,
+    title: "Website Design & Development",
+    cover:
+      "https://media.contra.com/image/upload/f_auto,c_limit,w_1600,q_auto/q2nidoc4wzqzbn0jgl1p",
+    desc: [
+      {
+        text: "Professional, responsive websites tailored to your brand and target audience.",
+      },
+      {
+        text: "User-friendly interfaces designed for smooth navigation and engagement.",
+      },
+      {
+        text: "SEO-optimized from the start to help improve visibility and reach.",
+      },
+      {
+        text: "Ongoing support and maintenance to ensure your site remains up-to-date.",
+      },
+    ],
+    subtitle:
+      "Responsive, user-friendly design with SEO optimization for enhanced online presence.",
+    tagline: "Get The Perfect Custom Design Website.",
+    description: `Crypthon is the best web development company in USA, UK, and Pakistan with 8 years of experience in the web development field. We prepare the best services with our expert Web designers and Developers. We grow your online business presence with creative and quality design.`,
+    practiceTitle: "Practice Areas",
+    practiceAreas: [
+      "A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradise",
+    ],
+    benefits: [
+      {
+        title: "Save Money And Time",
+        img: <FaMoneyBillWave size={50} />,
+        description:
+          "Provide corporate governance, helping clients manage responsibilities of running a corporate financial field.",
+      },
+      {
+        title: "More Creativity",
+        img: <LiaCreativeCommonsShare size={50} />,
+        description:
+          "Redefining boundaries: merging art and tech, creating groundbreaking experiences and limitless possibilities for tomorrow.",
+      },
+      {
+        title: "Stunning Design",
+        img: <CgDesignmodo size={50} />,
+        description:
+          "Cutting-edge innovations blend seamlessly with sleek aesthetics to redefine modern technological design.",
+      },
+    ],
+    additionalInfoTitle:
+      "Build A Stunning Website To Convert Visitors Into Customers",
+    additionalInfo: [
+      "The best web development company in USA, UK & Pakistan creates professional websites all over the world.",
+      "We specialize in PHP, Html5, Bootstrap, CSS3, jQuery, JavaScript, Graphic Logo Design, CMS Development, Web Ecommerce Development, WordPress, OpenCart, and Payment Gateway Integration (PayPal, Credit Card, Authorized. Skrill, Western).",
+      "We don’t develop websites; we develop websites that create SALES.",
+      "Development of mobile applications in an online shopping store, Web portal Web applications.",
+      "Professional SEO / SEM consulting services (on-page / off-page).",
+      "Hire a web designer and developer in USA, UK & Pakistan.",
+    ],
+    partnerInfo: `We Work With Clients As A Partner. `,
+    partnerInfoDescription:
+      "We are inspired by exciting and challenging projects, but we also appreciate the dynamic exchange of experiences and interests. If you are searching for a stunning company that you want to develop with us, we are the right partner.Crypthon Lab converts your visitor into a customer.Developing well-designed and attractive websites is the basis of our business. We care about planning, designing, developing, and marketing, so you don’t have to worry about working with different web companies.",
+    seoTitle: "SEO (Search Engine Optimization)",
+    seoDescription: `Here, with our creative leaders and an expert SEO team, you will get all the services you need online. Crypthon Lab is a trusted company that can provide you with the best SEO services. Whatever the topic of your site, our team of expert analysts and SEO consultants can create compelling and innovative strategies to help improve your search rankings.`,
+    FAQ: [
+      {
+        question: "How long will it take to build my website?",
+        answer:
+          "The timeline varies depending on the complexity and requirements but typically ranges from a few weeks to a few months.",
+      },
+      {
+        question: "How much will it cost to develop my website?",
+        answer:
+          "Costs can vary widely based on the features and design complexity. A basic website might cost a few hundred dollars, while a more complex site could be several thousand dollars.",
+      },
+      {
+        question: "Will my website be mobile friendly?",
+        answer:
+          "Yes, all modern websites are designed to be responsive and work well on mobile devices.",
+      },
+      {
+        question: "Can i update the website myself after its built?",
+        answer:
+          "Yes, if we use a CMS like WordPress, you’ll be able to easily update content without needing technical skills.",
+      },
+      {
+        question: "Will my website be optimized  for Search Engine (SEO)?",
+        answer:
+          "Yes, we will follow SEO best practices to ensure your website is optimized for search engines to improve visibility and ranking.",
+      },
+    ],
+    FAQImg: "",
+  },
+  {
+    id: 6,
+    title: "Mobile App Development (Native & Cross-Platform Apps)",
     cover:
       "	https://res.cloudinary.com/jobifycloud/image/upload/v1725131907/1720_pu3a30.jpg",
     desc: [
-      { text: "E-Commerce website design" },
-      { text: "WooCommerce" },
-      { text: "Content management" },
-      { text: "Hosting" },
+      {
+        text: "Cross-platform and native solutions for both Android and iOS devices.",
+      },
+      { text: "Focus on intuitive designs and performance-optimized apps." },
+      {
+        text: "API integrations for seamless interaction with other services.",
+      },
+      {
+        text: "Expertise in app store submission, compliance, and post-launch support.",
+      },
     ],
     subtitle:
       "Create innovative mobile apps for seamless user experiences and engagement.",
@@ -305,102 +680,118 @@ If you can relate to us, you have come to the right place. Hire us to reach your
     FAQImg: "",
   },
   {
-    id: 4,
-    title: "AI and Generative AI",
-    cover: "../images/b2.jpg",
+    id: 7,
+    title: "UI/UX Design",
+    cover:
+      "	https://res.cloudinary.com/jobifycloud/image/upload/v1725131907/1720_pu3a30.jpg",
     desc: [
-      { text: "Visual identity" },
-      { text: "Branding for social media" },
-      { text: "Custom illustrations" },
+      {
+        text: "User-centered design principles to create intuitive, engaging interfaces.",
+      },
+      {
+        text: "Research-driven designs that enhance user satisfaction and ease of use.",
+      },
+      {
+        text: "Interactive prototypes and mockups to bring concepts to life.",
+      },
+      {
+        text: "Iterative design process that involves feedback to achieve optimal results",
+      },
     ],
     subtitle:
-      "Engage your audience with compelling content and effective digital strategies.",
-    tagline: "How Crypthon Lab Grow Business Online",
-    description: `We develop digital marketing strategies that build relationships and draw audience and attract users. after that, convert them into customer Assign Manager For each Task on-staff expert in marketing in design automation Development.`,
-    practiceTitle: "Digital Marketing",
+      "Create innovative mobile apps for seamless user experiences and engagement.",
+    tagline: "Development of Mobile App",
+    description: `When it comes to the development of app and mobile applications services, we are leading this world in USA. Whether it is the android version or ios version, we are adept and deft and our designers are making fascinating and incredible innovations in the mobile industry. Our android developers are making applications keeping in mind the pros and cons. We know what user-friendly applications are and we are merging them at a platform where mobile companies can execute their versatility to produce contemporary versions of android app services in USA and iPad Apps.`,
+    practiceTitle: "Mobile Apps",
     practiceAreas: [
-      "Lots of social media platforms that companies are taking advantages Popular three are",
+      "A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradise",
     ],
     benefits: [
       {
-        title: "Save Money And Time",
-        img: "",
+        title: "NATIVE APPLICATION",
+        img: <FaMobileAlt size={50} />,
         description:
-          "Facebook is Free and popular Social Website. About 73% user’s daily base active online and also 47% people active in every time. That Allow people to registered create, upload photos and videos, send messages and stay connected to with.",
+          "A native application is a mobile application that is developed directly for an operating system (Android, iOS, etc). This application is generally built in the language specific to the system. It can be offered in manufacturers' marketplaces (Google Play, App).",
       },
       {
-        title: "More Creativity",
-        img: "",
+        title: `MOBILE WEB APPLICATION`,
+        img: <MdOutlineWeb size={50} />,
         description:
-          "Instagram It Is Free App And Enable Users To Photo- Sharing And Apply Different Kind Of Filter. We Are Really Sign Up Our Business Easily And Market It As Like Other Social Engine Its Usability Is Grow Up Day By Day.That is allow People.",
+          "The mobile web application is a thin client. Long neglected in favor of the native application, it is back in force with the development of HTML5 and CSS3 standards which will improve the user experience and offer more richness and functionality on mobile",
       },
       {
-        title: "Stunning Design",
-        img: "",
+        title: "HYBRID APPLICATION",
+        img: <TbWorldWww size={50} />,
         description:
-          "X is a social networking service on which user send post and interacts with people through messages. It’s a better tool for a company marketing .That is allow to reach people from around the world and it about to safe to use.",
+          "A hybrid application combines the use of HTML5, JavaScript and CSS Crypthon Lab which are directly encapsulated in a native application. This allows you to benefit from all the functionalities of the mobile terminal and to distribute the application",
       },
     ],
-    additionalInfoTitle: "Digital Marketing Services",
+    additionalInfoTitle: "Iphone Apps",
     additionalInfo: [
-      ` Get The Best Digital Marketing Services from Our Digital Marketing Experts at Brand Locus. We are Providing SEO, Social Media, Content Writing, Graphic Designing Services at Cheap. Top Results. 100% Client Satisfaction. SEO Experts. Affordable Rates
-
-    A strong presence on Social Media platforms is very important to communicate directly with product consumers. The success of Social Media Marketing is a long-term process and it helps to remind customers about all the latest updates. Are you ready to work with the Social Media Marketing (SMM) Company in USA, UK & Pakistan? contact us`,
+      ` A large community is using iphone in current world. This is a version that is elite out of all and our developers are making it even more valuable for customers. We will surely build you application which can compete at international level to get the ball rolling for your organization.`,
     ],
-    partnerInfo: `Effective Social Marketing Strategies`,
-    partnerInfoDescription: `We are inspired by exciting and challenging projects, but we also appreciate the dynamic exchange of experiences and interests. If you are searching for a stunning company that you want to develop with us, we are the right partner.
+    partnerInfo: `Android Apps`,
+    partnerInfoDescription: `As far as producing new profitable applications are concerned, we are second to none and we’re bringing much needed innovation on the table. In a very short span of time, we can produce breaking new ground sort of applications for our customers which will surely provide comfort to huge population who is currently using android version. In short we are your one stop solution as far as android versions are concerned.
+These applications are bringing innovation in our lives and as we are changing our mode of living and we are adapting to technology. In current world, we are living in the age of technological things and we are using technology at every step. Out of all app development companies in Pakistan, we are second to none when it comes to innovation and modernization. Technology is opening doors for amelioration and this has improved our live in a way better than our expectations.`,
+    seoTitle: "Delivering Stellar Services Of Development Of App",
+    seoDescription: `Do you want to leverage your business with the best and stellar development of app? Believe it or not, your business lag behind in client building if you are doing it without an app. We develop apps to help you create seamless experiences that your users will enjoy and get back to you constantly.
 
-“CRYPTHON LAB convert your visitor into a customer.”
-Developing well-designed and attractive websites is the basis of our business. We care about planning, designing, developing, and marketing, so you don’t have to worry about workings with different web companies.`,
-    seoTitle:
-      "Boost Your Online Presence with Expert Digital Marketing Services",
-    seoDescription: `In today's digital world, having a strong online presence is crucial for business success. Our expert digital marketing services are designed to help you reach your target audience, increase brand awareness, and drive more traffic to your website. From SEO and content marketing to social media and PPC advertising, we offer comprehensive solutions tailored to your unique needs and goals. Let us help you grow your business and achieve your marketing objectives.`,
-    digitalMarketingTitle: `In today's digital world, having a strong online presence is crucial for business success. Our expert digital marketing services are designed to help you reach your target audience, increase brand awareness, and drive more traffic to your website. From SEO and content marketing to social media and PPC advertising, we offer comprehensive solutions tailored to your unique needs and goals. Let us help you grow your business and achieve your marketing objectives.`,
-    digitalMarketingDescr: `Stay ahead of the competition with our innovative digital marketing strategies. We combine the latest tools and techniques with data-driven insights to create customized campaigns that deliver results. Whether you're looking to improve your search engine rankings, engage your audience on social media, or boost your conversion rates, our team of experienced professionals is here to help. Partner with us to enhance your digital marketing efforts and achieve long-term success.`,
-    digitalMarketingTitle2: `Unique From Compititors`,
-    digitalMarketingDescr2: `Our Focus
-The team at Focus Digital Marketing knows digital design, business strategy, analytics and search optimization. Ready to turn your browsers into buyers?
+CRYPTHON LAB comprises of team of the developers, who create apps for mobile (android and iOS) and desktop. Our team of app developers dwell into your business agenda and strategies and come up with an app, which syrockets your business. We render a full cycle of application design, integration and management services.
 
-Ideas Convert Into Design
-Discover how to turn a great idea for a product or service into an intuitive interface … That way you’ll be much better positioned to turn your ideas into actual design`,
+To kick off your business with mobile app development, we provide custom mobile app development services. We have experts who build cross-platform apps to help you reach your audience online through different devices. Our secure, scalable, sustainable apps work in every scenario and will help you boost your business’s profitability.
+
+Whether it is a consumer-centric app or an app for enterprise-class solution, our app developers steer the entire app development process. Starting from ideation, concept, delivery, and to post service of development of app, we create the best app to help you reach your customers on their devices. Our services are known for building solutions that meet your market demands, delegate brands’s identity, and boost company’s growth and expansion.
+
+If you can relate to us, you have come to the right place. Hire us to reach your customers through best development of app.
+
+`,
     FAQ: [
       {
-        question: "What is digital Marketing?",
+        question: "What platforms should we target for our mobile app?",
         answer:
-          "Digital marketing involves promoting products or services through digital channels such as search engines, websites, social media, email, and mobile apps.",
+          "Typically, the primary platforms are iOS and Android due to their market dominance. The choice depends on your target audience, budget, and goals. Cross-platform development can also be an efficient solution.",
       },
       {
-        question: "Why digital Marketing important for my business?",
+        question: "How much does it cost to develop a mobile app?",
         answer:
-          "Digital marketing is crucial because it allows businesses to reach a larger audience, engage with customers directly, measure campaign effectiveness, and achieve better targeting and personalization.",
+          "The cost varies widely based on complexity, features, design, and development time. A basic app can start from a few thousand dollars, while complex apps with advanced features may cost significantly more.",
       },
       {
-        question: "What are the key components of digital Marketing ?",
+        question: "How long does it take to develop a mobile app?",
         answer:
-          "The main components include Search Engine Optimization (SEO), Content Marketing, Social Media Marketing, Pay-Per-Click (PPC) Advertising, Email Marketing, and Analytics.",
+          "Development time depends on the app's complexity, feature set, and design requirements. A basic app might take 3-6 months, while more complex apps can take 9-12 months or longer",
       },
       {
-        question: "How can Socail Media benefit my business?",
+        question: "How do we ensure our app is user friendly ?",
         answer:
-          "Social media can increase brand awareness, drive website traffic, improve customer engagement, and generate leads. It also provides valuable insights through customer feedback and analytics.",
+          "Conducting thorough user research, creating intuitive designs, and performing usability testing throughout the development process are crucial steps to ensure a user-friendly app.",
       },
       {
-        question: "what is SEO and why it is important?",
+        question: "what are the post-launch considerations for a mobile app?",
         answer:
-          "SEO, or Search Engine Optimization, is the practice of optimizing your website to rank higher in search engine results. It’s important because higher rankings lead to increased visibility, more traffic, and potential customers. Feel free to ask more detailed questions if you have specific aspects of digital marketing you want to explore!",
+          "Post-launch, it's important to focus on user feedback, regular updates, bug fixing, feature enhancements, marketing, and performance monitoring to ensure the app remains relevant and functional.",
       },
     ],
     FAQImg: "",
   },
   {
-    id: 5,
+    id: 8,
     title: "Graphic Designing",
     cover:
       "https://res.cloudinary.com/jobifycloud/image/upload/v1730824614/imgforgraphicdesign_gnbges.png",
     desc: [
-      { text: "Visual identity" },
-      { text: "Branding for social media" },
-      { text: "Custom illustrations" },
+      {
+        text: "Eye-catching visuals that communicate brand message effectively",
+      },
+      {
+        text: "Creation of logos, banners, brochures, and other marketing materials.",
+      },
+      {
+        text: "Consistent brand aesthetics across all digital and print media",
+      },
+      {
+        text: "Emphasis on creativity, uniqueness, and relevance to target audiences.",
+      },
     ],
     subtitle:
       "Creativity, Typography, Layout, Color, Branding, Balance, Contrast, Composition, Aesthetics, Visuals.",
@@ -471,88 +862,23 @@ Trends and Innovations in Graphic Design`,
     ],
     FAQImg: "",
   },
+
   {
-    id: 6,
-    title: "Staff Augmentation",
-    cover:
-      "https://res.cloudinary.com/jobifycloud/image/upload/v1724617518/digital_kpwonm.jpg",
-    desc: [
-      { text: "Visual identity" },
-      { text: "Branding for social media" },
-      { text: "Custom illustrations" },
-    ],
-    subtitle:
-      "Enjoy cost-effective working methods and access to better quality and more affordable talent",
-    tagline: "The collaboration you need",
-    description: `Crypthon Lab supplements its client’s in-house team with skilled staff who become the extension of the existing in-house team. This allows for flexibility in scaling up teams based on demand on short notice and helps to cut costs. It is also a quick and easy way to make a team stronger and boost productivity and process efficiency while having transparency and complete control.`,
-    practiceTitle: "Scale up with specialized skills",
-    practiceAreas: [
-      "Whether you need to increase bandwidth or need specialized skills, we create the team to manage your projects. Experience significant reduction in the cost when HR functions and infrastructure are already catered for!",
-    ],
-    benefits: [
-      {
-        title: "Flexbility",
-        img: "",
-        description:
-          "We can scale up or down when it comes to your team as per your own requirements, timeline, and nature and size of your project.",
-      },
-      {
-        title: "Experienced Staff",
-        img: "",
-        description:
-          "Having access to experienced talent minimizes the learning curve and you save time and cost of training resources.",
-      },
-      {
-        title: "Reduced hiring Costs",
-        img: "",
-        description:
-          "Ensure the most cost-effective solution to outsourcing tasks and onboarding new teams risk-free, as we handle the major chunk of the job for you.",
-      },
-    ],
-    additionalInfoTitle: "Proactive staffing",
-    additionalInfo: [
-      ` Our staffing strategy is always 10 steps ahead, because we like doing it right. Allow us to self-adjust to changes in requirement, without your intervention.`,
-    ],
-    partnerInfo: `Workforce management`,
-    partnerInfoDescription: `We manage hiring processes and provide workforce management support for all aspects including screening, onboarding, payroll, and more.`,
-    seoTitle: "Skilled specialists",
-    seoDescription: `Our solutions include staffing for various specialized skillsets and ensuring improved service quality and quick turnaround.`,
-    staffAugment: "OUR EXPERTISE AND SERVICES FOR IT STAFF AUGMENTATION",
-    staffUl: "Platforms & Frameworks",
-    staffli: {
-      1: "Platforms & Frameworks",
-      2: "AWS, Azure, Google Cloud",
-      3: "Angular, React, Meteor",
-      4: "Microsoft .Net, Xamarin, SharePoint",
-      5: "J2EE, RoR, Laravel",
-      6: "Xcode, Android Studio",
-      7: "Salesforce, Adobe AEM, MS Dynamics",
-    },
-    staffUl2: "Programming Languages",
-    staffli2: {
-      1: "Node.js, JavaScript, Python",
-      2: "GoLang, Swift, React Native",
-      3: ".Net, C#, Java, R",
-      4: "Objective-C, PHP",
-    },
-    staffUl2: "Databases & Reporting",
-    staffli2: {
-      1: "MongoDB, Cassandra, DynamoDB",
-      2: "Hadoop, PostgreSQL, MySQL",
-      3: "MS SQL Server, Oracle",
-      4: "Pentaho, Jasper, Cognos",
-      5: `D3.js, Redshift`,
-    },
-  },
-  {
-    id: 7,
-    title: "SEO Services",
+    id: 9,
+    title: "SEO & Digital Marketing",
     cover:
       "https://res.cloudinary.com/jobifycloud/image/upload/v1724617541/seo_tjdbfm.png",
     desc: [
-      { text: "Visual identity" },
-      { text: "Branding for social media" },
-      { text: "Custom illustrations" },
+      {
+        text: "Comprehensive SEO strategies to improve website ranking and traffic.",
+      },
+      { text: "Data-driven digital marketing campaigns to maximize ROI." },
+      {
+        text: "Pay-per-click (PPC) and social media ad management to drive conversions.",
+      },
+      {
+        text: "Regular performance tracking and optimization for ongoing success.",
+      },
     ],
     subtitle: "Boost your online visibility with our expert SEO services.",
     tagline: "Our SEO Services",
@@ -712,6 +1038,281 @@ In all cases, there must be regular and constructive communication between the S
       },
     ],
     FAQImg: "",
+  },
+  {
+    id: 10,
+    title: "Social Media Marketing",
+    cover: "../images/b2.jpg",
+    desc: [
+      {
+        text: "Tailored social media strategies for each platform to increase engagement.",
+      },
+      {
+        text: "Creation of compelling content to build brand awareness and loyalty.",
+      },
+      { text: "Audience analytics to ensure targeted, impactful campaigns." },
+      {
+        text: "Expertise in running and optimizing paid ad campaigns on social networks.",
+      },
+    ],
+    subtitle:
+      "Engage your audience with compelling content and effective digital strategies.",
+    tagline: "How Crypthon Lab Grow Business Online",
+    description: `We develop digital marketing strategies that build relationships and draw audience and attract users. after that, convert them into customer Assign Manager For each Task on-staff expert in marketing in design automation Development.`,
+    practiceTitle: "Digital Marketing",
+    practiceAreas: [
+      "Lots of social media platforms that companies are taking advantages Popular three are",
+    ],
+    benefits: [
+      {
+        title: "Save Money And Time",
+        img: "",
+        description:
+          "Facebook is Free and popular Social Website. About 73% user’s daily base active online and also 47% people active in every time. That Allow people to registered create, upload photos and videos, send messages and stay connected to with.",
+      },
+      {
+        title: "More Creativity",
+        img: "",
+        description:
+          "Instagram It Is Free App And Enable Users To Photo- Sharing And Apply Different Kind Of Filter. We Are Really Sign Up Our Business Easily And Market It As Like Other Social Engine Its Usability Is Grow Up Day By Day.That is allow People.",
+      },
+      {
+        title: "Stunning Design",
+        img: "",
+        description:
+          "X is a social networking service on which user send post and interacts with people through messages. It’s a better tool for a company marketing .That is allow to reach people from around the world and it about to safe to use.",
+      },
+    ],
+    additionalInfoTitle: "Digital Marketing Services",
+    additionalInfo: [
+      ` Get The Best Digital Marketing Services from Our Digital Marketing Experts at Brand Locus. We are Providing SEO, Social Media, Content Writing, Graphic Designing Services at Cheap. Top Results. 100% Client Satisfaction. SEO Experts. Affordable Rates
+
+    A strong presence on Social Media platforms is very important to communicate directly with product consumers. The success of Social Media Marketing is a long-term process and it helps to remind customers about all the latest updates. Are you ready to work with the Social Media Marketing (SMM) Company in USA, UK & Pakistan? contact us`,
+    ],
+    partnerInfo: `Effective Social Marketing Strategies`,
+    partnerInfoDescription: `We are inspired by exciting and challenging projects, but we also appreciate the dynamic exchange of experiences and interests. If you are searching for a stunning company that you want to develop with us, we are the right partner.
+
+“CRYPTHON LAB convert your visitor into a customer.”
+Developing well-designed and attractive websites is the basis of our business. We care about planning, designing, developing, and marketing, so you don’t have to worry about workings with different web companies.`,
+    seoTitle:
+      "Boost Your Online Presence with Expert Digital Marketing Services",
+    seoDescription: `In today's digital world, having a strong online presence is crucial for business success. Our expert digital marketing services are designed to help you reach your target audience, increase brand awareness, and drive more traffic to your website. From SEO and content marketing to social media and PPC advertising, we offer comprehensive solutions tailored to your unique needs and goals. Let us help you grow your business and achieve your marketing objectives.`,
+    digitalMarketingTitle: `In today's digital world, having a strong online presence is crucial for business success. Our expert digital marketing services are designed to help you reach your target audience, increase brand awareness, and drive more traffic to your website. From SEO and content marketing to social media and PPC advertising, we offer comprehensive solutions tailored to your unique needs and goals. Let us help you grow your business and achieve your marketing objectives.`,
+    digitalMarketingDescr: `Stay ahead of the competition with our innovative digital marketing strategies. We combine the latest tools and techniques with data-driven insights to create customized campaigns that deliver results. Whether you're looking to improve your search engine rankings, engage your audience on social media, or boost your conversion rates, our team of experienced professionals is here to help. Partner with us to enhance your digital marketing efforts and achieve long-term success.`,
+    digitalMarketingTitle2: `Unique From Compititors`,
+    digitalMarketingDescr2: `Our Focus
+The team at Focus Digital Marketing knows digital design, business strategy, analytics and search optimization. Ready to turn your browsers into buyers?
+
+Ideas Convert Into Design
+Discover how to turn a great idea for a product or service into an intuitive interface … That way you’ll be much better positioned to turn your ideas into actual design`,
+    FAQ: [
+      {
+        question: "What is digital Marketing?",
+        answer:
+          "Digital marketing involves promoting products or services through digital channels such as search engines, websites, social media, email, and mobile apps.",
+      },
+      {
+        question: "Why digital Marketing important for my business?",
+        answer:
+          "Digital marketing is crucial because it allows businesses to reach a larger audience, engage with customers directly, measure campaign effectiveness, and achieve better targeting and personalization.",
+      },
+      {
+        question: "What are the key components of digital Marketing ?",
+        answer:
+          "The main components include Search Engine Optimization (SEO), Content Marketing, Social Media Marketing, Pay-Per-Click (PPC) Advertising, Email Marketing, and Analytics.",
+      },
+      {
+        question: "How can Socail Media benefit my business?",
+        answer:
+          "Social media can increase brand awareness, drive website traffic, improve customer engagement, and generate leads. It also provides valuable insights through customer feedback and analytics.",
+      },
+      {
+        question: "what is SEO and why it is important?",
+        answer:
+          "SEO, or Search Engine Optimization, is the practice of optimizing your website to rank higher in search engine results. It’s important because higher rankings lead to increased visibility, more traffic, and potential customers. Feel free to ask more detailed questions if you have specific aspects of digital marketing you want to explore!",
+      },
+    ],
+    FAQImg: "",
+  },
+  {
+    id: 11,
+    title: "Virtual Assistance",
+    cover: "../images/b2.jpg",
+    desc: [
+      {
+        text: "Skilled virtual assistants for administrative and operational support.",
+      },
+      {
+        text: "Efficient scheduling, data entry, email management, and customer support.",
+      },
+      {
+        text: "Cost-effective solution to handle daily tasks without in-house staffing.",
+      },
+      {
+        text: "Flexible hours to accommodate different time zones and business needs.",
+      },
+    ],
+    subtitle:
+      "Engage your audience with compelling content and effective digital strategies.",
+    tagline: "How Crypthon Lab Grow Business Online",
+    description: `We develop digital marketing strategies that build relationships and draw audience and attract users. after that, convert them into customer Assign Manager For each Task on-staff expert in marketing in design automation Development.`,
+    practiceTitle: "Digital Marketing",
+    practiceAreas: [
+      "Lots of social media platforms that companies are taking advantages Popular three are",
+    ],
+    benefits: [
+      {
+        title: "Save Money And Time",
+        img: "",
+        description:
+          "Facebook is Free and popular Social Website. About 73% user’s daily base active online and also 47% people active in every time. That Allow people to registered create, upload photos and videos, send messages and stay connected to with.",
+      },
+      {
+        title: "More Creativity",
+        img: "",
+        description:
+          "Instagram It Is Free App And Enable Users To Photo- Sharing And Apply Different Kind Of Filter. We Are Really Sign Up Our Business Easily And Market It As Like Other Social Engine Its Usability Is Grow Up Day By Day.That is allow People.",
+      },
+      {
+        title: "Stunning Design",
+        img: "",
+        description:
+          "X is a social networking service on which user send post and interacts with people through messages. It’s a better tool for a company marketing .That is allow to reach people from around the world and it about to safe to use.",
+      },
+    ],
+    additionalInfoTitle: "Digital Marketing Services",
+    additionalInfo: [
+      ` Get The Best Digital Marketing Services from Our Digital Marketing Experts at Brand Locus. We are Providing SEO, Social Media, Content Writing, Graphic Designing Services at Cheap. Top Results. 100% Client Satisfaction. SEO Experts. Affordable Rates
+
+    A strong presence on Social Media platforms is very important to communicate directly with product consumers. The success of Social Media Marketing is a long-term process and it helps to remind customers about all the latest updates. Are you ready to work with the Social Media Marketing (SMM) Company in USA, UK & Pakistan? contact us`,
+    ],
+    partnerInfo: `Effective Social Marketing Strategies`,
+    partnerInfoDescription: `We are inspired by exciting and challenging projects, but we also appreciate the dynamic exchange of experiences and interests. If you are searching for a stunning company that you want to develop with us, we are the right partner.
+
+“CRYPTHON LAB convert your visitor into a customer.”
+Developing well-designed and attractive websites is the basis of our business. We care about planning, designing, developing, and marketing, so you don’t have to worry about workings with different web companies.`,
+    seoTitle:
+      "Boost Your Online Presence with Expert Digital Marketing Services",
+    seoDescription: `In today's digital world, having a strong online presence is crucial for business success. Our expert digital marketing services are designed to help you reach your target audience, increase brand awareness, and drive more traffic to your website. From SEO and content marketing to social media and PPC advertising, we offer comprehensive solutions tailored to your unique needs and goals. Let us help you grow your business and achieve your marketing objectives.`,
+    digitalMarketingTitle: `In today's digital world, having a strong online presence is crucial for business success. Our expert digital marketing services are designed to help you reach your target audience, increase brand awareness, and drive more traffic to your website. From SEO and content marketing to social media and PPC advertising, we offer comprehensive solutions tailored to your unique needs and goals. Let us help you grow your business and achieve your marketing objectives.`,
+    digitalMarketingDescr: `Stay ahead of the competition with our innovative digital marketing strategies. We combine the latest tools and techniques with data-driven insights to create customized campaigns that deliver results. Whether you're looking to improve your search engine rankings, engage your audience on social media, or boost your conversion rates, our team of experienced professionals is here to help. Partner with us to enhance your digital marketing efforts and achieve long-term success.`,
+    digitalMarketingTitle2: `Unique From Compititors`,
+    digitalMarketingDescr2: `Our Focus
+The team at Focus Digital Marketing knows digital design, business strategy, analytics and search optimization. Ready to turn your browsers into buyers?
+
+Ideas Convert Into Design
+Discover how to turn a great idea for a product or service into an intuitive interface … That way you’ll be much better positioned to turn your ideas into actual design`,
+    FAQ: [
+      {
+        question: "What is digital Marketing?",
+        answer:
+          "Digital marketing involves promoting products or services through digital channels such as search engines, websites, social media, email, and mobile apps.",
+      },
+      {
+        question: "Why digital Marketing important for my business?",
+        answer:
+          "Digital marketing is crucial because it allows businesses to reach a larger audience, engage with customers directly, measure campaign effectiveness, and achieve better targeting and personalization.",
+      },
+      {
+        question: "What are the key components of digital Marketing ?",
+        answer:
+          "The main components include Search Engine Optimization (SEO), Content Marketing, Social Media Marketing, Pay-Per-Click (PPC) Advertising, Email Marketing, and Analytics.",
+      },
+      {
+        question: "How can Socail Media benefit my business?",
+        answer:
+          "Social media can increase brand awareness, drive website traffic, improve customer engagement, and generate leads. It also provides valuable insights through customer feedback and analytics.",
+      },
+      {
+        question: "what is SEO and why it is important?",
+        answer:
+          "SEO, or Search Engine Optimization, is the practice of optimizing your website to rank higher in search engine results. It’s important because higher rankings lead to increased visibility, more traffic, and potential customers. Feel free to ask more detailed questions if you have specific aspects of digital marketing you want to explore!",
+      },
+    ],
+    FAQImg: "",
+  },
+
+  {
+    id: 12,
+    title: "Staff Augmentation",
+    cover:
+      "https://res.cloudinary.com/jobifycloud/image/upload/v1724617518/digital_kpwonm.jpg",
+    desc: [
+      {
+        text: "Access to skilled professionals to meet project-specific needs.",
+      },
+      {
+        text: "Flexible and scalable staffing solutions to support short or long-term projects",
+      },
+      {
+        text: "Expertise across multiple fields, including IT, design, and development",
+      },
+      {
+        text: "Seamless integration with your team to maintain productivity and focus",
+      },
+    ],
+    subtitle:
+      "Enjoy cost-effective working methods and access to better quality and more affordable talent",
+    tagline: "The collaboration you need",
+    description: `Crypthon Lab supplements its client’s in-house team with skilled staff who become the extension of the existing in-house team. This allows for flexibility in scaling up teams based on demand on short notice and helps to cut costs. It is also a quick and easy way to make a team stronger and boost productivity and process efficiency while having transparency and complete control.`,
+    practiceTitle: "Scale up with specialized skills",
+    practiceAreas: [
+      "Whether you need to increase bandwidth or need specialized skills, we create the team to manage your projects. Experience significant reduction in the cost when HR functions and infrastructure are already catered for!",
+    ],
+    benefits: [
+      {
+        title: "Flexbility",
+        img: "",
+        description:
+          "We can scale up or down when it comes to your team as per your own requirements, timeline, and nature and size of your project.",
+      },
+      {
+        title: "Experienced Staff",
+        img: "",
+        description:
+          "Having access to experienced talent minimizes the learning curve and you save time and cost of training resources.",
+      },
+      {
+        title: "Reduced hiring Costs",
+        img: "",
+        description:
+          "Ensure the most cost-effective solution to outsourcing tasks and onboarding new teams risk-free, as we handle the major chunk of the job for you.",
+      },
+    ],
+    additionalInfoTitle: "Proactive staffing",
+    additionalInfo: [
+      ` Our staffing strategy is always 10 steps ahead, because we like doing it right. Allow us to self-adjust to changes in requirement, without your intervention.`,
+    ],
+    partnerInfo: `Workforce management`,
+    partnerInfoDescription: `We manage hiring processes and provide workforce management support for all aspects including screening, onboarding, payroll, and more.`,
+    seoTitle: "Skilled specialists",
+    seoDescription: `Our solutions include staffing for various specialized skillsets and ensuring improved service quality and quick turnaround.`,
+    staffAugment: "OUR EXPERTISE AND SERVICES FOR IT STAFF AUGMENTATION",
+    staffUl: "Platforms & Frameworks",
+    staffli: {
+      1: "Platforms & Frameworks",
+      2: "AWS, Azure, Google Cloud",
+      3: "Angular, React, Meteor",
+      4: "Microsoft .Net, Xamarin, SharePoint",
+      5: "J2EE, RoR, Laravel",
+      6: "Xcode, Android Studio",
+      7: "Salesforce, Adobe AEM, MS Dynamics",
+    },
+    staffUl2: "Programming Languages",
+    staffli2: {
+      1: "Node.js, JavaScript, Python",
+      2: "GoLang, Swift, React Native",
+      3: ".Net, C#, Java, R",
+      4: "Objective-C, PHP",
+    },
+    staffUl2: "Databases & Reporting",
+    staffli2: {
+      1: "MongoDB, Cassandra, DynamoDB",
+      2: "Hadoop, PostgreSQL, MySQL",
+      3: "MS SQL Server, Oracle",
+      4: "Pentaho, Jasper, Cognos",
+      5: `D3.js, Redshift`,
+    },
   },
 ];
 export const testimonial = [
@@ -895,46 +1496,16 @@ export const teamdata = [
 export const projects = [
   {
     id: 1,
-    title: "Innowi POS",
-    des: "Innowi offers a unified solution to streamline your ordering process and amplify your marketing efforts. Reach out to us today to discover the difference! Innowi Inc. is a registered ISO of Elavon, Inc. Georgia.",
+    title: "IBM Weather Company",
+    des: "● Building and maintaining data pipelines from weather apps (Android & IOS) ● Taking part in Data Collection, Schema validation, Versioning, Data Warehouse, Analytics, Automation ● Developed Lakehouse architecture for large scale queries for upstream daily ML/AI use cases ● Data Mesh architecture for all removing silos in our organization ● Worked with Redshift clusters for real time queries and dashboards",
     video:
-      "https://res.cloudinary.com/jobifycloud/video/upload/v1730828172/innowi_dkwqrm.mp4",
+      "https://res.cloudinary.com/jobifycloud/video/upload/v1730828580/weatherCompany_biibxg.mp4",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://innowi.com/",
-    href: "https://innowi.com/",
+    link: "https://www.weathercompany.com/",
+    href: "https://www.weathercompany.com/",
   },
   {
     id: 2,
-    title: "YAP",
-    des: "UAE fintech based project with a seed level funding achievement.",
-    video:
-      "https://res.cloudinary.com/jobifycloud/video/upload/v1730828151/yup_xs0yxw.mp4",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://www.yap.com/en/uae",
-    href: "https://www.yap.com/en/uae",
-  },
-  {
-    id: 3,
-    title: "Digiboard - Versatile Admin Dashboard",
-    des: "Discover the versatility of our multipurpose admin dashboard solution, built using React.js for seamless functionality.",
-    video:
-      "https://res.cloudinary.com/jobifycloud/video/upload/v1727299061/digiboardCRM_ouzks1.mp4",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://digiboard-html.codebasket.xyz/",
-    href: "https://digiboard-html.codebasket.xyz/",
-  },
-  {
-    id: 4,
-    title: "iTechie - IT Solutions & Services",
-    des: "Developed a robust website for the iTechie startup, utilizing Next.js to power their IT services and solutions.",
-    video:
-      "https://res.cloudinary.com/jobifycloud/video/upload/v1727299051/ITCompany_mctk7d.mp4",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://itechie-nextjs.vercel.app/",
-    href: "https://itechie-nextjs.vercel.app/",
-  },
-  {
-    id: 5,
     title: "Beyon Money",
     des: "Beyon Money: your smart financial app for prepaid cards, categorized spending, flexible investments, and fast international transfers. Powered by Batelco Financial Services, setting a new fintech standard in MENA.",
     video:
@@ -944,14 +1515,44 @@ export const projects = [
     href: "https://www.beyonmoney.com/",
   },
   {
-    id: 6,
-    title: "IBM Weather Company",
-    des: "● Building and maintaining data pipelines from weather apps (Android & IOS) ● Taking part in Data Collection, Schema validation, Versioning, Data Warehouse, Analytics, Automation ● Developed Lakehouse architecture for large scale queries for upstream daily ML/AI use cases ● Data Mesh architecture for all removing silos in our organization ● Worked with Redshift clusters for real time queries and dashboards",
+    id: 3,
+    title: "Innowi POS",
+    des: "Innowi offers a unified solution to streamline your ordering process and amplify your marketing efforts. Reach out to us today to discover the difference! Innowi Inc. is a registered ISO of Elavon, Inc. Georgia.",
     video:
-      "https://res.cloudinary.com/jobifycloud/video/upload/v1730828580/weatherCompany_biibxg.mp4",
+      "https://res.cloudinary.com/jobifycloud/video/upload/v1730828172/innowi_dkwqrm.mp4",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://www.weathercompany.com/",
-    href: "https://www.weathercompany.com/",
+    link: "https://innowi.com/",
+    href: "https://innowi.com/",
+  },
+  {
+    id: 4,
+    title: "YAP",
+    des: "UAE fintech based project with a seed level funding achievement.",
+    video:
+      "https://res.cloudinary.com/jobifycloud/video/upload/v1730828151/yup_xs0yxw.mp4",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    link: "https://www.yap.com/en/uae",
+    href: "https://www.yap.com/en/uae",
+  },
+  {
+    id: 5,
+    title: "Digiboard - Versatile Admin Dashboard",
+    des: "Discover the versatility of our multipurpose admin dashboard solution, built using React.js for seamless functionality.",
+    video:
+      "https://res.cloudinary.com/jobifycloud/video/upload/v1727299061/digiboardCRM_ouzks1.mp4",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    link: "https://digiboard-html.codebasket.xyz/",
+    href: "https://digiboard-html.codebasket.xyz/",
+  },
+  {
+    id: 6,
+    title: "iTechie - IT Solutions & Services",
+    des: "Developed a robust website for the iTechie startup, utilizing Next.js to power their IT services and solutions.",
+    video:
+      "https://res.cloudinary.com/jobifycloud/video/upload/v1727299051/ITCompany_mctk7d.mp4",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    link: "https://itechie-nextjs.vercel.app/",
+    href: "https://itechie-nextjs.vercel.app/",
   },
 ];
 

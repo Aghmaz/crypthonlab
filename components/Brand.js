@@ -13,7 +13,7 @@ const Brand = () => {
             <Title title="WE ARE PROUD TO WORK WITH THESE COMPANIES" />
           </div>
           <div className="card">
-            <Marquee velocity={12} minScale={0.9}>
+            <Marquee velocity={23} minScale={0.9}>
               {brand.map((item) => (
                 <div className="images" key={item.id}>
                   <img

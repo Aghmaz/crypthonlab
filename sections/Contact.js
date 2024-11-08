@@ -83,15 +83,31 @@ const Contact = () => {
             <div className="contact-details">
               <div className="box">
                 <FiHeadphones size={30} className="icons" />
-                <h3>+92322 4281032</h3>
-                <h3>+92324 4133319</h3>
+                <h3>UK Number: +447938434588</h3>
+                <h3>US Number: +17869274364</h3>
+                <h3>Pakistan Numbers: </h3>
+                <h3>+923224281032,+923244133319 </h3>
                 <span>Call us: Mon - Fri</span>
               </div>
               <div className="box">
                 <IoLocationOutline size={30} className="icons" />
-                <h3>Pakistan</h3>
+                <br />
+
                 <span>
-                  Building #21 K-block, commercial,1st floor Model Town Lahore
+                  <b>UK Address:</b> F 61 The Ridgeway London E4 6QW
+                </span>
+                <br />
+                <br />
+
+                <span>
+                  <b>US Address:</b> 7901 4th ST N STE 23933 ST Petersburg FL
+                  33702
+                </span>
+                <br />
+                <br />
+
+                <span>
+                  <b>Paksitan Address: </b> 213-E L-block, Model Town Lahore
                 </span>
               </div>
               <div className="box">
@@ -107,13 +123,13 @@ const Contact = () => {
             </div>
             <ul>
               <li>
-                <Link href="https://www.instagram.com/crypthonlab/">
+                <Link href="https://www.facebook.com/profile.php?id=61562734246544">
                   <BsFacebook size={25} />
                 </Link>
               </li>
 
               <li>
-                <Link href="https://www.facebook.com/profile.php?id=61562734246544">
+                <Link href="https://www.instagram.com/crypthonlab/">
                   <AiFillInstagram size={25} />
                 </Link>
               </li>

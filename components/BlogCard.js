@@ -18,7 +18,7 @@ const BlogCard = () => {
             <p>We have a best solution for your business.</p>
           </div>
           <div className="">
-            <Marquee velocity={8} minScale={0.9}>
+            <Marquee velocity={15} minScale={0.9}>
               {expertise.map((item) => (
                 <div key={item.id} style={{ padding: "0 12px" }}>
                   <Card

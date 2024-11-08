@@ -9,7 +9,15 @@ import { ToastContainer, toast } from "react-toastify";
 import { Title, TitleSm } from "@/components/common/Title";
 import Loader from "@/components/common/loader";
 import { useRouter } from "next/router";
-
+import {
+  AiFillBehanceCircle,
+  AiFillInstagram,
+  AiFillLinkedin,
+} from "react-icons/ai";
+import { BiUserCircle } from "react-icons/bi";
+import { BsFacebook } from "react-icons/bs";
+import { FiHeadphones, FiHelpCircle } from "react-icons/fi";
+import { IoLocationOutline } from "react-icons/io5";
 const validationSchema = Yup.object().shape({
   date: Yup.string().required("Please select a date"),
   timeSlot: Yup.object().shape({
@@ -138,25 +146,41 @@ export default function BookingForm() {
           <div className="left w-30">
             <div className="contact-deatils">
               <div className="box">
-                {/* <FiHeadphones size={30} className="icons" /> */}
-                <h3>+92322 4281032</h3>
-                <h3>+92324 4133319</h3>
+                <FiHeadphones size={30} className="icons" />
+                <h3>UK Number: +447938434588</h3>
+                <h3>US Number: +17869274364</h3>
+                <h3>Pakistan Numbers: </h3>
+                <h3>+923224281032,+923244133319 </h3>
                 <span>Call us: Mon - Fri</span>
               </div>
               <div className="box">
-                {/* <IoLocationOutline size={30} className="icons" /> */}
-                <h3>Pakistan</h3>
+                <IoLocationOutline size={30} className="icons" />
+                <br />
+
                 <span>
-                  Building #21 K-block, commercial,1st floor Model Town Lahore
-                </span>{" "}
+                  <b>UK Address:</b> F 61 The Ridgeway London E4 6QW
+                </span>
+                <br />
+                <br />
+
+                <span>
+                  <b>US Address:</b> 7901 4th ST N STE 23933 ST Petersburg FL
+                  33702
+                </span>
+                <br />
+                <br />
+
+                <span>
+                  <b>Paksitan Address: </b> 213-E L-block, Model Town Lahore
+                </span>
               </div>
               <div className="box">
-                {/* <FiHelpCircle size={30} className="icons" /> */}
+                <FiHelpCircle size={30} className="icons" />
                 <h3>info@crypthonlab.com</h3>
                 <span>Drop us a line anytime!</span>
               </div>
               <div className="box">
-                {/* <BiUserCircle size={30} className="icons" /> */}
+                <BiUserCircle size={30} className="icons" />
                 <h3>info@crypthonlab.com</h3>
                 <span>Career at CrypthonLab</span>
               </div>
