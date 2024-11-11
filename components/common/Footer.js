@@ -28,7 +28,7 @@ const Footer = () => {
               <span>
                 <b>Pakistan Address: </b> 213-E L-block, Model Town Lahore
               </span>
-              <h3>++92322 4281032 , +92324 4133319 </h3>
+              <h3>+92322 4281032 , +92324 4133319 </h3>
               <span>
                 Questions? Reach us <br /> Monday – Friday
               </span>
