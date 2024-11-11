@@ -83,20 +83,14 @@ const Contact = () => {
             <div className="contact-details">
               <div className="box">
                 <FiHeadphones size={30} className="icons" />
-                <h3>UK Number: +447938434588</h3>
                 <h3>US Number: +17869274364</h3>
+                <h3>UK Number: +447938434588</h3>
                 <h3>Pakistan Numbers: </h3>
                 <h3>+923224281032,+923244133319 </h3>
                 <span>Call us: Mon - Fri</span>
               </div>
               <div className="box">
                 <IoLocationOutline size={30} className="icons" />
-                <br />
-
-                <span>
-                  <b>UK Address:</b>4 Hunger Down Chingford E46QJ
-                </span>
-                <br />
                 <br />
 
                 <span>
@@ -107,7 +101,13 @@ const Contact = () => {
                 <br />
 
                 <span>
-                  <b>Paksitan Address: </b> 213-E L-block, Model Town Lahore
+                  <b>UK Address:</b>4 Hunger Down Chingford E46QJ
+                </span>
+                <br />
+                <br />
+
+                <span>
+                  <b>Pakistan Address: </b> 213-E L-block, Model Town Lahore
                 </span>
               </div>
               <div className="box">

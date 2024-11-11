@@ -17,6 +17,12 @@ const Languages = () => {
               <PinContainer title={item?.href} href={item?.href}>
                 <div className={styles.projectContent}>
                   <div style={{ backgroundColor: "#13162D" }}></div>
+                  <h2
+                    className={styles.projectDescription}
+                    style={{ color: "rgb(0, 121, 220)" }}
+                  >
+                    {item.domain}
+                  </h2>
                   {item.img ? (
                     <img
                       src={item.img}

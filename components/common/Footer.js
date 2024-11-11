@@ -17,16 +17,16 @@ const Footer = () => {
               <TitleLogo title="Lab" caption="Crypthon" className="logobg" />
 
               <span>
-                <b>UK Address:</b> 4 Hunger Down Chingford E46QJ
-              </span>
-              <h3>+447938434588</h3>
-              <span>
                 <b>US Address:</b> 7901 4th ST N STE 23933 ST Petersburg FL
                 33702
               </span>
               <h3>+17869274364</h3>
               <span>
-                <b>Paksitan Address: </b> 213-E L-block, Model Town Lahore
+                <b>UK Address:</b> 4 Hunger Down Chingford E46QJ
+              </span>
+              <h3>+447938434588</h3>
+              <span>
+                <b>Pakistan Address: </b> 213-E L-block, Model Town Lahore
               </span>
               <h3>++92322 4281032 , +92324 4133319 </h3>
               <span>
@@ -63,16 +63,22 @@ const Footer = () => {
                 <h3>SERVICES</h3>
               </Link>
               <li>
-                <Link href="/services/1">Web Design & Development</Link>
+                <Link href="/services/1">Big Data & Data Engineering</Link>
               </li>
               <li>
-                <Link href="/services/5">Graphic Designing</Link>
+                <Link href="/services/1">Fintech</Link>
+              </li>
+              <li>
+                <Link href="/services/1">Cyber Security</Link>
+              </li>
+              <li>
+                <Link href="/services/5">Enterprise Applications</Link>
               </li>
               <li>
                 <Link href="/services/2">Digital Marketing</Link>
               </li>
               <li>
-                <Link href="/services/3">Staff Augmentation</Link>
+                <Link href="/services/3">AI & Machine Learning</Link>
               </li>
               <li>
                 <Link href="/services/3">Mobile App</Link>

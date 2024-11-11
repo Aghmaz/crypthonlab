@@ -45,188 +45,6 @@ export const home = [
 export const expertise = [
   {
     id: 1,
-    title: "Enterprise Applications",
-    cover:
-      "https://res.cloudinary.com/jobifycloud/image/upload/v1731099654/Enterprise_Application_iounb2.png",
-    desc: [
-      {
-        text: "Tailored solutions to streamline and optimize complex business processes.",
-      },
-      {
-        text: "Robust, scalable applications for managing large-scale operations",
-      },
-      {
-        text: "Seamless integration with existing systems to enhance workflow efficiency",
-      },
-      {
-        text: "Focus on reducing operational costs and improving data accessibility",
-      },
-    ],
-    subtitle:
-      "Responsive, user-friendly design with SEO optimization for enhanced online presence.",
-    tagline: "Get The Perfect Custom Design Website.",
-    description: `Crypthon is the best web development company in USA, UK, and Pakistan with 8 years of experience in the web development field. We prepare the best services with our expert Web designers and Developers. We grow your online business presence with creative and quality design.`,
-    practiceTitle: "Practice Areas",
-    practiceAreas: [
-      "A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradise",
-    ],
-    benefits: [
-      {
-        title: "Save Money And Time",
-        img: <FaMoneyBillWave size={50} />,
-        description:
-          "Provide corporate governance, helping clients manage responsibilities of running a corporate financial field.",
-      },
-      {
-        title: "More Creativity",
-        img: <LiaCreativeCommonsShare size={50} />,
-        description:
-          "Redefining boundaries: merging art and tech, creating groundbreaking experiences and limitless possibilities for tomorrow.",
-      },
-      {
-        title: "Stunning Design",
-        img: <CgDesignmodo size={50} />,
-        description:
-          "Cutting-edge innovations blend seamlessly with sleek aesthetics to redefine modern technological design.",
-      },
-    ],
-    additionalInfoTitle:
-      "Build A Stunning Website To Convert Visitors Into Customers",
-    additionalInfo: [
-      "The best web development company in USA, UK & Pakistan creates professional websites all over the world.",
-      "We specialize in PHP, Html5, Bootstrap, CSS3, jQuery, JavaScript, Graphic Logo Design, CMS Development, Web Ecommerce Development, WordPress, OpenCart, and Payment Gateway Integration (PayPal, Credit Card, Authorized. Skrill, Western).",
-      "We don’t develop websites; we develop websites that create SALES.",
-      "Development of mobile applications in an online shopping store, Web portal Web applications.",
-      "Professional SEO / SEM consulting services (on-page / off-page).",
-      "Hire a web designer and developer in USA, UK & Pakistan.",
-    ],
-    partnerInfo: `We Work With Clients As A Partner. `,
-    partnerInfoDescription:
-      "We are inspired by exciting and challenging projects, but we also appreciate the dynamic exchange of experiences and interests. If you are searching for a stunning company that you want to develop with us, we are the right partner.Crypthon Lab converts your visitor into a customer.Developing well-designed and attractive websites is the basis of our business. We care about planning, designing, developing, and marketing, so you don’t have to worry about working with different web companies.",
-    seoTitle: "SEO (Search Engine Optimization)",
-    seoDescription: `Here, with our creative leaders and an expert SEO team, you will get all the services you need online. Crypthon Lab is a trusted company that can provide you with the best SEO services. Whatever the topic of your site, our team of expert analysts and SEO consultants can create compelling and innovative strategies to help improve your search rankings.`,
-    FAQ: [
-      {
-        question: "How long will it take to build my website?",
-        answer:
-          "The timeline varies depending on the complexity and requirements but typically ranges from a few weeks to a few months.",
-      },
-      {
-        question: "How much will it cost to develop my website?",
-        answer:
-          "Costs can vary widely based on the features and design complexity. A basic website might cost a few hundred dollars, while a more complex site could be several thousand dollars.",
-      },
-      {
-        question: "Will my website be mobile friendly?",
-        answer:
-          "Yes, all modern websites are designed to be responsive and work well on mobile devices.",
-      },
-      {
-        question: "Can i update the website myself after its built?",
-        answer:
-          "Yes, if we use a CMS like WordPress, you’ll be able to easily update content without needing technical skills.",
-      },
-      {
-        question: "Will my website be optimized  for Search Engine (SEO)?",
-        answer:
-          "Yes, we will follow SEO best practices to ensure your website is optimized for search engines to improve visibility and ranking.",
-      },
-    ],
-    FAQImg: "",
-  },
-  {
-    id: 2,
-    title: "Custom Software Development",
-    cover:
-      "https://res.cloudinary.com/jobifycloud/image/upload/v1731099594/custom_software_development_gmyqez.png",
-    desc: [
-      {
-        text: "End-to-end software development designed specifically for unique business needs.",
-      },
-      {
-        text: "Scalable solutions that grow with your business, from small apps to complex platforms.",
-      },
-      {
-        text: "Agile development process to ensure timely delivery and flexibility.",
-      },
-      {
-        text: "In-depth analysis and planning to create software that aligns with your objectives.",
-      },
-    ],
-    subtitle:
-      "Responsive, user-friendly design with SEO optimization for enhanced online presence.",
-    tagline: "Get The Perfect Custom Design Website.",
-    description: `Crypthon is the best web development company in USA, UK, and Pakistan with 8 years of experience in the web development field. We prepare the best services with our expert Web designers and Developers. We grow your online business presence with creative and quality design.`,
-    practiceTitle: "Practice Areas",
-    practiceAreas: [
-      "A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradise",
-    ],
-    benefits: [
-      {
-        title: "Save Money And Time",
-        img: <FaMoneyBillWave size={50} />,
-        description:
-          "Provide corporate governance, helping clients manage responsibilities of running a corporate financial field.",
-      },
-      {
-        title: "More Creativity",
-        img: <LiaCreativeCommonsShare size={50} />,
-        description:
-          "Redefining boundaries: merging art and tech, creating groundbreaking experiences and limitless possibilities for tomorrow.",
-      },
-      {
-        title: "Stunning Design",
-        img: <CgDesignmodo size={50} />,
-        description:
-          "Cutting-edge innovations blend seamlessly with sleek aesthetics to redefine modern technological design.",
-      },
-    ],
-    additionalInfoTitle:
-      "Build A Stunning Website To Convert Visitors Into Customers",
-    additionalInfo: [
-      "The best web development company in USA, UK & Pakistan creates professional websites all over the world.",
-      "We specialize in PHP, Html5, Bootstrap, CSS3, jQuery, JavaScript, Graphic Logo Design, CMS Development, Web Ecommerce Development, WordPress, OpenCart, and Payment Gateway Integration (PayPal, Credit Card, Authorized. Skrill, Western).",
-      "We don’t develop websites; we develop websites that create SALES.",
-      "Development of mobile applications in an online shopping store, Web portal Web applications.",
-      "Professional SEO / SEM consulting services (on-page / off-page).",
-      "Hire a web designer and developer in USA, UK & Pakistan.",
-    ],
-    partnerInfo: `We Work With Clients As A Partner. `,
-    partnerInfoDescription:
-      "We are inspired by exciting and challenging projects, but we also appreciate the dynamic exchange of experiences and interests. If you are searching for a stunning company that you want to develop with us, we are the right partner.Crypthon Lab converts your visitor into a customer.Developing well-designed and attractive websites is the basis of our business. We care about planning, designing, developing, and marketing, so you don’t have to worry about working with different web companies.",
-    seoTitle: "SEO (Search Engine Optimization)",
-    seoDescription: `Here, with our creative leaders and an expert SEO team, you will get all the services you need online. Crypthon Lab is a trusted company that can provide you with the best SEO services. Whatever the topic of your site, our team of expert analysts and SEO consultants can create compelling and innovative strategies to help improve your search rankings.`,
-    FAQ: [
-      {
-        question: "How long will it take to build my website?",
-        answer:
-          "The timeline varies depending on the complexity and requirements but typically ranges from a few weeks to a few months.",
-      },
-      {
-        question: "How much will it cost to develop my website?",
-        answer:
-          "Costs can vary widely based on the features and design complexity. A basic website might cost a few hundred dollars, while a more complex site could be several thousand dollars.",
-      },
-      {
-        question: "Will my website be mobile friendly?",
-        answer:
-          "Yes, all modern websites are designed to be responsive and work well on mobile devices.",
-      },
-      {
-        question: "Can i update the website myself after its built?",
-        answer:
-          "Yes, if we use a CMS like WordPress, you’ll be able to easily update content without needing technical skills.",
-      },
-      {
-        question: "Will my website be optimized  for Search Engine (SEO)?",
-        answer:
-          "Yes, we will follow SEO best practices to ensure your website is optimized for search engines to improve visibility and ranking.",
-      },
-    ],
-    FAQImg: "",
-  },
-  {
-    id: 3,
     title: "Big Data & Data Engineering",
     cover:
       "https://res.cloudinary.com/jobifycloud/image/upload/v1731099654/Big_data_fa7sx2.png",
@@ -317,22 +135,114 @@ export const expertise = [
     FAQImg: "",
   },
   {
-    id: 4,
-    title: "Cyber Security",
+    id: 2,
+    title: "AI & Machine Learning",
     cover:
-      "https://res.cloudinary.com/jobifycloud/image/upload/v1731099654/cyber2_pq76mp.png",
+      "https://res.cloudinary.com/jobifycloud/image/upload/v1731099652/AI_ML_krzurd.png",
     desc: [
       {
-        text: "Comprehensive security assessments to identify vulnerabilities and protect assets.",
+        text: "Innovative AI models to automate repetitive tasks and enhance productivity.",
       },
       {
-        text: "Implementation of robust defense strategies to mitigate cyber threats.",
+        text: "Machine learning solutions that learn and adapt over time for smarter decision-making.",
       },
       {
-        text: "Regular monitoring and updates to stay ahead of evolving security risks.",
+        text: "Data-driven insights through predictive analytics to drive business growth.",
       },
       {
-        text: "Customized training and support to strengthen in-house cybersecurity practices",
+        text: "Customized algorithms and tools designed to fit specific business requirements.",
+      },
+    ],
+    subtitle:
+      "Responsive, user-friendly design with SEO optimization for enhanced online presence.",
+    tagline: "Get The Perfect Custom Design Website.",
+    description: `Crypthon is the best web development company in USA, UK, and Pakistan with 8 years of experience in the web development field. We prepare the best services with our expert Web designers and Developers. We grow your online business presence with creative and quality design.`,
+    practiceTitle: "Practice Areas",
+    practiceAreas: [
+      "A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradise",
+    ],
+    benefits: [
+      {
+        title: "Save Money And Time",
+        img: <FaMoneyBillWave size={50} />,
+        description:
+          "Provide corporate governance, helping clients manage responsibilities of running a corporate financial field.",
+      },
+      {
+        title: "More Creativity",
+        img: <LiaCreativeCommonsShare size={50} />,
+        description:
+          "Redefining boundaries: merging art and tech, creating groundbreaking experiences and limitless possibilities for tomorrow.",
+      },
+      {
+        title: "Stunning Design",
+        img: <CgDesignmodo size={50} />,
+        description:
+          "Cutting-edge innovations blend seamlessly with sleek aesthetics to redefine modern technological design.",
+      },
+    ],
+    additionalInfoTitle:
+      "Build A Stunning Website To Convert Visitors Into Customers",
+    additionalInfo: [
+      "The best web development company in USA, UK & Pakistan creates professional websites all over the world.",
+      "We specialize in PHP, Html5, Bootstrap, CSS3, jQuery, JavaScript, Graphic Logo Design, CMS Development, Web Ecommerce Development, WordPress, OpenCart, and Payment Gateway Integration (PayPal, Credit Card, Authorized. Skrill, Western).",
+      "We don’t develop websites; we develop websites that create SALES.",
+      "Development of mobile applications in an online shopping store, Web portal Web applications.",
+      "Professional SEO / SEM consulting services (on-page / off-page).",
+      "Hire a web designer and developer in USA, UK & Pakistan.",
+    ],
+    partnerInfo: `We Work With Clients As A Partner. `,
+    partnerInfoDescription:
+      "We are inspired by exciting and challenging projects, but we also appreciate the dynamic exchange of experiences and interests. If you are searching for a stunning company that you want to develop with us, we are the right partner.Crypthon Lab converts your visitor into a customer.Developing well-designed and attractive websites is the basis of our business. We care about planning, designing, developing, and marketing, so you don’t have to worry about working with different web companies.",
+    seoTitle: "SEO (Search Engine Optimization)",
+    seoDescription: `Here, with our creative leaders and an expert SEO team, you will get all the services you need online. Crypthon Lab is a trusted company that can provide you with the best SEO services. Whatever the topic of your site, our team of expert analysts and SEO consultants can create compelling and innovative strategies to help improve your search rankings.`,
+    FAQ: [
+      {
+        question: "How long will it take to build my website?",
+        answer:
+          "The timeline varies depending on the complexity and requirements but typically ranges from a few weeks to a few months.",
+      },
+      {
+        question: "How much will it cost to develop my website?",
+        answer:
+          "Costs can vary widely based on the features and design complexity. A basic website might cost a few hundred dollars, while a more complex site could be several thousand dollars.",
+      },
+      {
+        question: "Will my website be mobile friendly?",
+        answer:
+          "Yes, all modern websites are designed to be responsive and work well on mobile devices.",
+      },
+      {
+        question: "Can i update the website myself after its built?",
+        answer:
+          "Yes, if we use a CMS like WordPress, you’ll be able to easily update content without needing technical skills.",
+      },
+      {
+        question: "Will my website be optimized  for Search Engine (SEO)?",
+        answer:
+          "Yes, we will follow SEO best practices to ensure your website is optimized for search engines to improve visibility and ranking.",
+      },
+    ],
+    FAQImg: "",
+  },
+
+  {
+    id: 3,
+    title: "Enterprise Applications",
+    cover:
+      "https://res.cloudinary.com/jobifycloud/image/upload/v1731099654/Enterprise_Application_iounb2.png",
+    desc: [
+      {
+        text: "Tailored solutions to streamline and optimize complex business processes.",
+      },
+      {
+        text: "Robust, scalable applications for managing large-scale operations",
+      },
+      {
+        text: "Seamless integration with existing systems to enhance workflow efficiency",
+      },
+      {
+        text: "Focus on reducing operational costs and improving data accessibility",
       },
     ],
     subtitle:
@@ -409,21 +319,113 @@ export const expertise = [
   },
   {
     id: 4,
-    title: "AI & Machine Learning",
+    title: "Custom Software Development",
     cover:
-      "https://res.cloudinary.com/jobifycloud/image/upload/v1731099652/AI_ML_krzurd.png",
+      "https://res.cloudinary.com/jobifycloud/image/upload/v1731099594/custom_software_development_gmyqez.png",
     desc: [
       {
-        text: "Innovative AI models to automate repetitive tasks and enhance productivity.",
+        text: "End-to-end software development designed specifically for unique business needs.",
       },
       {
-        text: "Machine learning solutions that learn and adapt over time for smarter decision-making.",
+        text: "Scalable solutions that grow with your business, from small apps to complex platforms.",
       },
       {
-        text: "Data-driven insights through predictive analytics to drive business growth.",
+        text: "Agile development process to ensure timely delivery and flexibility.",
       },
       {
-        text: "Customized algorithms and tools designed to fit specific business requirements.",
+        text: "In-depth analysis and planning to create software that aligns with your objectives.",
+      },
+    ],
+    subtitle:
+      "Responsive, user-friendly design with SEO optimization for enhanced online presence.",
+    tagline: "Get The Perfect Custom Design Website.",
+    description: `Crypthon is the best web development company in USA, UK, and Pakistan with 8 years of experience in the web development field. We prepare the best services with our expert Web designers and Developers. We grow your online business presence with creative and quality design.`,
+    practiceTitle: "Practice Areas",
+    practiceAreas: [
+      "A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradise",
+    ],
+    benefits: [
+      {
+        title: "Save Money And Time",
+        img: <FaMoneyBillWave size={50} />,
+        description:
+          "Provide corporate governance, helping clients manage responsibilities of running a corporate financial field.",
+      },
+      {
+        title: "More Creativity",
+        img: <LiaCreativeCommonsShare size={50} />,
+        description:
+          "Redefining boundaries: merging art and tech, creating groundbreaking experiences and limitless possibilities for tomorrow.",
+      },
+      {
+        title: "Stunning Design",
+        img: <CgDesignmodo size={50} />,
+        description:
+          "Cutting-edge innovations blend seamlessly with sleek aesthetics to redefine modern technological design.",
+      },
+    ],
+    additionalInfoTitle:
+      "Build A Stunning Website To Convert Visitors Into Customers",
+    additionalInfo: [
+      "The best web development company in USA, UK & Pakistan creates professional websites all over the world.",
+      "We specialize in PHP, Html5, Bootstrap, CSS3, jQuery, JavaScript, Graphic Logo Design, CMS Development, Web Ecommerce Development, WordPress, OpenCart, and Payment Gateway Integration (PayPal, Credit Card, Authorized. Skrill, Western).",
+      "We don’t develop websites; we develop websites that create SALES.",
+      "Development of mobile applications in an online shopping store, Web portal Web applications.",
+      "Professional SEO / SEM consulting services (on-page / off-page).",
+      "Hire a web designer and developer in USA, UK & Pakistan.",
+    ],
+    partnerInfo: `We Work With Clients As A Partner. `,
+    partnerInfoDescription:
+      "We are inspired by exciting and challenging projects, but we also appreciate the dynamic exchange of experiences and interests. If you are searching for a stunning company that you want to develop with us, we are the right partner.Crypthon Lab converts your visitor into a customer.Developing well-designed and attractive websites is the basis of our business. We care about planning, designing, developing, and marketing, so you don’t have to worry about working with different web companies.",
+    seoTitle: "SEO (Search Engine Optimization)",
+    seoDescription: `Here, with our creative leaders and an expert SEO team, you will get all the services you need online. Crypthon Lab is a trusted company that can provide you with the best SEO services. Whatever the topic of your site, our team of expert analysts and SEO consultants can create compelling and innovative strategies to help improve your search rankings.`,
+    FAQ: [
+      {
+        question: "How long will it take to build my website?",
+        answer:
+          "The timeline varies depending on the complexity and requirements but typically ranges from a few weeks to a few months.",
+      },
+      {
+        question: "How much will it cost to develop my website?",
+        answer:
+          "Costs can vary widely based on the features and design complexity. A basic website might cost a few hundred dollars, while a more complex site could be several thousand dollars.",
+      },
+      {
+        question: "Will my website be mobile friendly?",
+        answer:
+          "Yes, all modern websites are designed to be responsive and work well on mobile devices.",
+      },
+      {
+        question: "Can i update the website myself after its built?",
+        answer:
+          "Yes, if we use a CMS like WordPress, you’ll be able to easily update content without needing technical skills.",
+      },
+      {
+        question: "Will my website be optimized  for Search Engine (SEO)?",
+        answer:
+          "Yes, we will follow SEO best practices to ensure your website is optimized for search engines to improve visibility and ranking.",
+      },
+    ],
+    FAQImg: "",
+  },
+
+  {
+    id: 4,
+    title: "Cyber Security",
+    cover:
+      "https://res.cloudinary.com/jobifycloud/image/upload/v1731099654/cyber2_pq76mp.png",
+    desc: [
+      {
+        text: "Comprehensive security assessments to identify vulnerabilities and protect assets.",
+      },
+      {
+        text: "Implementation of robust defense strategies to mitigate cyber threats.",
+      },
+      {
+        text: "Regular monitoring and updates to stay ahead of evolving security risks.",
+      },
+      {
+        text: "Customized training and support to strengthen in-house cybersecurity practices",
       },
     ],
     subtitle:
@@ -1503,6 +1505,7 @@ export const projects = [
   {
     id: 1,
     title: "IBM Weather Company",
+    domain: "Big Data & Data Engineering",
     des: "● Building and maintaining data pipelines from weather apps (Android & IOS) ● Taking part in Data Collection, Schema validation, Versioning, Data Warehouse, Analytics, Automation ● Developed Lakehouse architecture for large scale queries for upstream daily ML/AI use cases ● Data Mesh architecture for all removing silos in our organization ● Worked with Redshift clusters for real time queries and dashboards",
     video:
       "https://res.cloudinary.com/jobifycloud/video/upload/v1730828580/weatherCompany_biibxg.mp4",
@@ -1513,6 +1516,7 @@ export const projects = [
   {
     id: 2,
     title: "Beyon Money",
+    domain: "Fintech App",
     des: "Beyon Money: your smart financial app for prepaid cards, categorized spending, flexible investments, and fast international transfers. Powered by Batelco Financial Services, setting a new fintech standard in MENA.",
     video:
       "https://res.cloudinary.com/jobifycloud/video/upload/v1730828572/beyonMoney_p1wbiz.mp4",
@@ -1523,6 +1527,7 @@ export const projects = [
   {
     id: 3,
     title: "Innowi POS",
+    domain: "Marketing App",
     des: "Innowi offers a unified solution to streamline your ordering process and amplify your marketing efforts. Reach out to us today to discover the difference! Innowi Inc. is a registered ISO of Elavon, Inc. Georgia.",
     video:
       "https://res.cloudinary.com/jobifycloud/video/upload/v1730828172/innowi_dkwqrm.mp4",
@@ -1532,7 +1537,8 @@ export const projects = [
   },
   {
     id: 4,
-    title: "YAP",
+    title: "YAP -(Fintech APP)",
+    domain: "Fintech App",
     des: "UAE fintech based project with a seed level funding achievement.",
     video:
       "https://res.cloudinary.com/jobifycloud/video/upload/v1730828151/yup_xs0yxw.mp4",
@@ -1542,6 +1548,7 @@ export const projects = [
   },
   {
     id: 5,
+    domain: "Sales & Inventory Management",
     title: "Digiboard - Versatile Admin Dashboard",
     des: "Discover the versatility of our multipurpose admin dashboard solution, built using React.js for seamless functionality.",
     video:
@@ -1552,6 +1559,7 @@ export const projects = [
   },
   {
     id: 6,
+    domain: "Portfolio Site",
     title: "iTechie - IT Solutions & Services",
     des: "Developed a robust website for the iTechie startup, utilizing Next.js to power their IT services and solutions.",
     video:
@@ -1565,7 +1573,9 @@ export const projects = [
 export const portfolioData = [
   {
     id: 1,
+
     title: "IBM Weather Company",
+    domain: "Big Data & Data Engineering",
     des: "● Building and maintaining data pipelines from weather apps (Android & IOS) ● Taking part in Data Collection, Schema validation, Versioning, Data Warehouse, Analytics, Automation ● Developed Lakehouse architecture for large scale queries for upstream daily ML/AI use cases ● Data Mesh architecture for all removing silos in our organization ● Worked with Redshift clusters for real time queries and dashboards",
     video:
       "https://res.cloudinary.com/jobifycloud/video/upload/v1730828580/weatherCompany_biibxg.mp4",
@@ -1576,6 +1586,7 @@ export const portfolioData = [
   {
     id: 2,
     title: "Beyon Money",
+    domain: "Fintech",
     des: "Beyon Money: your smart financial app for prepaid cards, categorized spending, flexible investments, and fast international transfers. Powered by Batelco Financial Services, setting a new fintech standard in MENA.",
     video:
       "https://res.cloudinary.com/jobifycloud/video/upload/v1730828572/beyonMoney_p1wbiz.mp4",
@@ -1587,6 +1598,7 @@ export const portfolioData = [
   {
     id: 3,
     title: "BlaBlaCar",
+    domain: "Transport Service App",
     des: "BlaBlaCar operates as a social transportation service, allowing individuals to share long-distance rides. It is designed to offer a cost-effective and eco-friendly alternative to traditional travel options. The platform facilitates the connection between drivers who have spare seats in their vehicles and passengers seeking affordable transportation",
     video:
       "https://res.cloudinary.com/jobifycloud/video/upload/v1730828161/blabla_pdidch.mp4",
@@ -1597,6 +1609,7 @@ export const portfolioData = [
   {
     id: 4,
     title: "Options Decipher",
+    domain: "Event driven App",
     des: "Decipher is an advanced analytics and business intelligence platform designed to enhance data-driven decision-making through robust data analysis and machine learning capabilities.",
     video:
       "https://res.cloudinary.com/jobifycloud/video/upload/v1730828171/decipher_cu9igi.mp4",
@@ -1607,6 +1620,7 @@ export const portfolioData = [
   {
     id: 5,
     title: "Digiboard - Versatile Admin Dashboard",
+    domain: "Sales & Inventory Management",
     des: "Discover the versatility of our multipurpose admin dashboard solution, built using React.js for seamless functionality.",
     video:
       "https://res.cloudinary.com/jobifycloud/video/upload/v1727299061/digiboardCRM_ouzks1.mp4",
@@ -1617,6 +1631,7 @@ export const portfolioData = [
   {
     id: 6,
     title: "Eduman - Online Learning & Courses",
+    domain: "SaaS Application",
     des: "A comprehensive SaaS application with AI-powered features, designed for online education with integrated payments and credits system.",
     video:
       "https://res.cloudinary.com/jobifycloud/video/upload/v1727299037/education_cyu5np.mp4",
@@ -1627,6 +1642,8 @@ export const portfolioData = [
   {
     id: 7,
     title: "Shofy - Grocery E-Commerce Platform",
+    domain: "Ecommerce",
+
     des: "Revamped the Shofy grocery app with the latest tech stack, delivering an optimized and dynamic e-commerce experience.",
     video:
       "https://res.cloudinary.com/jobifycloud/video/upload/v1727299036/ecommerce_uzv9mk.mp4",
@@ -1637,6 +1654,7 @@ export const portfolioData = [
   {
     id: 8,
     title: "Innowi POS",
+    domain: "Marketing App",
     des: "Innowi offers a unified solution to streamline your ordering process and amplify your marketing efforts. Reach out to us today to discover the difference! Innowi Inc. is a registered ISO of Elavon, Inc. Georgia.",
     video:
       "https://res.cloudinary.com/jobifycloud/video/upload/v1730828172/innowi_dkwqrm.mp4",
@@ -1647,6 +1665,7 @@ export const portfolioData = [
   {
     id: 9,
     title: "YAP",
+    domain: "Fintech",
     des: "UAE fintech based project with a seed level funding achievement.",
     video:
       "https://res.cloudinary.com/jobifycloud/video/upload/v1730828151/yup_xs0yxw.mp4",
@@ -1657,6 +1676,8 @@ export const portfolioData = [
   {
     id: 10,
     title: "Backcountry",
+    domain: "E-commerce",
+
     des: "An American Giant Ecommerce System",
     video:
       "https://res.cloudinary.com/jobifycloud/video/upload/v1730828156/backcountry_pd3vy6.mp4",

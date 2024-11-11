@@ -19,8 +19,10 @@ const portfolio = () => {
             <div className={styles.projectContainer} key={item.id}>
               <a href={item.href} target="_blank" rel="noopener noreferrer">
                 <PinContainer title={item?.href} href={item?.href}>
+                  <h2 className={styles.projectTitle}>{item.domain}</h2>
                   <div className={styles.projectContent}>
                     <div style={{ backgroundColor: "#13162D" }}></div>
+
                     {item.img ? (
                       <img
                         src={item.img}
