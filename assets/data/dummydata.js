@@ -1527,7 +1527,7 @@ export const projects = [
   {
     id: 3,
     title: "Innowi POS",
-    domain: "Marketing App",
+    domain: "Point of sales system",
     des: "Innowi offers a unified solution to streamline your ordering process and amplify your marketing efforts. Reach out to us today to discover the difference! Innowi Inc. is a registered ISO of Elavon, Inc. Georgia.",
     video:
       "https://res.cloudinary.com/sparklealigner/video/upload/v1737378834/innowi_lyjwar.mp4",
