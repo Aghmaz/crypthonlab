@@ -11,11 +11,11 @@ const HeaderHero = () => {
   const settings = {
     // dots: true,
     infinite: true,
-    speed: 300,
+    speed: 200,
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 2000,
     fade: true,
     dots: false,
     nextArrow: <SampleNextArrow />,
@@ -24,8 +24,8 @@ const HeaderHero = () => {
 
   const slides = [
     {
-      type: "video",
-      src: "https://res.cloudinary.com/jobifycloud/video/upload/v1725558438/3129576-uhd_3840_2160_30fps_nzham4.mp4",
+      type: "image",
+      src: "https://res.cloudinary.com/sparklealigner/image/upload/v1737377038/Computer-Programming-Languages_jwnwqm.jpg",
       author: "CrypthonLab",
       title: "AI-Driven:",
       topic: " Personalization",
@@ -33,8 +33,8 @@ const HeaderHero = () => {
       topic3: "Precision that aligns seamlessly with your vision",
     },
     {
-      type: "video",
-      src: "https://res.cloudinary.com/jobifycloud/video/upload/v1725568162/6963744-hd_1920_1080_25fps_vwgddc.mp4",
+      type: "image",
+      src: "https://res.cloudinary.com/sparklealigner/image/upload/v1737372164/software_development_and_design_dve0bj.png",
       author: "CrypthonLab",
       title: "Software:",
       topic: "Strong Tools",
@@ -42,8 +42,8 @@ const HeaderHero = () => {
       topic3: "Efficient software crafted for productivity 💼",
     },
     {
-      type: "video",
-      src: "https://res.cloudinary.com/jobifycloud/video/upload/v1725558438/3129576-uhd_3840_2160_30fps_nzham4.mp4",
+      type: "image",
+      src: "https://res.cloudinary.com/sparklealigner/image/upload/v1737372127/Big_data_bfdvgm.png",
       author: "CrypthonLab",
       title: "AppDriven:",
       topic: "Seamless UX 📱",
@@ -51,8 +51,8 @@ const HeaderHero = () => {
       topic3: "Engaging apps that connect users and innovation",
     },
     {
-      type: "video",
-      src: "https://res.cloudinary.com/jobifycloud/video/upload/v1725558438/3129576-uhd_3840_2160_30fps_nzham4.mp4",
+      type: "image",
+      src: "https://res.cloudinary.com/sparklealigner/image/upload/v1737372164/social_media_marketing_u6o5qq.png",
       author: "CrypthonLab",
       title: "Design¹ˢᵗ:",
       topic: "visual Art",

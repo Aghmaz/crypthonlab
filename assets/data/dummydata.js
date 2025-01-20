@@ -47,7 +47,7 @@ export const expertise = [
     id: 1,
     title: "Big Data & Data Engineering",
     cover:
-      "https://res.cloudinary.com/jobifycloud/image/upload/v1731099654/Big_data_fa7sx2.png",
+      "https://res.cloudinary.com/sparklealigner/image/upload/v1737372127/Big_data_bfdvgm.png",
     desc: [
       {
         text: "Advanced data collection, storage, and processing solutions for high-volume data.",
@@ -138,7 +138,7 @@ export const expertise = [
     id: 2,
     title: "AI & Machine Learning",
     cover:
-      "https://res.cloudinary.com/jobifycloud/image/upload/v1731099652/AI_ML_krzurd.png",
+      "https://res.cloudinary.com/sparklealigner/image/upload/v1737372127/AI_ML_fhukaj.png",
     desc: [
       {
         text: "Innovative AI models to automate repetitive tasks and enhance productivity.",
@@ -230,7 +230,7 @@ export const expertise = [
     id: 3,
     title: "Enterprise Applications",
     cover:
-      "https://res.cloudinary.com/jobifycloud/image/upload/v1731099654/Enterprise_Application_iounb2.png",
+      "https://res.cloudinary.com/sparklealigner/image/upload/v1737372125/Enterprise_Application_sbt9fv.png",
     desc: [
       {
         text: "Tailored solutions to streamline and optimize complex business processes.",
@@ -321,7 +321,7 @@ export const expertise = [
     id: 4,
     title: "Custom Software Development",
     cover:
-      "https://res.cloudinary.com/jobifycloud/image/upload/v1731099594/custom_software_development_gmyqez.png",
+      "https://res.cloudinary.com/sparklealigner/image/upload/v1737372163/custom_software_development_zj7xhf.png",
     desc: [
       {
         text: "End-to-end software development designed specifically for unique business needs.",
@@ -413,7 +413,7 @@ export const expertise = [
     id: 4,
     title: "Cyber Security",
     cover:
-      "https://res.cloudinary.com/jobifycloud/image/upload/v1731099654/cyber2_pq76mp.png",
+      "https://res.cloudinary.com/sparklealigner/image/upload/v1737372127/cyber2_rvyvnb.png",
     desc: [
       {
         text: "Comprehensive security assessments to identify vulnerabilities and protect assets.",
@@ -505,7 +505,7 @@ export const expertise = [
     id: 5,
     title: "Website Design & Development",
     cover:
-      "https://res.cloudinary.com/jobifycloud/image/upload/v1731099595/software_development_and_design_mbsdu2.png",
+      "https://res.cloudinary.com/sparklealigner/image/upload/v1737372163/custom_software_development_zj7xhf.png",
     desc: [
       {
         text: "Professional, responsive websites tailored to your brand and target audience.",
@@ -689,7 +689,7 @@ If you can relate to us, you have come to the right place. Hire us to reach your
     id: 7,
     title: "UI/UX Design",
     cover:
-      "	https://res.cloudinary.com/jobifycloud/image/upload/v1731099596/uiux_ychqgl.png",
+      "https://res.cloudinary.com/sparklealigner/image/upload/v1737372163/uiux_pylids.png",
     desc: [
       {
         text: "User-centered design principles to create intuitive, engaging interfaces.",
@@ -873,7 +873,7 @@ Trends and Innovations in Graphic Design`,
     id: 9,
     title: "SEO & Digital Marketing",
     cover:
-      "https://res.cloudinary.com/jobifycloud/image/upload/v1731099594/seo_and_digital_marketing_cs5n9u.png",
+      "https://res.cloudinary.com/sparklealigner/image/upload/v1737372164/social_media_marketing_u6o5qq.png",
     desc: [
       {
         text: "Comprehensive SEO strategies to improve website ranking and traffic.",
@@ -1145,7 +1145,7 @@ Discover how to turn a great idea for a product or service into an intuitive int
     id: 11,
     title: "Virtual Assistance",
     cover:
-      "https://res.cloudinary.com/jobifycloud/image/upload/v1731099596/virtual_assistance_nphmbe.png",
+      "https://res.cloudinary.com/sparklealigner/image/upload/v1737372187/virtual_assistance_cwtovq.png",
     desc: [
       {
         text: "Skilled virtual assistants for administrative and operational support.",
@@ -1244,7 +1244,7 @@ Discover how to turn a great idea for a product or service into an intuitive int
     id: 12,
     title: "Staff Augmentation",
     cover:
-      "https://res.cloudinary.com/jobifycloud/image/upload/v1731099595/staff_augmented_epuzli.png",
+      "https://res.cloudinary.com/sparklealigner/image/upload/v1737372165/staff_augmented_ynpcvj.png",
     desc: [
       {
         text: "Access to skilled professionals to meet project-specific needs.",
@@ -1486,7 +1486,7 @@ export const teamdata = [
     id: 1,
     title: "Syed Waqas Faheem",
     cover:
-      "https://res.cloudinary.com/jobifycloud/image/upload/c_fill,w_768,h_1024/v1724954714/founder_n5b33c.jpg",
+      "https://res.cloudinary.com/sparklealigner/image/upload/v1737379803/portrait-smiling-businessman-suit-glasses-3d-rendering_sgvews.jpg",
     post: "FOUNDER, CEO",
     linkedin_url: "https://www.linkedin.com/in/syed-waqas-faheem-89551963/",
   },
@@ -1495,7 +1495,7 @@ export const teamdata = [
     id: 2,
     title: "Join our team!",
     cover:
-      "https://res.cloudinary.com/jobifycloud/image/upload/v1724955098/t8_tjcb4l.webp",
+      "https://res.cloudinary.com/sparklealigner/image/upload/v1737380050/5363881_dgc1vd.jpg",
     post: "Career",
     url: "/hiring",
   },
@@ -1508,7 +1508,7 @@ export const projects = [
     domain: "Big Data & Data Engineering",
     des: "● Building and maintaining data pipelines from weather apps (Android & IOS) ● Taking part in Data Collection, Schema validation, Versioning, Data Warehouse, Analytics, Automation ● Developed Lakehouse architecture for large scale queries for upstream daily ML/AI use cases ● Data Mesh architecture for all removing silos in our organization ● Worked with Redshift clusters for real time queries and dashboards",
     video:
-      "https://res.cloudinary.com/jobifycloud/video/upload/v1730828580/weatherCompany_biibxg.mp4",
+      "https://res.cloudinary.com/sparklealigner/video/upload/v1737378843/weather_z7jfbu.mp4",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "https://www.weathercompany.com/",
     href: "https://www.weathercompany.com/",
@@ -1519,7 +1519,7 @@ export const projects = [
     domain: "Fintech App",
     des: "Beyon Money: your smart financial app for prepaid cards, categorized spending, flexible investments, and fast international transfers. Powered by Batelco Financial Services, setting a new fintech standard in MENA.",
     video:
-      "https://res.cloudinary.com/jobifycloud/video/upload/v1730828572/beyonMoney_p1wbiz.mp4",
+      "https://res.cloudinary.com/sparklealigner/video/upload/v1737378833/beyon_ytxykz.mp4",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
     link: "https://www.beyonmoney.com/",
     href: "https://www.beyonmoney.com/",
@@ -1530,29 +1530,29 @@ export const projects = [
     domain: "Marketing App",
     des: "Innowi offers a unified solution to streamline your ordering process and amplify your marketing efforts. Reach out to us today to discover the difference! Innowi Inc. is a registered ISO of Elavon, Inc. Georgia.",
     video:
-      "https://res.cloudinary.com/jobifycloud/video/upload/v1730828172/innowi_dkwqrm.mp4",
+      "https://res.cloudinary.com/sparklealigner/video/upload/v1737378834/innowi_lyjwar.mp4",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "https://innowi.com/",
     href: "https://innowi.com/",
   },
-  {
-    id: 4,
-    title: "YAP -(Fintech APP)",
-    domain: "Fintech App",
-    des: "UAE fintech based project with a seed level funding achievement.",
-    video:
-      "https://res.cloudinary.com/jobifycloud/video/upload/v1730828151/yup_xs0yxw.mp4",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://www.yap.com/en/uae",
-    href: "https://www.yap.com/en/uae",
-  },
+  // {
+  //   id: 4,
+  //   title: "YAP -(Fintech APP)",
+  //   domain: "Fintech App",
+  //   des: "UAE fintech based project with a seed level funding achievement.",
+  //   video:
+  //     "https://res.cloudinary.com/jobifycloud/video/upload/v1730828151/yup_xs0yxw.mp4",
+  //   iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+  //   link: "https://www.yap.com/en/uae",
+  //   href: "https://www.yap.com/en/uae",
+  // },
   {
     id: 5,
     domain: "Sales & Inventory Management",
     title: "Digiboard - Versatile Admin Dashboard",
     des: "Discover the versatility of our multipurpose admin dashboard solution, built using React.js for seamless functionality.",
     video:
-      "https://res.cloudinary.com/jobifycloud/video/upload/v1727299061/digiboardCRM_ouzks1.mp4",
+      "https://res.cloudinary.com/sparklealigner/video/upload/v1737378840/digi_hbvwum.mp4",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
     link: "https://digiboard-html.codebasket.xyz/",
     href: "https://digiboard-html.codebasket.xyz/",
@@ -1563,7 +1563,7 @@ export const projects = [
     title: "iTechie - IT Solutions & Services",
     des: "Developed a robust website for the iTechie startup, utilizing Next.js to power their IT services and solutions.",
     video:
-      "https://res.cloudinary.com/jobifycloud/video/upload/v1727299051/ITCompany_mctk7d.mp4",
+      "https://res.cloudinary.com/sparklealigner/video/upload/v1737371238/ITCompany_auo6ew.mp4",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     link: "https://itechie-nextjs.vercel.app/",
     href: "https://itechie-nextjs.vercel.app/",
@@ -1578,7 +1578,7 @@ export const portfolioData = [
     domain: "Big Data & Data Engineering",
     des: "● Building and maintaining data pipelines from weather apps (Android & IOS) ● Taking part in Data Collection, Schema validation, Versioning, Data Warehouse, Analytics, Automation ● Developed Lakehouse architecture for large scale queries for upstream daily ML/AI use cases ● Data Mesh architecture for all removing silos in our organization ● Worked with Redshift clusters for real time queries and dashboards",
     video:
-      "https://res.cloudinary.com/jobifycloud/video/upload/v1730828580/weatherCompany_biibxg.mp4",
+      "https://res.cloudinary.com/sparklealigner/video/upload/v1737378843/weather_z7jfbu.mp4",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "https://www.weathercompany.com/",
     href: "https://www.weathercompany.com/",
@@ -1589,41 +1589,41 @@ export const portfolioData = [
     domain: "Fintech",
     des: "Beyon Money: your smart financial app for prepaid cards, categorized spending, flexible investments, and fast international transfers. Powered by Batelco Financial Services, setting a new fintech standard in MENA.",
     video:
-      "https://res.cloudinary.com/jobifycloud/video/upload/v1730828572/beyonMoney_p1wbiz.mp4",
+      "https://res.cloudinary.com/sparklealigner/video/upload/v1737378833/beyon_ytxykz.mp4",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
     link: "https://www.beyonmoney.com/",
     href: "https://www.beyonmoney.com/",
   },
 
-  {
-    id: 3,
-    title: "BlaBlaCar",
-    domain: "Transport Service App",
-    des: "BlaBlaCar operates as a social transportation service, allowing individuals to share long-distance rides. It is designed to offer a cost-effective and eco-friendly alternative to traditional travel options. The platform facilitates the connection between drivers who have spare seats in their vehicles and passengers seeking affordable transportation",
-    video:
-      "https://res.cloudinary.com/jobifycloud/video/upload/v1730828161/blabla_pdidch.mp4",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://www.blablacar.co.uk/",
-    href: "https://www.blablacar.co.uk/",
-  },
-  {
-    id: 4,
-    title: "Options Decipher",
-    domain: "Event driven App",
-    des: "Decipher is an advanced analytics and business intelligence platform designed to enhance data-driven decision-making through robust data analysis and machine learning capabilities.",
-    video:
-      "https://res.cloudinary.com/jobifycloud/video/upload/v1730828171/decipher_cu9igi.mp4",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://optionsdecipher.com/",
-    href: "https://optionsdecipher.com/",
-  },
+  // {
+  //   id: 3,
+  //   title: "BlaBlaCar",
+  //   domain: "Transport Service App",
+  //   des: "BlaBlaCar operates as a social transportation service, allowing individuals to share long-distance rides. It is designed to offer a cost-effective and eco-friendly alternative to traditional travel options. The platform facilitates the connection between drivers who have spare seats in their vehicles and passengers seeking affordable transportation",
+  //   video:
+  //     "https://res.cloudinary.com/jobifycloud/video/upload/v1730828161/blabla_pdidch.mp4",
+  //   iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+  //   link: "https://www.blablacar.co.uk/",
+  //   href: "https://www.blablacar.co.uk/",
+  // },
+  // {
+  //   id: 4,
+  //   title: "Options Decipher",
+  //   domain: "Event driven App",
+  //   des: "Decipher is an advanced analytics and business intelligence platform designed to enhance data-driven decision-making through robust data analysis and machine learning capabilities.",
+  //   video:
+  //     "https://res.cloudinary.com/jobifycloud/video/upload/v1730828171/decipher_cu9igi.mp4",
+  //   iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+  //   link: "https://optionsdecipher.com/",
+  //   href: "https://optionsdecipher.com/",
+  // },
   {
     id: 5,
     title: "Digiboard - Versatile Admin Dashboard",
     domain: "Sales & Inventory Management",
     des: "Discover the versatility of our multipurpose admin dashboard solution, built using React.js for seamless functionality.",
     video:
-      "https://res.cloudinary.com/jobifycloud/video/upload/v1727299061/digiboardCRM_ouzks1.mp4",
+      "https://res.cloudinary.com/sparklealigner/video/upload/v1737371233/digiboardCRM_msquub.mp4",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
     link: "https://digiboard-html.codebasket.xyz/",
     href: "https://digiboard-html.codebasket.xyz/",
@@ -1634,7 +1634,7 @@ export const portfolioData = [
     domain: "SaaS Application",
     des: "A comprehensive SaaS application with AI-powered features, designed for online education with integrated payments and credits system.",
     video:
-      "https://res.cloudinary.com/jobifycloud/video/upload/v1727299037/education_cyu5np.mp4",
+      "https://res.cloudinary.com/sparklealigner/video/upload/v1737371232/education_cxlobm.mp4",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
     link: "https://eduman-react.vercel.app/",
     href: "https://eduman-react.vercel.app/",
@@ -1646,7 +1646,7 @@ export const portfolioData = [
 
     des: "Revamped the Shofy grocery app with the latest tech stack, delivering an optimized and dynamic e-commerce experience.",
     video:
-      "https://res.cloudinary.com/jobifycloud/video/upload/v1727299036/ecommerce_uzv9mk.mp4",
+      "https://res.cloudinary.com/sparklealigner/video/upload/v1737371217/ecommerce_ylu5vq.mp4",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "/shofy-grocery.com",
     href: "https://shofy-grocery-next-js.vercel.app/",
@@ -1657,34 +1657,34 @@ export const portfolioData = [
     domain: "Marketing App",
     des: "Innowi offers a unified solution to streamline your ordering process and amplify your marketing efforts. Reach out to us today to discover the difference! Innowi Inc. is a registered ISO of Elavon, Inc. Georgia.",
     video:
-      "https://res.cloudinary.com/jobifycloud/video/upload/v1730828172/innowi_dkwqrm.mp4",
+      "https://res.cloudinary.com/sparklealigner/video/upload/v1737378834/innowi_lyjwar.mp4",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "https://innowi.com/",
     href: "https://innowi.com/",
   },
-  {
-    id: 9,
-    title: "YAP",
-    domain: "Fintech",
-    des: "UAE fintech based project with a seed level funding achievement.",
-    video:
-      "https://res.cloudinary.com/jobifycloud/video/upload/v1730828151/yup_xs0yxw.mp4",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://www.yap.com/en/uae",
-    href: "https://www.yap.com/en/uae",
-  },
-  {
-    id: 10,
-    title: "Backcountry",
-    domain: "E-commerce",
+  // {
+  //   id: 9,
+  //   title: "YAP",
+  //   domain: "Fintech",
+  //   des: "UAE fintech based project with a seed level funding achievement.",
+  //   video:
+  //     "https://res.cloudinary.com/jobifycloud/video/upload/v1730828151/yup_xs0yxw.mp4",
+  //   iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+  //   link: "https://www.yap.com/en/uae",
+  //   href: "https://www.yap.com/en/uae",
+  // },
+  // {
+  //   id: 10,
+  //   title: "Backcountry",
+  //   domain: "E-commerce",
 
-    des: "An American Giant Ecommerce System",
-    video:
-      "https://res.cloudinary.com/jobifycloud/video/upload/v1730828156/backcountry_pd3vy6.mp4",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://www.backcountry.com/",
-    href: "https://www.backcountry.com/",
-  },
+  //   des: "An American Giant Ecommerce System",
+  //   video:
+  //     "https://res.cloudinary.com/jobifycloud/video/upload/v1730828156/backcountry_pd3vy6.mp4",
+  //   iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+  //   link: "https://www.backcountry.com/",
+  //   href: "https://www.backcountry.com/",
+  // },
 ];
 export const languageLogos = [
   "/next.svg",
