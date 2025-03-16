@@ -14,7 +14,14 @@ const Footer = () => {
         <div className="container">
           <div className="grid-4">
             <div className="logo">
-              <TitleLogo title="Lab" caption="Crypthon" className="logobg" />
+              <div style={{ marginTop: "-7rem" }}>
+                <img
+                  src="/images/crypthonlabtransparent.png"
+                  width={220}
+                  height={180}
+                />
+              </div>
+              {/* <TitleLogo title="Lab" caption="Crypthon" className="logobg" /> */}
 
               <span>
                 <b>US Address:</b> 7901 4th ST N STE 23933 ST Petersburg FL
@@ -94,12 +101,12 @@ const Footer = () => {
                 </li>
 
                 <li>
-                  <Link href="https://www.instagram.com/crypthonlab/">
+                  <Link href="https://www.instagram.com/crypthontechnologies/">
                     <AiFillInstagram size={25} />
                   </Link>
                 </li>
                 <li>
-                  <Link href="https://www.linkedin.com/company/crypthonlab/posts/?feedView=all">
+                  <Link href="https://www.linkedin.com/company/crypthontechnologies/">
                     <AiFillLinkedin size={25} />
                   </Link>
                 </li>
